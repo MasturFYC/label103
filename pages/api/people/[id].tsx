@@ -4,9 +4,8 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function categoryHandler(req: NextApiRequest, res: NextApiResponse) {
   const id = req.query && +req.query.id || 0;
-
-  let result: Promise<any | null>;
-
+  let result: [][];
+ 
   switch (req.method) {
     case 'PUT':
       result = await apiPeople.updatePeople(id, req.body)
@@ -21,8 +20,9 @@ export default async function categoryHandler(req: NextApiRequest, res: NextApiR
     default:
       result = await apiPeople.getPeoples(id);
   }
-
-  if (result) {
+  const [data, error] = result;
+  console.log(data)
+  if (data) {
     res.status(200).json(result);
   } else {
     res.status(404).json({ message: `People with Group ID: ${id} not found!` })

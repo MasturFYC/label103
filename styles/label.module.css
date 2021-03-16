@@ -1,0 +1,63 @@
+.pageWidth {
+  background-color: #fff6a4;
+  margin-top: 25px;
+}
+
+.labelInput {
+  width: 50px;
+}
+
+.leftInput {
+  display: inline-block;
+  padding-right: 25px;
+}
+.rightInput {
+  display: inline-block;  
+}
+
+.sectionBorder {
+  border: 1px solid #ede;
+  background-color: #efefef;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.labelName {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+
+.labelPosition {
+  text-align: center;
+  padding-bottom: 6px;
+  width: 100%;
+  display: block;
+  font-weight: 400;
+}
+
+.labelStreet {
+  padding: 6px 4px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 400;
+}
+
+.labelBox {
+  background-color: white;
+  float: left;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  padding: 3px;
+}
+
+.center {
+  margin: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,11 +1,11 @@
-import apiCategory from '../models/group.models'
+import apiGroup from '../models/group.models'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  const result = await apiCategory.getGroups();
-  if (result) {
-    res.status(200).json(result);
+  const [data, error] = await apiGroup.getGroups();
+  if (data) {
+    res.status(200).json(data);
   } else {
-    res.status(404).json({ message: `Groups table is empty!` })
+    res.status(404).json({ message: error.message })
   }
 }

@@ -342,17 +342,12 @@ const fetchUpdate = async (url: string, p: iPeople): Promise<any> => {
     body: JSON.stringify(p)
   };
   const res = await fetch(url, requestOptions)
+  const data: iPeople | any = await res.json();
 
   if (res.status !== 200) {
-    if (res.status === 500) {
-      alert(`Nama ${p.name1} sudah digunakan!`)
-    }
-    else {
-      throw new Error(res.statusText)
-    }
+      alert(data.message); // `Nama ${p.name1} sudah digunakan!`)
     return null;
   }
-  const data: iPeople | any = await res.json();
 
   return data;
 }

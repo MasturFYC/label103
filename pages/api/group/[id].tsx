@@ -5,7 +5,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 export default async function categoryHandler(req: NextApiRequest, res: NextApiResponse) {
   const id = req.query && +req.query.id || 0;
 
-  let result: Promise<any>;
+  let result: any;
 
   switch (req.method) {
     case 'PUT':
@@ -23,9 +23,11 @@ export default async function categoryHandler(req: NextApiRequest, res: NextApiR
 
   }
 
-  if (result) {
-    res.status(200).json(result);
+  const [data, error] = result;
+  if (data) {
+    res.status(200).json(data);
   } else {
-    res.status(404).json({ message: `Group with id: ${id} not found!` })
+    console.log(error.message)
+    res.status(404).json({ message: error.message })
   }
 }

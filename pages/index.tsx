@@ -21,8 +21,8 @@ const fetcher = async (url: string) => {
 
   return data;
 }
- 
-const fetchUpdate = async (url: string, group: iGroup): Promise<iGroup> => {
+
+const fetchUpdate = async (url: string, group: iGroup): Promise<iGroup | any> => {
   const requestOptions = {
     method: group.group_id === 0 ? 'POST' : 'PUT',
     headers: { 'Content-Type': 'application/json' },
@@ -32,10 +32,10 @@ const fetchUpdate = async (url: string, group: iGroup): Promise<iGroup> => {
   const data: iGroup | any = await res.json();
 
   if (res.status !== 200) {
-    throw new Error(data.message)
+    return ([null, data.message]);
   }
 
-  return data;
+  return ([data, null]);
 }
 
 const fetchDelete = async (url: string): Promise<any> => {
@@ -94,28 +94,35 @@ export default function Home() {
 
   const reload = async (group: iGroup) => {
     const i = currentIndex
-    const json = await fetchUpdate(`/api/group/${group.group_id}`, group) as iGroup;
+    const [json, error] = await fetchUpdate(`/api/group/${group.group_id}`, group);
 
-    const newData: iGroup[] = [];
 
-    let n = -1;
+    if (error) {
+      alert(error);
+    }
 
-    for (let j = 0; j < data.length; j++) {
-      if (data[j].group_id === json.group_id) {
-        newData.push(json)
-        n = j;
-      } else {
-        newData.push(data[j])
+    if (json) {
+      const newData: iGroup[] = [];
+
+      let n = -1;
+
+      for (let j = 0; j < data.length; j++) {
+        if (data[j].group_id === json.group_id) {
+          newData.push(json)
+          n = j;
+        } else {
+          newData.push(data[j])
+        }
       }
-    }
 
-    if (group.group_id === 0) {
-      newData.push(json)
-      setCurrentIndex(data.length + 1)
-    }
-    //console.log(json)
+      if (group.group_id === 0) {
+        newData.push(json)
+        setCurrentIndex(data.length + 1)
+      }
+      //console.log(json)
 
-    mutate([...newData], false);
+      mutate([...newData], false);
+    }
     //setCurrentIndex(i);
   }
 
@@ -152,13 +159,13 @@ export default function Home() {
                   <span style={{ cursor: 'pointer' }} onClick={() => {
                     setCurrentIndex(i);
                   }}>
-                    <Image src='/images/edit-pen.svg' width={16} height={16} crossOrigin={'anonymous'}/>
+                    <Image src='/images/edit-pen.svg' width={16} height={16} crossOrigin={'anonymous'} />
                     {'  '}{item.group_id === 0 && item.name}
                   </span>
                   {item.group_id > 0 && <span style={{ cursor: 'pointer' }}>
                     <Image src='/images/delete.svg' width={16} height={16}
                       onClick={() => deleteGroup(item.group_id)}
-                    crossOrigin={'anonymous'} />{'  '}
+                      crossOrigin={'anonymous'} />{'  '}
                   </span>}
                   {item.group_id !== 0 && <Link href="/label103/[id]/[name]" as={`/label103/${item.group_id}/${item.name}`}>
                     <a>{item.name}</a>

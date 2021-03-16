@@ -103,7 +103,7 @@ const PeopleGroup = ({ updateSample, lengthSample, downloadPdf, groupId: baseId 
   React.useEffect(() => {
     var isLoaded: boolean = false;
     if (!isLoaded && baseId) {
-      console.log(baseId)
+      //console.log(baseId)
       fetcher(`/api/people/${baseId}`).then(res => {
         dispatch({
           type: ActionKind.Load,

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { MouseEvent, useState } from 'react'
+import React, { MouseEvent, useState } from 'react'
 import Image from "next/image";
 
 // import { useRouter } from 'next/router'
@@ -9,6 +9,7 @@ import Layout, { siteTitle } from '../components/layout'
 //import Group from '../components/group'
 import utilStyles from '../styles/utils.module.css'
 import { iGroup } from 'components/interfaces'
+import { fontSize } from 'pdfkit';
 
 const fetcher = async (url: string) => {
   const res = await fetch(url)
@@ -73,18 +74,18 @@ const FormGroup = ({ group, reload }: TFormGroup) => {
     <div style={{ backgroundColor: "#cecece", padding: "16px" }}>
       <form>
         <span>Group ID: {currentGroup.group_id}</span><br />
-      Name: <input type="text" autoFocus value={currentGroup.name} onChange={(e) => setCurrentGroup({ ...currentGroup, name: e.target.value })} />
+        Name: <input type="text" autoFocus value={currentGroup.name} onChange={(e) => setCurrentGroup({ ...currentGroup, name: e.target.value })} />
         {' '}<button id="submit" type="submit"
           onClick={handleSubmit}
         >
           Save
-      </button>
+        </button>
       </form>
     </div>
   )
 }
 
-export default function Home() {
+function OldHome() {
   const [currentIndex, setCurrentIndex] = useState(-1)
   //  const { query } = useRouter()
   const { data, error, mutate } = useSWR<iGroup[], Error>(`/api/group/`, fetcher);
@@ -177,5 +178,78 @@ export default function Home() {
         </div>
       </section>
     </Layout>
+  )
+}
+
+export default function Home() {
+
+  const [yasinArr, setYasinArr] = React.useState<string[]>([])
+
+  React.useEffect(() => {
+    let isLoaded = false;
+
+    const fetchYasiin = async () => {
+      const res = await fetch('/api/yasin')
+      const data: string[] | any = await res.json();
+
+      if (res.status !== 200) {
+        return ([null, data.message]);
+      }
+
+      setYasinArr(data);
+    }
+
+    if (!isLoaded) {
+      fetchYasiin();
+    }
+
+    return () => { isLoaded = true }
+  })
+
+  const angka = (sn: string) => {
+    const arr = [
+      '٠',
+      '١',
+      '٢',
+      '٣',
+      '٤',
+      '٥',
+      '٦',
+      '٧',
+      '٨',
+      '٩'];
+    let s = '';
+    for (let c = 0; c < sn.length; c++) {
+      const i = parseInt(sn[c]);
+      s = s + arr[i];
+    }
+
+
+    return <span style={{ fontSize: 'small' }}> {'﴿'}{s}{'﴾'} </span>;
+  }
+
+  return (
+    <Layout home>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
+      <section className={utilStyles.headingMd}>
+        <p>Yasiin</p>
+        <div style={{ textAlign: 'right', fontSize: '32pt' }}>{"بِسْــــــــــــــــمِ اﷲِالرَّحْمَنِ اارَّحِيم"}</div>
+        <br />
+        <div dir={'rtl'} lang={"en"} style={{ textAlign: 'right' }}>
+          {
+            yasinArr.map((item, i) => (
+              <span key={`ayat-${i}`}>
+                <span style={{ fontSize: '28pt' }}>{item}
+                </span> {angka('' + (i + 1))}
+                {' ͏ ͏'}
+              </span>
+            ))
+          }
+          <br />
+        </div>
+      </section>
+    </Layout >
   )
 }

@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Pixel'
+const name = 'Fine Young Canibal'
 export const siteTitle = 'Pixel Web App'
 export default function Layout({ children, home }: any) {
   return (

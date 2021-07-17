@@ -183,34 +183,70 @@ function OldHome() {
 
 interface iAyat {
   id: number;
+  bacaan: string;
+  arti: string;
+  ayat: string;
   read: string;
   indo: string;
+  means: string;
+}
+interface iPenutup {
+  name: string;
+  bacaan: string;
   means: string;
 }
 
 interface iSurat {
   surat: string;
-  pengantar?: {
-    read: string;
-    means: string;
-  };
-  ayat: iAyat[];
-  akhiran?: {
-    name: string;
-    bacaan: string;
-  }
+  pengantar?: iAyat[];
+  ayats: iAyat[];
+  penutup?: iPenutup
+  desc?: string;
 }
 
-export default function Home() {
+interface iTahlil {
+  bismillah: iAyat;
+  alIkhlas: iSurat;
+  alFalaq: iSurat;
+  anNas: iSurat;
+  alFatihah: iSurat;
+  doaTahlil: iSurat;
+}
 
-  const [data, setData] = React.useState<iSurat>({} as iSurat)
+
+const angka = (n: number) => {
+  if (n === 0) return " ";
+  const arr = [
+    '٠',
+    '١',
+    '٢',
+    '٣',
+    '٤',
+    '٥',
+    '٦',
+    '٧',
+    '٨',
+    '٩'];
+  const sn = '' + n;
+  let s = '';
+  for (let c = 0; c < sn.length; c++) {
+    const i = parseInt(sn[c]);
+    s = s + arr[i];
+  }
+
+  return `﴿${s}﴾`;
+}
+
+function NewHome() {
+
+  const [data, setData] = React.useState<iTahlil>({} as iTahlil)
 
   React.useEffect(() => {
     let isLoaded = false;
 
     const fetchData = async () => {
       // "https://surat-yasin.com/surat-yasin/"
-      const res = await fetch('/api/yasin')
+      const res = await fetch('/api/tahlil')
       const data: string[] | any = await res.json();
 
       if (res.status !== 200) {
@@ -225,30 +261,7 @@ export default function Home() {
     }
 
     return () => { isLoaded = true }
-  })
-
-  const angka = (n: number) => {
-    if (n === 0) return " ";
-    const arr = [
-      '٠',
-      '١',
-      '٢',
-      '٣',
-      '٤',
-      '٥',
-      '٦',
-      '٧',
-      '٨',
-      '٩'];
-    const sn = '' + n;
-    let s = '';
-    for (let c = 0; c < sn.length; c++) {
-      const i = parseInt(sn[c]);
-      s = s + arr[i];
-    }
-
-    return `﴿${s}﴾`;
-  }
+  }, []);
 
   return (
     <Layout home>
@@ -261,34 +274,157 @@ export default function Home() {
           crossOrigin=""
         />
       </Head>
-      <section className={utilStyles.headingMd}>
-        {data.pengantar && <div>
-          <div>Pengantar:</div>
-          <div className={'q'} dir="rtl">{data.pengantar.read}</div>
-          <div>"{data.pengantar.means}"</div>
-        </div>}
-        <h2>{data.surat}</h2>
-        {/* <div className={'q bismillah'}>{"بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم"}</div> */}
-        <div>
-          {
-            data.ayat && data.ayat.map((item) => (
-              <React.Fragment key={`ayat-${item.id}`}>
-                <hr />
-                <div className={'q'} dir={'rtl'}>
-                  <div>{item.read}{' ͏'}<span className={'q-num'}>{angka(item.id)}</span>
-                  </div>
-                </div>
-                <div dir="rtl"><em>{item.indo}</em></div>
-                <div>{item.id > 0 && `${item.id})`} {item.means}</div>
-              </React.Fragment>))
-          }
-          <hr />
-        </div>
-        {data.akhiran && <div>
-          <div>{data.akhiran.name}</div>
-          <div className={'q'} dir="rtl">{data.akhiran.bacaan}</div>
-        </div>}
-      </section>
+      <React.Fragment>
+        <h1>BACAAN DO'A TAHLIL</h1>
+        {data &&
+          <section className={utilStyles.headingMd}>
+            {data.alIkhlas && <AlIkhlas data={data.alIkhlas} />}
+            {data.alFalaq && <AlIkhlas data={data.alFalaq} />}
+            {data.anNas && <AlIkhlas data={data.anNas} />}
+            {data.alFatihah && <AlFatihah data={data.alFatihah} />}
+          </section>
+        }
+      </React.Fragment>
     </Layout >
   )
 }
+
+const Ayat: React.FC<{ ayat: iAyat }> = ({ ayat }) => {
+  return (
+    <div style={{ textAlign: 'center' }} >
+      <div className={'q'} dir="rtl">{ayat.read}</div>
+      <div><em>{ayat.means}</em></div>
+    </div>
+  )
+
+}
+
+const AlIkhlas: React.FC<{ data: iSurat }> = ({ data }) => {
+  return (
+    data &&
+    <React.Fragment>
+      <div className={'surat'}>
+        <h2>{data.surat}</h2>
+        {data.desc && <div className={'desc'}>{data.desc}</div>}
+      </div>
+      {data.pengantar && <Ayat ayat={data.pengantar[0]} />}
+      <div>
+        {
+          data.ayats && data.ayats.map((item) => (
+            <React.Fragment key={`ayat-${item.id}`}>
+              <hr />
+              <div className={'q'} dir={'rtl'}>
+                <div>{item.read}{' ͏'}<span className={'q-num'}>{angka(item.id)}</span>
+                </div>
+              </div>
+              <div style={{ textAlign: 'center' }}><em>{item.indo}</em></div>
+              <div style={{ textAlign: 'center' }}>{item.id > 0 && `${item.id})`} {item.means}</div>
+            </React.Fragment>))
+        }
+        <hr />
+      </div>
+      {
+        data.penutup && <div style={{ textAlign: 'center' }}>
+          <div>{data.penutup.name}</div>
+          <div className={'q'} dir="rtl">{data.penutup.bacaan}</div>
+        </div>
+      }
+    </React.Fragment>
+  )
+}
+
+const AlFatihah: React.FC<{ data: iSurat }> = ({ data }) => {
+  return (
+    data &&
+    <React.Fragment>
+      <div className={'surat'}>
+        <h2>{data.surat}</h2>
+        {data.desc && <div className={'desc'}>{data.desc}</div>}
+      </div>
+      {data.pengantar && <Ayat ayat={data.pengantar[0]} />}
+      {data.pengantar && <Ayat ayat={data.pengantar[1]} />}
+      <div>
+        {
+          data.ayats && data.ayats.map((item) => (
+            <React.Fragment key={`ayat-${item.id}`}>
+              <hr />
+              <div className={'q'} dir={'rtl'}>
+                <div>{item.read}{' ͏'}<span className={'q-num'}>{angka(item.id)}</span>
+                </div>
+              </div>
+              <div style={{ textAlign: 'center' }}><em>{item.indo}</em></div>
+              <div style={{ textAlign: 'center' }}>{item.id > 0 && `${item.id})`} {item.means}</div>
+            </React.Fragment>))
+        }
+        <hr />
+      </div>
+      {
+        data.penutup && <div style={{ textAlign: 'center' }}>
+          <div>{data.penutup.name}</div>
+          <div className={'q'} dir="rtl">{data.penutup.bacaan}</div>
+        </div>
+      }
+    </React.Fragment>
+  )
+}
+
+
+export default function Home() {
+
+  const [data, setData] = React.useState<iSurat>({} as iSurat)
+
+  React.useEffect(() => {
+    let isLoaded = false;
+
+    const fetchData = async () => {
+      // "https://surat-yasin.com/surat-yasin/"
+      const res = await fetch('/api/yasin')
+      const data: iSurat[] | any = await res.json();
+
+      if (res.status !== 200) {
+        return ([null, data.message]);
+      }
+
+      setData(data);
+    }
+
+    if (!isLoaded) {
+      fetchData();
+    }
+
+    return () => { isLoaded = true }
+  }, []);
+
+  return (
+    <Layout home>
+      <Head>
+        <title>{siteTitle}</title>
+        <link
+          rel="preload"
+          href="/fonts/LPMQ.woff2"
+          as="font"
+          crossOrigin=""
+        />
+      </Head>
+      <React.Fragment>
+        {data &&
+          <section className={utilStyles.headingMd}>
+            <h2>{data.surat}</h2>
+            <div className={'surat'} dir="rtl">
+              {data.ayats && data.ayats.map((item) => (
+                <React.Fragment>
+                  <span className={'ayat'} key={`key${item.id}`}>{item.ayat}</span>
+                  <span className='ayat-num'>{angka(item.id)}</span>
+                </React.Fragment>))
+              }
+            </div>
+          </section>
+        }
+      </React.Fragment>
+    </Layout >
+  )
+}
+
+//              {/* <div className='bacaan'><em>{item.bacaan}</em></div> */}
+//              {/* <div className='arti'>{item.id}) {item.arti}</div> */}
+//              {/* <hr /> */}

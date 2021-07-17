@@ -1,7 +1,9 @@
 .container {
-  max-width: 50rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  max-width: 559px;
+  margin: 0 auto;
+  padding: 57px 57px 57px 95px;
+  border: 1px solid #ecececff;
+  display: block;
 }
 
 .header {

@@ -1,16 +1,19 @@
 {
     "surat": "Al-Fatihah",
-    "pengantar": {
-        "read" : "اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ لَهُمُ الْفَاتِحَةُ",
-        "means": "Dengan nama Allah yang maha pengasih lagi maha penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah…"
-    },
-    "ayat": [
+    "pengantar": [
+        {
+            "id": 1,
+            "read": "اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ لَهُمُ الْفَاتِحَةُ",
+            "means": "Dengan nama Allah yang maha pengasih lagi maha penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah…"
+        },
         {
             "read": "اَعُوْذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ",
-            "id": 0,
+            "id": 2,
             "indo": "Auzubillah hi minash syaithaanir rajim",
             "means": "Aku berlindung kepada Allah dari setan yang terlontar."
-        },
+        }
+    ],
+    "ayat": [
         {
             "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
             "id": 1,
@@ -52,12 +55,12 @@
             "id": 7,
             "indo": "Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin",
             "means": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat."
-        },
-        {
-            "read": "اَمِينْ",
-            "id": 0,
-            "indo": "Aaamiiin",
-            "means": "Semoga Kaukabulkan permohonan kami"
         }
-    ]
+    ],
+    "penutup": {
+        "read": "اَمِينْ",
+        "id": 0,
+        "indo": "Aaamiiin",
+        "means": "Semoga Kaukabulkan permohonan kami"
+    }
 }

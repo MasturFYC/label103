@@ -1,12 +1,15 @@
 {
-    "surat" : "Al-Ikhlas",
-    "ayat" : [
+    "surat": "Al-Ikhlas",
+    "desc": "Dibaca 3x",
+    "pengantar": [
         {
             "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
-            "id": 0,
+            "id": 1,
             "indo": "Bismillaahir Rahmaanir Rahiim",
             "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
-        },
+        }
+    ],
+    "ayat": [
         {
             "read": "قُلۡ هُوَ اللّٰهُ اَحَدٌ‌",
             "id": 1,
@@ -32,8 +35,8 @@
             "means": "Dan tidak ada sesuatu yang setara dengan Dia.\""
         }
     ],
-    "akhiran": {
+    "penutup": {
         "name": "Tahlil dan Takbir",
-        "bacaan": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ"
-    }    
+        "bacaan": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ وَلِلَّهِ الْحَمْد"
+    }
 }

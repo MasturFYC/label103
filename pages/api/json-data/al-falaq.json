@@ -1,0 +1,44 @@
+{
+    "surat": "Al-Falaq",
+    "ayat": [
+        {
+            "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+            "id": 0,
+            "indo": "Bismillaahir Rahmaanir Rahiim",
+            "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+        },
+        {
+            "id": 1,
+            "read":"قُلۡ اَعُوۡذُ بِرَبِّ الۡفَلَقِۙ",
+            "indo": "Qul a'uzuu bi rabbil-falaq",
+            "means" : "Katakanlah, ‘Aku berlindung kepada tuhan yang menguasai waktu subuh dari kejahatan makhluk-Nya"
+        },
+        {
+            "id": 2,
+            "read": "مِنۡ شَرِّ مَا خَلَقَۙ",
+            "indo" : "Min sharri ma khalaq",
+            "means" : "dari kejahatan (makhluk yang) Dia ciptakan,"
+        },
+        {
+            "id": 3,
+            "read": "وَمِنۡ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ",
+            "indo" : "Wa min sharri ghasiqin iza waqab",
+            "means" : "dan dari kejahatan malam apabila telah gelap gulita"
+        },
+        {
+            "id": 4,
+            "read": "وَمِنۡ شَرِّ النَّفّٰثٰتِ فِى الۡعُقَدِۙ",
+            "indo" : "Wa min sharrin-naffaa-thaati fil 'uqad",
+            "means": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
+        },
+        {
+            "id": 5,
+            "read": "وَمِنۡ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
+            "means" : "Dan dari kejahatan orang-orang yang dengki apabila ia mendengki.’"
+        }
+    ],
+    "akhiran": {
+        "name": "Tahlil dan Takbir",
+        "bacaan": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ"
+    }
+}

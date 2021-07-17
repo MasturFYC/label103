@@ -1,0 +1,17 @@
+{
+    "surat" : "Al-Ahzab",
+    "ayat" : [
+        {
+            "read": "وَقَرۡنَ فِىۡ بُيُوۡتِكُنَّ وَلَا تَبَـرَّجۡنَ تَبَرُّجَ الۡجَاهِلِيَّةِ الۡاُوۡلٰى وَاَقِمۡنَ الصَّلٰوةَ وَاٰتِيۡنَ الزَّكٰوةَ وَاَطِعۡنَ اللّٰهَ وَرَسُوۡلَهٗ ؕ اِنَّمَا يُرِيۡدُ اللّٰهُ لِيُذۡهِبَ عَنۡكُمُ الرِّجۡسَ اَهۡلَ الۡبَيۡتِ وَيُطَهِّرَكُمۡ تَطۡهِيۡرًا",
+            "id": 33,
+            "indo": "Wa qarna fii bu yuu tikunna wa laa tabarrajna tabarrujal Jaahiliyyatil uulaa wa aqimnas Salaata w aaatiinaz Zakaata wa ati'nal laaha wa Rasuulah; innamaa yuriidul laahu liyuzhiba 'ankumur rijsa Ahlal Bayti wa yutahhirakum tathiiraa",
+            "means": "Dan hendaklah kamu tetap di rumahmu dan janganlah kamu berhias dan (bertingkah laku) seperti orang-orang jahiliah dahulu, dan laksanakanlah shalat, tunaikanlah zakat dan taatilah Allah dan Rasul-Nya. Sesungguhnya Allah bermaksud hendak menghilangkan dosa dari kamu, wahai ahlulbait dan membersihkan kamu sebersih-bersihnya."
+        },
+        {
+            "read": "اِنَّ اللهَ وَمَلاَئِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ، يَا أَيُّهَا الَّذِيْنَ آمَنُوْا صَلُّوْا عَلَيْهِ وَسَلِّمُوا تَسْلِيْمًا",
+            "id":56,
+            "indo": "Innal laaha wa malaaa'i katahuu yusalluuna 'alan Nabiyy; yaaa aiyuhal laziina aamanuu salluu 'alaihi wa sallimuu tasliimaa",
+            "means": "Sesungguhnya Allah dan para malaikat-Nya bersalawat untuk Nabi. Wahai orang-orang yang beriman! Bersalawatlah kamu untuk Nabi dan ucapkanlah salam dengan penuh penghormatan kepadanya."
+        }
+    ]
+}

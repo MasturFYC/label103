@@ -181,14 +181,35 @@ function OldHome() {
   )
 }
 
+interface iAyat {
+  id: number;
+  read: string;
+  indo: string;
+  means: string;
+}
+
+interface iSurat {
+  surat: string;
+  pengantar?: {
+    read: string;
+    means: string;
+  };
+  ayat: iAyat[];
+  akhiran?: {
+    name: string;
+    bacaan: string;
+  }
+}
+
 export default function Home() {
 
-  const [yasinArr, setYasinArr] = React.useState<string[]>([])
+  const [data, setData] = React.useState<iSurat>({} as iSurat)
 
   React.useEffect(() => {
     let isLoaded = false;
 
-    const fetchYasiin = async () => {
+    const fetchData = async () => {
+      // "https://surat-yasin.com/surat-yasin/"
       const res = await fetch('/api/yasin')
       const data: string[] | any = await res.json();
 
@@ -196,17 +217,18 @@ export default function Home() {
         return ([null, data.message]);
       }
 
-      setYasinArr(data);
+      setData(data);
     }
 
     if (!isLoaded) {
-      fetchYasiin();
+      fetchData();
     }
 
     return () => { isLoaded = true }
   })
 
-  const angka = (sn: string) => {
+  const angka = (n: number) => {
+    if (n === 0) return " ";
     const arr = [
       '٠',
       '١',
@@ -218,37 +240,54 @@ export default function Home() {
       '٧',
       '٨',
       '٩'];
+    const sn = '' + n;
     let s = '';
     for (let c = 0; c < sn.length; c++) {
       const i = parseInt(sn[c]);
       s = s + arr[i];
     }
 
-
-    return <span style={{ fontSize: 'small' }}> {'﴿'}{s}{'﴾'} </span>;
+    return `﴿${s}﴾`;
   }
 
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <link
+          rel="preload"
+          href="/fonts/LPMQ.woff2"
+          as="font"
+          crossOrigin=""
+        />
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Yasiin</p>
-        <div style={{ textAlign: 'right', fontSize: '32pt' }}>{"بِسْــــــــــــــــمِ اﷲِالرَّحْمَنِ اارَّحِيم"}</div>
-        <br />
-        <div dir={'rtl'} lang={"en"} style={{ textAlign: 'right' }}>
+        {data.pengantar && <div>
+          <div>Pengantar:</div>
+          <div className={'q'} dir="rtl">{data.pengantar.read}</div>
+          <div>"{data.pengantar.means}"</div>
+        </div>}
+        <h2>{data.surat}</h2>
+        {/* <div className={'q bismillah'}>{"بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم"}</div> */}
+        <div>
           {
-            yasinArr.map((item, i) => (
-              <span key={`ayat-${i}`}>
-                <span style={{ fontSize: '28pt' }}>{item}
-                </span> {angka('' + (i + 1))}
-                {' ͏ ͏'}
-              </span>
-            ))
+            data.ayat && data.ayat.map((item) => (
+              <React.Fragment key={`ayat-${item.id}`}>
+                <hr />
+                <div className={'q'} dir={'rtl'}>
+                  <div>{item.read}{' ͏'}<span className={'q-num'}>{angka(item.id)}</span>
+                  </div>
+                </div>
+                <div dir="rtl"><em>{item.indo}</em></div>
+                <div>{item.id > 0 && `${item.id})`} {item.means}</div>
+              </React.Fragment>))
           }
-          <br />
+          <hr />
         </div>
+        {data.akhiran && <div>
+          <div>{data.akhiran.name}</div>
+          <div className={'q'} dir="rtl">{data.akhiran.bacaan}</div>
+        </div>}
       </section>
     </Layout >
   )

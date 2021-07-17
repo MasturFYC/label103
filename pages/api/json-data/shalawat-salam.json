@@ -1,0 +1,17 @@
+{
+    "surat" : "Shalawat Nabi",
+    "ayat" : [
+        {
+            "read": "اَلَّلهُمَّ صَلِّ أَفْضَلَ صَلَاةٍ عَلَى أَسْعَدِ مَخْلُوْقَاتِكَ سَيِّدِنَا مُحَمَّدٍ وَعَلَى اَلِهِ وَصَحْبِهِ وَسَلِّمْ، عَدَدَ مَعْلُوْمَاتِكَ وَمِدَادَ كَلِمَاتِكَ كُلَّمَا ذَكَرَكَ الذَّاكِرُوْنَ وَغَفَلَ عَنْ ذِكْرِكَ الْغَافِلُوْنَ",
+            "id": 0,
+            "indo": "",
+            "means": "Ya Allah, tambahkanlah rahmat dan kesejahteraan untuk pemimpin dan tuan kami Nabi Muhammad SAW, serta keluarganya, sebanyak pengetahuan-Mu dan sebanyak tinta kalimat-kalimat-Mu pada saat zikir orang-orang yang ingat dan pada saat lengah orang-orang yang lalai berzikir kepada-Mu."
+        },
+        {
+            "read": "وَسَلِّمْ وَرَضِيَ اللهُ تَعَالَى عَنْ اَصْحَابِ سَيِّدِنَا رَسُوْلِ اللهِ اَجْمَعِيْنَ",
+            "id": 0,
+            "indo": "",
+            "means": "Semoga Allah yang maha suci dan tinggi meridhai para sahabat dari pemimpin kami (Rasulullah)."
+        }
+    ]
+}

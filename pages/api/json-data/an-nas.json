@@ -1,0 +1,45 @@
+{
+  "surat": "An-Nas",
+  "ayat": [
+        {
+          "read": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِ",
+          "id": 1,
+          "indo": "Qul a'uzu birabbin naas",
+          "means": "Katakanlah, \"Aku berlindung kepada Tuhannya manusia,"
+        },
+        {
+          "read": "مَلِكِ النَّاسِۙ",
+          "id": 2,
+          "indo": "Malikin naas",
+          "means": "Raja manusia,"
+        },
+        {
+          "read": "اِلٰهِ النَّاسِۙ",
+          "id": 3,
+          "indo": "Ilaahin naas",
+          "means": "sembahan manusia,"
+        },
+        {
+          "read": "مِنۡ شَرِّ الۡوَسۡوَاسِ  ۙ الۡخَـنَّاسِ",
+          "id": 4,
+          "indo": "Min sharril was waasil khannaas",
+          "means": "dari kejahatan (bisikan) setan yang bersembunyi,"
+        },
+        {
+          "read": "الَّذِىۡ يُوَسۡوِسُ فِىۡ صُدُوۡرِ النَّاسِۙ",
+          "id": 5,
+          "indo": "Al lazii yuwas wisu fii suduurin naas",
+          "means": "yang membisikkan (kejahatan) ke dalam dada manusia,"
+        },
+        {
+          "read": "مِنَ الۡجِنَّةِ وَالنَّاسِ",
+          "id": 6,
+          "indo": "Minal jinnati wan naas",
+          "means": "dari (golongan) jin dan manusia.\""
+        }
+      ],
+  "akhiran": {
+    "name": "Tahlil dan Takbir",
+    "bacaan": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ"
+  }
+}

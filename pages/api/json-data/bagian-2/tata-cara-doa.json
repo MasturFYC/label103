@@ -1,0 +1,55 @@
+{
+  "title": "Tata Cara Berdoa",
+  "phar": "Tata cara berdoa yang disunnahkan yaitu:",
+  "list": [
+    {
+      "id": 1,
+      "name": "Membaca Taawuz",
+      "ayat": "اَعُوْذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ",
+      "bacaan": "Auzubillah hi minash syaithaanir rajim",
+      "arti": "Aku berlindung kepada Allah dari setan yang terlontar."
+    },
+    {
+      "id": 2,
+      "name": "Membaca Basmallah",
+      "ayat": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+      "bacaan": "Bismillaahir Rahmaanir Rahiim",
+      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+    },
+    {
+      "id": 3,
+      "name": "Membaca Tahmid",
+      "ayat": "اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ",
+      "bacaan": "Alhamdu lillaahi Rabbil 'aalamiin",
+      "arti": "Segala puji bagi Allah, Tuhan seluruh alam,"
+    },
+    {
+      "id": 4,
+      "name": "Membaca Kalimat Tauhid",
+      "ayat": "لَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ، لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ، وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَىْءٍ قَدِيرٌ‏، لَا إِلَهَ إِلَّا اللَّهُ وَلَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللهِ الْعَلِيِّ الْعَظِيْمِ",
+      "bacaan": "La Ilaha Ilallah Wallahu Akbar Allahu Akbar, laa ilaha illallahu wahdahu laa syarikalah lahul mulku walalhul hamdu wahuwa ‘alaa kulli syai in qodiir, la haula wala quwwata illa billahil ‘aliyyil ‘adzim",
+      "arti": "Tidak ada Tuhan yang wajib disembah kecuali Allah.. Allah Maha Besar, Tidak ada sesembahan yang berhak disembah selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, milik-Nya segala kekuasaan, dan bagi-Nya segala pujian dan Dialah Yang Maha Kuasa atas segala sesuatunya, Tidak ada daya upaya dan kekuatan kecuali atas pertolongan Allah yang Maha Luhur dan Maha Agung."
+    },
+    {
+      "id": 5,
+      "name": "Menyebut salah satu al-Asmaul Husna, seperti:",
+      "ayat": "يَا ذَا الجَلَالِ وَالإِكْرَامِ",
+      "bacaan":"Ya Dzal Jalali Wal Ikram",
+      "arti":"Ya Allah! yang Maha Agung dan Maha Pemurah"
+    },
+    {
+      "id":6,
+      "name":"Bersalawat atas Nabi SAW:",
+      "ayat": "اَللّهُمَ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِهٖ وَاَصْحَبِهٖ اَجْمَعِيْنَ",
+      "bacaan": "Allâhumma shalli wa sallim ‘alâ sayyidinâ Muhammad wa ‘alâ âlihi wa asha,bihi ajma’in",
+      "arti": "Ya Allah, limpahkanlah rahmat dan kesejahteraan kepada junjungan kami Nabi Muhammad, beserta keluarga dan sahabat semuanya."
+    },
+    {
+      "id":7,
+      "name": "Membaca Istighfar",
+      "ayat":"اَسْتَغْفِرُ اَللهَ الْعَظِیْمَ، لَا إِلَهَ إِلَاَّ أَنْتَ وَأَتُوْبُ إِلَيْكَ",
+      "bacaan":"Astaghfirullah Al Adzim, laa ilaha illa anta wa atubu ilaika",
+      "arti":"Aku memohon ampunan kepada Allah yang maha agung, dan aku bertobat kepadanya"
+    }
+  ]
+}

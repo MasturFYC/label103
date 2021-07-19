@@ -1,0 +1,62 @@
+{
+  "title": "Ayat Tujuh",
+  "pengantar": [
+    {
+      "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+      "id": 1,
+      "indo": "Bismillaahir Rahmaanir Rahiim",
+      "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+    }
+  ],
+  "ayats": [
+    {
+      "surat": "At-Taubah",
+      "id": 51,
+      "ayat": "قُلْ لَّنْ يُّصِيْبَنَآ اِلَّا مَا كَتَبَ اللّٰهُ لَنَاۚ هُوَ مَوْلٰىنَا وَعَلَى اللّٰهِ فَلْيَتَوَكَّلِ الْمُؤْمِنُوْنَ",
+      "bacaan": "qul lay yuṣībanā illā mā kataballāhu lanā, huwa maulānā wa 'alallāhi falyatawakkalil-mu`minụn",
+      "arti": "Katakanlah (Muhammad), “Tidak akan menimpa kami melainkan apa yang telah ditetapkan Allah bagi kami. Dialah pelindung kami, dan hanya kepada Allah bertawakallah orang-orang yang beriman.”"
+    },
+    {
+      "surat":"Yunus",
+      "id":107,
+      "ayat":"وَاِنْ يَّمْسَسْكَ اللّٰهُ بِضُرٍّ فَلَا كَاشِفَ لَهٗ ٓاِلَّا هُوَ ۚوَاِنْ يُّرِدْكَ بِخَيْرٍ فَلَا رَاۤدَّ لِفَضْلِهٖۗ يُصِيْبُ بِهٖ مَنْ يَّشَاۤءُ مِنْ عِبَادِهٖ ۗوَهُوَ الْغَفُوْرُ الرَّحِيْمُ",
+      "bacaan":"wa iy yamsaskallāhu biḍurrin fa lā kāsyifa lahū illā huw, wa iy yuridka bikhairin fa lā rādda lifaḍlih, yuṣību bihī may yasyā`u min 'ibādih, wa huwal-gafụrur-raḥīm",
+      "arti":"Dan jika Allah menimpakan suatu bencana kepadamu, maka tidak ada yang dapat menghilangkannya kecuali Dia. Dan jika Allah menghendaki kebaikan bagi kamu, maka tidak ada yang dapat menolak karunia-Nya. Dia memberikan kebaikan kepada siapa saja yang Dia kehendaki di antara hamba-hamba-Nya. Dia Maha Pengampun, Maha Penyayang."
+    },
+    {
+      "surat":"Hud",
+      "id":6,
+      "ayat":"۞ وَمَا مِنْ دَاۤبَّةٍ فِى الْاَرْضِ اِلَّا عَلَى اللّٰهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۗ كُلٌّ فِيْ كِتٰبٍ مُّبِيْنٍ",
+      "bacaan":"wa mā min dābbatin fil-arḍi illā 'alallāhi rizquhā wa ya'lamu mustaqarrahā wa mustauda'ahā, kullun fī kitābim mubīn",
+      "arti":"Dan tidak satupun makhluk bergerak (bernyawa) di bumi melainkan semuanya dijamin Allah rezekinya. Dia mengetahui tempat kediamannya dan tempat penyimpanannya. Semua (tertulis) dalam Kitab yang nyata (Lauh Mahfuzh)."
+    },
+    {
+      "surat":"Hud",
+      "id":56,
+      "ayat":"اِنِّيْ تَوَكَّلْتُ عَلَى اللّٰهِ رَبِّيْ وَرَبِّكُمْ ۗمَا مِنْ دَاۤبَّةٍ اِلَّا هُوَ اٰخِذٌۢ بِنَاصِيَتِهَا ۗاِنَّ رَبِّيْ عَلٰى صِرَاطٍ مُّسْتَقِيْمٍ",
+      "bacaan":"innī tawakkaltu 'alallāhi rabbī wa rabbikum, mā min dābbatin illā huwa ākhiżum bināṣiyatihā, inna rabbī 'alā ṣirāṭim mustaqīm",
+      "arti":"Sesungguhnya aku bertawakal kepada Allah Tuhanku dan Tuhanmu. Tidak satu pun makhluk bergerak yang bernyawa melainkan Dialah yang memegang ubun-ubunnya (menguasainya). Sungguh, Tuhanku di jalan yang lurus (adil)."
+    },
+    {
+      "surat":"Al-Ankabut",
+      "id": 60,
+      "ayat":"وَكَاَيِّنْ مِّنْ دَاۤبَّةٍ لَّا تَحْمِلُ رِزْقَهَاۖ اللّٰهُ يَرْزُقُهَا وَاِيَّاكُمْ وَهُوَ السَّمِيْعُ الْعَلِيْمُ",
+      "bacaan":"wa ka`ayyim min dābbatil lā taḥmilu rizqahallāhu yarzuquhā wa iyyākum wa huwas-samī'ul-'alīm",
+      "arti":"Dan berapa banyak makhluk bergerak yang bernyawa yang tidak (dapat) membawa (mengurus) rezekinya sendiri. Allah-lah yang memberi rezeki kepadanya dan kepadamu. Dia Maha Mendengar, Maha Mengetahui."
+    },
+    {
+      "surat": "Fatir",
+      "id": 2,
+      "ayat": "مَا يَفْتَحِ اللّٰهُ لِلنَّاسِ مِنْ رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا ۚوَمَا يُمْسِكْۙ فَلَا مُرْسِلَ لَهٗ مِنْۢ بَعْدِهٖۗ وَهُوَ الْعَزِيْزُ الْحَكِيْمُ",
+      "bacaan": "mā yaftaḥillāhu lin-nāsi mir raḥmatin fa lā mumsika lahā, wa mā yumsik fa lā mursila lahụ mim ba'dih, wa huwal-'azīzul-ḥakīm",
+      "arti": "Apa saja di antara rahmat Allah yang dianugerahkan kepada manusia, maka tidak ada yang dapat menahannya; dan apa saja yang ditahan-Nya maka tidak ada yang sanggup untuk melepaskannya setelah itu. Dan Dialah Yang Mahaperkasa, Mahabijaksana."
+    },
+    {
+      "surat": "Az-Zumar",
+      "id": 38,
+      "ayat": "وَلَىِٕنْ سَاَلْتَهُمْ مَّنْ خَلَقَ السَّمٰوٰتِ وَالْاَرْضَ لَيَقُوْلُنَّ اللّٰهُ ۗ قُلْ اَفَرَءَيْتُمْ مَّا تَدْعُوْنَ مِنْ دُوْنِ اللّٰهِ اِنْ اَرَادَنِيَ اللّٰهُ بِضُرٍّ هَلْ هُنَّ كٰشِفٰتُ ضُرِّهٖٓ اَوْ اَرَادَنِيْ بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكٰتُ رَحْمَتِهٖۗ قُلْ حَسْبِيَ اللّٰهُ ۗعَلَيْهِ يَتَوَكَّلُ الْمُتَوَكِّلُوْنَ",
+      "bacaan": "wa la`in sa`altahum man khalaqas-samāwāti wal-arḍa layaqụlunnallāh, qul a fa ra`aitum mā tad'ụna min dụnillāhi in arādaniyallāhu biḍurrin hal hunna kāsyifātu ḍurrihī au arādanī biraḥmatin hal hunna mumsikātu raḥmatih, qul ḥasbiyallāh, 'alaihi yatawakkalul-mutawakkilụn",
+      "arti": "Dan sungguh, jika engkau tanyakan kepada mereka, “Siapakah yang menciptakan langit dan bumi?” Niscaya mereka menjawab, “Allah.” Katakanlah, “Kalau begitu tahukah kamu tentang apa yang kamu sembah selain Allah, jika Allah hendak mendatangkan bencana kepadaku, apakah mereka mampu menghilangkan bencana itu, atau jika Allah hendak memberi rahmat kepadaku, apakah mereka dapat mencegah rahmat-Nya?” Katakanlah, “Cukuplah Allah bagiku. Kepada-Nyalah orang-orang yang bertawakal berserah diri.”"
+    }
+  ]
+}

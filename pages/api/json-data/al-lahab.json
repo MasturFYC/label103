@@ -1,0 +1,43 @@
+{
+  "Surat": "Al-Lahab",
+  "pengantar": [
+    {
+      "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+      "id": 1,
+      "indo": "Bismillaahir Rahmaanir Rahiim",
+      "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+    }
+  ],
+  "ayats": [
+    {
+      "id": 1,
+      "ayat":"تَبَّتْ يَدَآ اَبِيْ لَهَبٍ وَّتَبَّۗ",
+      "bacaan": "tabbat yadā abī lahabiw wa tabb",
+      "arti": "Binasalah kedua tangan Abu Lahab dan benar-benar binasa dia!"
+    },
+    {
+      "id": 2,
+      "ayat":"مَآ اَغْنٰى عَنْهُ مَالُهٗ وَمَا كَسَبَۗ",
+      "bacaan": "mā agnā 'an-hu māluhụ wa mā kasab",
+      "arti": "Tidaklah berguna baginya hartanya dan apa yang dia usahakan."
+    },
+    {
+      "id": 3,
+      "ayat":"سَيَصْلٰى نَارًا ذَاتَ لَهَبٍۙ",
+      "bacaan": "sayaṣlā nāran żāta lahab",
+      "arti": "Kelak dia akan masuk ke dalam api yang bergejolak (neraka)."
+    },
+    {
+      "id": 4,
+      "ayat":"وَّامْرَاَتُهٗ ۗحَمَّالَةَ الْحَطَبِۚ",
+      "bacaan": "wamra`atuh, ḥammālatal-ḥaṭab",
+      "arti": "Dan (begitu pula) istrinya, pembawa kayu bakar (penyebar fitnah). "
+    },
+    {
+      "id": 5,
+      "ayat":"فِيْ جِيْدِهَا حَبْلٌ مِّنْ مَّسَدٍ",
+      "bacaan": "fī jīdihā ḥablum mim masad",
+      "arti": "Di lehernya ada tali dari sabut yang dipintal."
+    }
+  ]
+}

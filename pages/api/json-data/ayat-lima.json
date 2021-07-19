@@ -1,0 +1,48 @@
+{
+  "title": "Ayat Lima",
+  "pengantar": [
+    {
+      "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+      "id": 1,
+      "indo": "Bismillaahir Rahmaanir Rahiim",
+      "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+    }
+  ],
+  "ayats": [
+    {
+      "surat": "Al-Baqarah",
+      "id": 246,
+      "ayat": "اَلَمْ تَرَ اِلَى الْمَلَاِ مِنْۢ بَنِيْٓ اِسْرَاۤءِيْلَ مِنْۢ بَعْدِ مُوْسٰىۘ اِذْ قَالُوْا لِنَبِيٍّ لَّهُمُ ابْعَثْ لَنَا مَلِكًا نُّقَاتِلْ فِيْ سَبِيْلِ اللّٰهِ ۗ قَالَ هَلْ عَسَيْتُمْ اِنْ كُتِبَ عَلَيْكُمُ الْقِتَالُ اَلَّا تُقَاتِلُوْا ۗ قَالُوْا وَمَا لَنَآ اَلَّا نُقَاتِلَ فِيْ سَبِيْلِ اللّٰهِ وَقَدْاُخْرِجْنَا مِنْ دِيَارِنَا وَاَبْنَاۤىِٕنَا ۗ فَلَمَّا كُتِبَ عَلَيْهِمُ الْقِتَالُ تَوَلَّوْا اِلَّا قَلِيْلًا مِّنْهُمْ ۗوَاللّٰهُ عَلِيْمٌ ۢبِالظّٰلِمِيْنَ",
+      "bacaan": "a lam tara ilal-mala`i mim banī isrā`īla mim ba'di mụsā, iż qālụ linabiyyil lahumub'aṡ lanā malikan-nuqātil fī sabīlillāh, qāla hal 'asaitum ing kutiba 'alaikumul-qitālu allā tuqātilụ, qālụ wa mā lanā allā nuqātila fī sabīlillāhi wa qad ukhrijnā min diyārinā wa abnā`inā, fa lammā kutiba 'alaihimul-qitālu tawallau illā qalīlam min-hum, wallāhu 'alīmum biẓ-ẓālimīn",
+      "arti": "Tidakkah kamu perhatikan para pemuka Bani Israil setelah Musa wafat, ketika mereka berkata kepada seorang nabi mereka, “Angkatlah seorang raja untuk kami, niscaya kami berperang di jalan Allah.” Nabi mereka menjawab, “Jangan-jangan jika diwajibkan atasmu berperang, kamu tidak akan berperang juga?” Mereka menjawab, “Mengapa kami tidak akan berperang di jalan Allah, sedangkan kami telah diusir dari kampung halaman kami dan (dipisahkan dari) anak-anak kami?” Tetapi ketika perang itu diwajibkan atas mereka, mereka berpaling, kecuali sebagian kecil dari mereka. Dan Allah Maha Mengetahui orang-orang yang zalim."
+    },
+    {
+      "surat":"Ali-Imran",
+      "id":181,
+      "ayat":"لَقَدْ سَمِعَ اللّٰهُ قَوْلَ الَّذِيْنَ قَالُوْٓا اِنَّ اللّٰهَ فَقِيْرٌ وَّنَحْنُ اَغْنِيَاۤءُ ۘ سَنَكْتُبُ مَا قَالُوْا وَقَتْلَهُمُ الْاَنْۢبِيَاۤءَ بِغَيْرِ حَقٍّۙ وَّنَقُوْلُ ذُوْقُوْا عَذَابَ الْحَرِيْقِ",
+      "bacaan":"laqad sami'allāhu qaulallażīna qālū innallāha faqīruw wa naḥnu agniyā`, sanaktubu mā qālụ wa qatlahumul-ambiyā`a bigairi ḥaqqiw wa naqụlu żụqụ 'ażābal-ḥarīq",
+      "arti":"Sungguh, Allah telah mendengar perkataan orang-orang (Yahudi) yang mengatakan, “Sesungguhnya Allah itu miskin dan kami kaya.” Kami akan mencatat perkataan mereka dan perbuatan mereka membunuh nabi-nabi tanpa hak (alasan yang benar), dan Kami akan mengatakan (kepada mereka), “Rasakanlah olehmu azab yang membakar!”"
+    },
+    {
+      "surat":"An-Nisa",
+      "id":77,
+      "ayat":"اَلَمْ تَرَ اِلَى الَّذِيْنَ قِيْلَ لَهُمْ كُفُّوْٓا اَيْدِيَكُمْ وَاَقِيْمُوا الصَّلٰوةَ وَاٰتُوا الزَّكٰوةَۚ فَلَمَّا كُتِبَ عَلَيْهِمُ الْقِتَالُ اِذَا فَرِيْقٌ مِّنْهُمْ يَخْشَوْنَ النَّاسَ كَخَشْيَةِ اللّٰهِ اَوْ اَشَدَّ خَشْيَةً ۚ وَقَالُوْا رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا الْقِتَالَۚ لَوْلَآ اَخَّرْتَنَآ اِلٰٓى اَجَلٍ قَرِيْبٍۗ قُلْ مَتَاعُ الدُّنْيَا قَلِيْلٌۚ وَالْاٰخِرَةُ خَيْرٌ لِّمَنِ اتَّقٰىۗ وَلَا تُظْلَمُوْنَ فَتِيْلًا",
+      "bacaan":"a lam tara ilallażīna qīla lahum kuffū aidiyakum wa aqīmuṣ-ṣalāta wa ātuz-zakāh, fa lammā kutiba 'alaihimul-qitālu iżā farīqum min-hum yakhsyaunan-nāsa kakhasy-yatillāhi au asyadda khasy-yah, wa qālụ rabbanā lima katabta 'alainal-qitāl, lau lā akhkhartanā ilā ajaling qarīb, qul matā'ud-dun-yā qalīl, wal-ākhiratu khairul limanittaqā, wa lā tuẓlamụna fatīlā",
+      "arti":"Tidakkah engkau memperhatikan orang-orang yang dikatakan kepada mereka, ”Tahanlah tanganmu (dari berperang), laksanakanlah salat dan tunaikanlah zakat!” Ketika mereka diwajibkan berperang, tiba-tiba sebagian mereka (golongan munafik) takut kepada manusia (musuh), seperti takutnya kepada Allah, bahkan lebih takut (dari itu). Mereka berkata, “Ya Tuhan kami, mengapa Engkau wajibkan berperang kepada kami? Mengapa tidak Engkau tunda (kewajiban berperang) kepada kami beberapa waktu lagi?” Katakanlah, “Kesenangan di dunia ini hanya sedikit dan akhirat itu lebih baik bagi orang-orang yang bertakwa (mendapat pahala turut berperang) dan kamu tidak akan dizalimi sedikit pun.”"
+    },
+    {
+      "surat":"Al-Maidah",
+      "id":27,
+      "ayat":"۞ وَاتْلُ عَلَيْهِمْ نَبَاَ ابْنَيْ اٰدَمَ بِالْحَقِّۘ اِذْ قَرَّبَا قُرْبَانًا فَتُقُبِّلَ مِنْ اَحَدِهِمَا وَلَمْ يُتَقَبَّلْ مِنَ الْاٰخَرِۗ قَالَ لَاَقْتُلَنَّكَ ۗ قَالَ اِنَّمَا يَتَقَبَّلُ اللّٰهُ مِنَ الْمُتَّقِيْنَ",
+      "bacaan":"watlu 'alaihim naba`abnai ādama bil-ḥaqq, iż qarrabā qurbānan fa tuqubbila min aḥadihimā wa lam yutaqabbal minal-ākhar, qāla la`aqtulannak, qāla innamā yataqabbalullāhu minal-muttaqīn",
+      "arti":"Dan ceritakanlah (Muhammad) yang sebenarnya kepada mereka tentang kisah kedua putra Adam, ketika keduanya mempersembahkan kurban, maka (kurban) salah seorang dari mereka berdua (Habil) diterima dan dari yang lain (Qabil) tidak diterima. Dia (Qabil) berkata, “Sungguh, aku pasti membunuhmu!” Dia (Habil) berkata, “Sesungguhnya Allah hanya menerima (amal) dari orang yang bertakwa.”"
+    },
+    {
+      "surat":"Ar-Rad",
+      "id": 16,
+      "ayat":"قُلْ مَنْ رَّبُّ السَّمٰوٰتِ وَالْاَرْضِۗ قُلِ اللّٰهُ ۗقُلْ اَفَاتَّخَذْتُمْ مِّنْ دُوْنِهٖٓ اَوْلِيَاۤءَ لَا يَمْلِكُوْنَ لِاَنْفُسِهِمْ نَفْعًا وَّلَا ضَرًّاۗ قُلْ هَلْ يَسْتَوِى الْاَعْمٰى وَالْبَصِيْرُ ەۙ اَمْ هَلْ تَسْتَوِى الظُّلُمٰتُ وَالنُّوْرُ ەۚ اَمْ جَعَلُوْا لِلّٰهِ شُرَكَاۤءَ خَلَقُوْا كَخَلْقِهٖ فَتَشَابَهَ الْخَلْقُ عَلَيْهِمْۗ قُلِ اللّٰهُ خَالِقُ كُلِّ شَيْءٍ وَّهُوَ الْوَاحِدُ الْقَهَّارُ",
+      "bacaan":"qul mar rabbus-samāwāti wal-arḍ, qulillāh, qul a fattakhażtum min dụnihī auliyā`a lā yamlikụna li`anfusihim naf'aw wa lā ḍarrā, qul hal yastawil-a'mā wal-baṣīru am hal tastawiẓ-ẓulumātu wan-nụr, am ja'alụ lillāhi syurakā`a khalaqụ kakhalqihī fa tasyābahal-khalqu 'alaihim, qulillāhu khāliqu kulli syai`iw wa huwal-wāḥidul-qahhār",
+      "arti":"Katakanlah (Muhammad), “Siapakah Tuhan langit dan bumi?” Katakanlah, “Allah.” Katakanlah, “Pantaskah kamu mengambil pelindung-pelindung selain Allah, padahal mereka tidak kuasa mendatangkan manfaat maupun menolak mudarat bagi dirinya sendiri?” Katakanlah, “Samakah orang yang buta dengan yang dapat melihat? Atau samakah yang gelap dengan yang terang? Apakah mereka menjadikan sekutu-sekutu bagi Allah yang dapat menciptakan seperti ciptaan-Nya sehingga kedua ciptaan itu serupa menurut pandangan mereka?” Katakanlah, “Allah adalah Pencipta segala sesuatu dan Dia Tuhan Yang Maha Esa, Mahaperkasa.”"
+    }
+  ]
+}

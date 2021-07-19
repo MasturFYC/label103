@@ -1,0 +1,41 @@
+{
+  "surat": "Al-Kahfi",
+  "pengantar": [
+    {
+      "id": 1,
+      "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+      "indo": "Bismillaahir Rahmaanir Rahiim",
+      "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+    }
+  ],
+  "ayat": [
+    {
+      "read": "قُلۡ هُوَ اللّٰهُ اَحَدٌ‌",
+      "id": 1,
+      "indo": "Qul huwal laahu ahad",
+      "means": "Katakanlah (Muhammad), \"Dialah Allah, Yang Maha Esa."
+    },
+    {
+      "read": "اَللّٰهُ الصَّمَدُ‌",
+      "id": 2,
+      "indo": "Allah hus-samad",
+      "means": "Allah tempat meminta segala sesuatu."
+    },
+    {
+      "read": "لَمۡ يَلِدۡ ۙ وَلَمۡ يُوۡلَدۡ",
+      "id": 3,
+      "indo": "Lam yalid wa lam yuulad",
+      "means": "(Allah) tidak beranak dan tidak pula diperanakkan."
+    },
+    {
+      "read": "وَلَمۡ يَكُنۡ لَّهٗ كُفُوًا اَحَدٌ",
+      "id": 4,
+      "indo": "Wa lam yakul-lahu kufuwan ahad",
+      "means": "Dan tidak ada sesuatu yang setara dengan Dia.\""
+    }
+  ],
+  "penutup": {
+    "name": "Tahlil dan Takbir",
+    "bacaan": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ وَلِلَّهِ الْحَمْد"
+  }
+}

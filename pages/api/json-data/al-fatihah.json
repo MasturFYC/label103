@@ -3,64 +3,66 @@
     "pengantar": [
         {
             "id": 1,
-            "read": "اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ لَهُمُ الْفَاتِحَةُ",
-            "means": "Dengan nama Allah yang maha pengasih lagi maha penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah…"
+            "ayat": "اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ لَهُمُ الْفَاتِحَةُ",
+            "arti": "Dengan nama Allah yang maha pengasih lagi maha penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah…"
         },
         {
-            "read": "اَعُوْذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ",
             "id": 2,
-            "indo": "Auzubillah hi minash syaithaanir rajim",
-            "means": "Aku berlindung kepada Allah dari setan yang terlontar."
+            "ayat": "اَعُوْذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ",
+            "bacaan": "Auzubillah hi minash syaithaanir rajim",
+            "arti": "Aku berlindung kepada Allah dari setan yang terlontar."
         }
     ],
-    "ayat": [
+    "ayats": [
         {
-            "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
             "id": 1,
-            "indo": "Bismillaahir Rahmaanir Rahiim",
-            "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+            "ayat": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+            "bacaan": "Bismillaahir Rahmaanir Rahiim",
+            "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
         },
         {
-            "read": "اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ",
             "id": 2,
-            "indo": "Alhamdu lillaahi Rabbil 'aalamiin",
-            "means": "Segala puji bagi Allah, Tuhan seluruh alam,"
+            "ayat": "اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ",
+            "bacaan": "Alhamdu lillaahi Rabbil 'aalamiin",
+            "arti": "Segala puji bagi Allah, Tuhan seluruh alam,"
         },
         {
-            "read": "اَلرَّحْمَنِ الرَّحِيْمِ",
             "id": 3,
-            "indo": "Ar-Rahmaanir-Rahiim",
-            "means": "Yang Maha Pengasih, Maha Penyayang,"
+            "ayat": "اَلرَّحْمَنِ الرَّحِيْمِ",
+            "bacaan": "Ar-Rahmaanir-Rahiim",
+            "arti": "Yang Maha Pengasih, Maha Penyayang,"
         },
         {
-            "read": "مَالِكِ يَوْمِ الدِّيْنِ",
             "id": 4,
-            "indo": "Maaliki Yawmid-Diin",
-            "means": "Pemilik hari pembalasan."
+            "ayat": "مَالِكِ يَوْمِ الدِّيْنِ",
+            "bacaan": "Maaliki Yawmid-Diin",
+            "arti": "Pemilik hari pembalasan."
         },
         {
-            "read": "اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ",
             "id": 5,
-            "indo": "Iyyaaka na'budu wa lyyaaka nasta'iin",
-            "means": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan."
+            "ayat": "اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ",
+            "bacaan": "Iyyaaka na'budu wa lyyaaka nasta'iin",
+            "arti": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan."
         },
         {
-            "read": "اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ",
             "id": 6,
-            "indo": "Ihdinas-Siraatal-Mustaqiim",
-            "means": "Tunjukilah kami jalan yang lurus"
+            "ayat": "اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ",
+            "bacaan": "Ihdinas-Siraatal-Mustaqiim",
+            "arti": "Tunjukilah kami jalan yang lurus"
         },
         {
-            "read": "صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ",
             "id": 7,
-            "indo": "Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin",
-            "means": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat."
+            "ayat": "صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ",
+            "bacaan": "Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin",
+            "arti": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat."
         }
     ],
-    "penutup": {
-        "read": "اَمِينْ",
-        "id": 0,
-        "indo": "Aaamiiin",
-        "means": "Semoga Kaukabulkan permohonan kami"
-    }
+    "penutup": [
+        {
+            "id": 1,
+            "ayat": "اَمِينْ",
+            "bacaan": "Aaamiiin",
+            "arti": "Semoga Kaukabulkan permohonan kami"
+        }
+    ]
 }

@@ -34,22 +34,58 @@
       "id": 5,
       "name": "Menyebut salah satu al-Asmaul Husna, seperti:",
       "ayat": "يَا ذَا الجَلَالِ وَالإِكْرَامِ",
-      "bacaan":"Ya Dzal Jalali Wal Ikram",
-      "arti":"Ya Allah! yang Maha Agung dan Maha Pemurah"
+      "bacaan": "Ya Dzal Jalali Wal Ikram",
+      "arti": "Ya Allah! yang Maha Agung dan Maha Pemurah"
     },
     {
-      "id":6,
-      "name":"Bersalawat atas Nabi SAW:",
+      "id": 6,
+      "name": "Bersalawat atas Nabi SAW:",
       "ayat": "اَللّهُمَ صَلِّ وَسَلِّمْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِهٖ وَاَصْحَبِهٖ اَجْمَعِيْنَ",
       "bacaan": "Allâhumma shalli wa sallim ‘alâ sayyidinâ Muhammad wa ‘alâ âlihi wa asha,bihi ajma’in",
       "arti": "Ya Allah, limpahkanlah rahmat dan kesejahteraan kepada junjungan kami Nabi Muhammad, beserta keluarga dan sahabat semuanya."
     },
     {
-      "id":7,
+      "id": 7,
       "name": "Membaca Istighfar",
-      "ayat":"اَسْتَغْفِرُ اَللهَ الْعَظِیْمَ، لَا إِلَهَ إِلَاَّ أَنْتَ وَأَتُوْبُ إِلَيْكَ",
-      "bacaan":"Astaghfirullah Al Adzim, laa ilaha illa anta wa atubu ilaika",
-      "arti":"Aku memohon ampunan kepada Allah yang maha agung, dan aku bertobat kepadanya"
+      "ayat": "اَسْتَغْفِرُ اَللهَ الْعَظِیْمَ، لَا إِلَهَ إِلَاَّ أَنْتَ وَأَتُوْبُ إِلَيْكَ",
+      "bacaan": "Astaghfirullah Al Adzim, laa ilaha illa anta wa atubu ilaika",
+      "arti": "Aku memohon ampunan kepada Allah yang maha agung, dan aku bertobat kepadanya"
+    },
+    {
+      "id": 8,
+      "name": "Menyampaikan permohonan, permintaan, atau harapan kepada Allah SWT",
+      "ayat": "",
+      "bacaan": "",
+      "arti": ""
+    },
+    {
+      "id": 9,
+      "name": "Membaca doa penutup permohonan",
+      "surat": "Al-Baqarah: 127",
+      "ayat": "رَبَّنَا تَقَبَّلْ مِنَّا إِنَّكَ أَنتَ السَّمِيعُ، وَتُبْ عَلَيْـنَ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيْـمُ",
+      "bacaan": "Rabbana taqabbal minna innaka antas sami’ul ‘alim, Watub ‘alayya, innaka antat tawwaabur rahiim",
+      "arti": "Ya Tuhan kami terimalah daripada kami (amalan kami), sesungguhnya Engkau-lah Yang Maha Mendengar lagi Maha Mengetahui, Ya Tuhanku, ampunilah aku dan terimalah taubatku sesungguhnya Engkau adalah Dzat yang Maha menerima taubat lagi Maha Penyayang."
+    },
+    {
+      "id": 10,
+      "name": "Meutup rangkaian doa dengan membaca Shalawat dan Tahmid",
+      "ayat": "وَصَلَّى اللهُ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ وَاَصْحَبِهِ وَسَلَّمَ، وَسُبْحاَنَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ  وَسَلَمٌ عَلَى الْمُرْسَلِيْنَ، وَالْحَمْدُ لِلّهِ رَبِّ الْعَالَمِيْنَ",
+      "bacaan": "Washallallahu 'ala sayyidina muhammadin wa'ala alihi wa ashabihi wasallam, Wasubhana Rabbika rabbil 'izzati 'amma yasifuna, Wasalamun 'alal mursalin walhamdulillahirabbil 'alamin.",
+      "arti": "Semoga Allah (tuhan Seluruh Alam) memberikan rahmat dan kesejahteraan-Nya kepada penghulu kami, Nabi Muhammad shallallahu alaihi wasallam, keluarga dan sahabatnya dan segala puji bagi Allah, Tuhan Semesta (Seluruh) Alam"
+    },
+    {
+      "id": 11,
+      "name": "Jika permohonan dikabulkan dengan segera, hendaklah mengucapkan",
+      "ayat": "اَلْحَمْدُ للّٰهِ الَّذِيْ بِنِعْمَتِهٖ تَتِمُّ الصّٰلِحٰتُ",
+      "bacaan": "Alhamdulillahiladzi bini'matihi tatimus shalihaat",
+      "arti": "Segala puji bagi Allah yang dengan nikmat-Nya segala kebaikan menjadi sempurna"
+    },
+    {
+      "id": 12,
+      "name": "Jika permohonan tidak segera dikabulkan, hendaklah mengucapkan",
+      "ayat": "اَ لْـحَمْدُ الِلّٰهِ عَلىٰ كُـلِّ حَالٍ",
+      "bacaan": "",
+      "arti": ""
     }
   ]
 }

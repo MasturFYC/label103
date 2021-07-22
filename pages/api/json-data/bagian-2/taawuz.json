@@ -1226,122 +1226,149 @@
           {
             "id": 1,
             "ayat": "أسْتَغْفِرُ اللهَ الْعَظِيْمَ",
-            "bacaan": "ASTAGHFIRULLAHAL ‘ADHIIM(I) (3X)",
+            "bacaan": "Astaghfirullahalazim",
             "arti": "Saya mohon ampun kepada Allah Yang Maha Agung"
           },
           {
             "id": 2,
             "ayat": "لَاحَوْلَ وَلَا قُوَّةَ إلَّا بِا للهِ الْعَلِيِّ الْعَظِيْمِ",
-            "bacaan": "LAA HAULA WA LAA QUWWATA ILLAA BILLAHIL ‘ALIYYIL ADHIIM(I) (3X)",
+            "bacaan": "La haula wa la quwwata iilla billahil aliyyil azhim",
             "arti": "Tiada daya untuk menjauhi maksiat kecuali dengan pemeliharaan Allah dan tiada kekuatan untuk melakukan ketaatan kecuali dengan pertolongan Allah            "
           },
           {
             "id": 3,
             "ayat": "أللَّهُمَّ صَلِّي عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ",
-            "bacaan": "ALLAHUMMA SHALLII ‘ALAA SAYYIDINAA MUHAMMADIN WA ‘ALAA AALI SAYYIDINAA MUHAMMADIN (3X)",
+            "bacaan": "Allahumma sholli alaa sayyidinaa Muhammad wa alaa ali sayyidinaa Muhammad",
             "arti": "Ya Allah. Limpahkanlah rahmat dan kemuliaan kepada junjungan kami Nabi Muhammad berserta keluarganya"
           },
           {
             "id": 4,
             "ayat": "يَا اَللهُ يَا قَدِيْمُ",
-            "bacaan": "YAA ALLAHU YAA QADIIM(U) (33X)",
+            "bacaan": "Yaa Allahu yaa qadiim(u)",
             "arti": "Wahai Allah, wahai Dzat yang ada tanpa permulaan"
           },
           {
             "id": 5,
             "ayat": "يَا سَمِيْعُ يَا بَصِيْرُ",
-            "bacaan": "YAA SAMII’U YAA BASHIIR(U) (33X)",
+            "bacaan": "Yaa samii’u yaa bashiir(u)",
             "arti": "Wahai Allah, wahai Dzat Yang Maha Mendengar dan Maha Melihat"
           },
           {
             "id": 6,
             "ayat": "يَا مُبْدِئُ يَا خَالِقُ",
-            "bacaan": "",
-            "arti": ""
+            "bacaan": "Ya mubdi’u yaa kholiq",
+            "arti": "Wahai Dzat yang mewujudkan sesuatu dari tidak ada, wahai Dzat Yang Maha Pencipta"
           },
           {
             "id": 7,
             "ayat": "يَا حَافِظُ يَا نَصِيْرُ يَا وَكِيْلُ ياَ اللهُ",
-            "bacaan": "",
-            "arti": ""
+            "bacaan": "Yaa hafiizhu yaa nashiiru yaa wakiilu ya Allah",
+            "arti": "Wahai Dzat yang memelihara dari keburukan dan kebinasaan, wahai Dzat Yang Maha Menolong, wahai Dzat yang menjamin rizki para hamba dan mengetahui kesulitan-kesulitan hamba, ya Allah"
           },
           {
             "id": 8,
-            "ayat": "",
+            "ayat": "يَا رَزَّاقُ يَاوَهَّابَ يَافُنِيُّ يَامُغْنِيُّ",
+            "bacaan": "Yaa Rozzaq, ..., ..., Yaa Mughni",
+            "arti": ""
+          },
+          {
+            "id": 9,
+            "ayat": "لآَاِلٰهَ اِلاَّ اللّٰهُ الْمَلِكُ الْـحَقُّ الْمُبِيْرُ",
+            "bacaan": "laa ilaaha illallaah al-malikul haqqul mubiin",
+            "arti": "Tiada Tuhan selain Allah, Raja yang Hak lagi Nyata"
+          },
+          {
+            "id": 10,
+            "ayat": "يَاحَيُّ يَاقَيُّوْمُ بِرَحْمَتِكَ اَسْتَغِيْشُ",
+            "bacaan": "Yaa hayyu yaa qayyumu birahmatika astaghits",
+            "arti": "Wahai Dzat Yang Hidup, yang terus menerus mengurus makhluknya, dengan rahmat-Mu aku memohon pertolongan-Mu"
+          },
+          {
+            "id": 11,
+            "ayat": "يَارَحْمٰنُ يَارَحِيْمُ يَاقَوِيُّ يَامَتِيْنُ",
+            "bacaan": "Yaa rahman yaa rokhiim Yaa qowiyyu Yaa Matiin",
+            "arti": "Ya Allah Dzat yang Maha Pengasih dan Maha Penyayang, wahai yang Maha kuat, wahai Yang Maha Dahsyat kekuasaannya"
+          },
+          {
+            "id": 12,
+            "ayat": "حَسْبُنَااللّٰهُ وَنِعْمَ الْوَكِيْلُ",
+            "bacaan": "Hasbunallahu wa ni’mal wakil",
+            "arti": "Cukup bagi kami Allah, dan Dia sebaik-baik penolong"
+          },
+          {
+            "id": 13,
+            "ayat": "بِسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ",
+            "bacaan": "Bismillaahir Rahmaanir Rahiim",
+            "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+          },
+          {
+            "id": 14,
+            "ayat": "يَابَدِيْعُ",
+            "bacaan": "yaa Badii’u",
+            "arti": "Wahai Yang Maha Pencipta"
+          },
+          {
+            "id": 15,
+            "ayat": "اَللّٰهُمَّ يَالَطِيْفُ اَسْاَلُكَ اللُّطْفَ فِيْمَا جَرَتْ بِهِ الْمَقَادِيْرُ",
             "bacaan": "",
             "arti": ""
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 16,
+            "ayat": "يَالَطِيْقُ",
+            "bacaan": "Yaa lathif",
+            "arti": "Wahai Dzat yang Maha Pengasih dan Maha Penyayang"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 17,
+            "ayat": "لَٓااِلٰهَ اِلآَّ اَنْتَ سُبْحٰنَكَ اِنِّيْ كُنْتُ مِنَ الظّٰلِمِيْنَ",
+            "bacaan": "Laillaha illa anta subhanaka inni kuntu minadhdhalimin",
+            "arti": "Tiada Tuhan yang berhak disembah selain Engkau, Maha Suci Engkau, sungguh aku termasuk orang-orang yang telah berbuat dzalim"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 18,
+            "ayat": "يَاهَادِيْ يَاعَلِيْمُ يَاخَبِيْرُ يَامُبِيْرُ يَاعَزِ يْزُ يَاعَلِيْمُ يَاسَكُوْرُ",
+            "bacaan": "Yaa hadi yaa 'alim, yaa khobir yaa mubin",
+            "arti": "Wahai dzat yang maha petunjuk, wahai dzat yang maha mengetahui, wahai dzat yang maha waspada dan wahai dzat yang maha terang"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Zikir Perlindungan",
+        "source": "https://medan.tribunnews.com/2021/02/17/bacaan-surat-al-buruj-lengkap-keutamannya-arab-latin-dan-terjemahannya?page=3",
+        "ayat": [
+          {
+            "id": 1,
+            "ayat": "لاَ إِلَهَ إِلاَّ اللهُ حَوَالَيْنَا حِصَارٌ مُحَمَّدٌ رَسُوْلُ اللهِ قُفْلاً وَّمِسْمَارًا"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 2,
+            "ayat": "لاَ إِلَهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ لاَ إِلَهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ قُوْلاًوَّفِعْلًا",
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 2,
+            "ayat": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيْدٌ"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 3,
+            "ayat": "اِنَّهُ هُوَ يُبْدِئُ وَيُعِيْدُۚ"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 4,
+            "ayat": "وَهُوَ الْغَفُوْرُ الْوَدُوْدُۙ"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 5,
+            "ayat": "ذُو الْعَرْشِ الْمَجِيْدُۙ"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 6,
+            "ayat": "فَعَّالٌ لِّمَا يُرِيْدُۗ"
           },
           {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
-          },
-          {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
-          },
-          {
-            "id": 0,
-            "ayat": "",
-            "bacaan": "",
-            "arti": ""
+            "id": 7,
+            "ayat": "هَلْ اَتٰىكَ حَدِيْثُ الْجُنُوْدِۙ"
           }
         ]
       }

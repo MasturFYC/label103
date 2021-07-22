@@ -3,48 +3,48 @@
   "desc": "Dibaca 1x",
   "pengantar": [
     {
-      "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+      "ayat": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
       "id": 1,
-      "indo": "Bismillaahir Rahmaanir Rahiim",
-      "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+      "bacaan": "Bismillaahir Rahmaanir Rahiim",
+      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
     }
   ],
-  "ayat": [
+  "ayats": [
     {
-      "read": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِ",
+      "ayat": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِ",
       "id": 1,
-      "indo": "Qul a'uzu birabbin naas",
-      "means": "Katakanlah, \"Aku berlindung kepada Tuhannya manusia,"
+      "bacaan": "Qul a'uzu birabbin naas",
+      "arti": "Katakanlah, \"Aku berlindung kepada Tuhannya manusia,"
     },
     {
-      "read": "مَلِكِ النَّاسِۙ",
+      "ayat": "مَلِكِ النَّاسِۙ",
       "id": 2,
-      "indo": "Malikin naas",
-      "means": "Raja manusia,"
+      "bacaan": "Malikin naas",
+      "arti": "Raja manusia,"
     },
     {
-      "read": "اِلٰهِ النَّاسِۙ",
+      "ayat": "اِلٰهِ النَّاسِۙ",
       "id": 3,
-      "indo": "Ilaahin naas",
-      "means": "sembahan manusia,"
+      "bacaan": "Ilaahin naas",
+      "arti": "sembahan manusia,"
     },
     {
-      "read": "مِنۡ شَرِّ الۡوَسۡوَاسِ  ۙ الۡخَـنَّاسِ",
+      "ayat": "مِنۡ شَرِّ الۡوَسۡوَاسِ  ۙ الۡخَـنَّاسِ",
       "id": 4,
-      "indo": "Min sharril was waasil khannaas",
-      "means": "dari kejahatan (bisikan) setan yang bersembunyi,"
+      "bacaan": "Min sharril was waasil khannaas",
+      "arti": "dari kejahatan (bisikan) setan yang bersembunyi,"
     },
     {
-      "read": "الَّذِىۡ يُوَسۡوِسُ فِىۡ صُدُوۡرِ النَّاسِۙ",
+      "ayat": "الَّذِىۡ يُوَسۡوِسُ فِىۡ صُدُوۡرِ النَّاسِۙ",
       "id": 5,
-      "indo": "Al lazii yuwas wisu fii suduurin naas",
-      "means": "yang membisikkan (kejahatan) ke dalam dada manusia,"
+      "bacaan": "Al lazii yuwas wisu fii suduurin naas",
+      "arti": "yang membisikkan (kejahatan) ke dalam dada manusia,"
     },
     {
-      "read": "مِنَ الۡجِنَّةِ وَالنَّاسِ",
+      "ayat": "مِنَ الۡجِنَّةِ وَالنَّاسِ",
       "id": 6,
-      "indo": "Minal jinnati wan naas",
-      "means": "dari (golongan) jin dan manusia.\""
+      "bacaan": "Minal jinnati wan naas",
+      "arti": "dari (golongan) jin dan manusia.\""
     }
   ],
   "penutup": {

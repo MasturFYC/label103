@@ -3,41 +3,41 @@
     "desc": "Dibaca 1x",
     "pengantar": [
         {
-            "read": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
+            "ayat": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
             "id": 1,
-            "indo": "Bismillaahir Rahmaanir Rahiim",
-            "means": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+            "bacaan": "Bismillaahir Rahmaanir Rahiim",
+            "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
         }
     ],
-    "ayat": [
+    "ayats": [
         {
             "id": 1,
-            "read": "قُلۡ اَعُوۡذُ بِرَبِّ الۡفَلَقِۙ",
-            "indo": "Qul a'uzuu bi rabbil-falaq",
-            "means": "Katakanlah, ‘Aku berlindung kepada tuhan yang menguasai waktu subuh dari kejahatan makhluk-Nya"
+            "ayat": "قُلۡ اَعُوۡذُ بِرَبِّ الۡفَلَقِۙ",
+            "bacaan": "Qul a'uzuu bi rabbil-falaq",
+            "arti": "Katakanlah, ‘Aku berlindung kepada tuhan yang menguasai waktu subuh dari kejahatan makhluk-Nya"
         },
         {
             "id": 2,
-            "read": "مِنۡ شَرِّ مَا خَلَقَۙ",
-            "indo": "Min sharri ma khalaq",
-            "means": "dari kejahatan (makhluk yang) Dia ciptakan,"
+            "ayat": "مِنۡ شَرِّ مَا خَلَقَۙ",
+            "bacaan": "Min sharri ma khalaq",
+            "arti": "dari kejahatan (makhluk yang) Dia ciptakan,"
         },
         {
             "id": 3,
-            "read": "وَمِنۡ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ",
-            "indo": "Wa min sharri ghasiqin iza waqab",
-            "means": "dan dari kejahatan malam apabila telah gelap gulita"
+            "ayat": "وَمِنۡ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ",
+            "bacaan": "Wa min sharri ghasiqin iza waqab",
+            "arti": "dan dari kejahatan malam apabila telah gelap gulita"
         },
         {
             "id": 4,
-            "read": "وَمِنۡ شَرِّ النَّفّٰثٰتِ فِى الۡعُقَدِۙ",
-            "indo": "Wa min sharrin-naffaa-thaati fil 'uqad",
-            "means": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
+            "ayat": "وَمِنۡ شَرِّ النَّفّٰثٰتِ فِى الۡعُقَدِۙ",
+            "bacaan": "Wa min sharrin-naffaa-thaati fil 'uqad",
+            "arti": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
         },
         {
             "id": 5,
-            "read": "وَمِنۡ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
-            "means": "Dan dari kejahatan orang-orang yang dengki apabila ia mendengki.’"
+            "ayat": "وَمِنۡ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
+            "arti": "Dan dari kejahatan orang-orang yang dengki apabila ia mendengki.’"
         }
     ],
     "penutup": {

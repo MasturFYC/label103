@@ -113,15 +113,1237 @@
     ]
   },
   {
-    "id": 33,
+    "id": 34,
     "title": "Doa dan Dzikir Dalam Setiap Keadaan",
     "ayats": [
       {
         "id": 1,
-        "name":"Doa Nabi Muhammad SAW (Doa Mustajab)",
+        "name": "Doa Nabi Muhammad SAW (Doa Mustajab)",
         "ayat": "اَللَّهُمَّ اِنِّيْۤ اَسْأَلُكَ رَحْمَةًمِّنْ عِنْدِكَ تَهْدِيْ بِهَا قَلْـبِيْ وَتَجْمَعُ بِهَا ثَمْلِيْ وَتُرُدُّبِهَا اْلفِتْنَةُعَنِّيْ",
-        "bacaan":"Allaahumma innii as aluka rahmatam min ‘indika tahdii bihaa qalbii wa tajma’u bihaa syamlii wa taruddu bihal fitnata ‘anni",
-        "arti":"Ya Allah, sesungguhnya aku memohon rahmat dari sisi-Mu yang dapat memberikan petunjuk pada kalbuku dan menghimpun semua kekuatanku serta dapat menolak fitnah yang akan menimpa diriku"
+        "bacaan": "Allaahumma innii as aluka rahmatam min ‘indika tahdii bihaa qalbii wa tajma’u bihaa syamlii wa taruddu bihal fitnata ‘anni",
+        "arti": "Ya Allah, sesungguhnya aku memohon rahmat dari sisi-Mu yang dapat memberikan petunjuk pada kalbuku dan menghimpun semua kekuatanku serta dapat menolak fitnah yang akan menimpa diriku"
+      },
+      {
+        "id": 2,
+        "name": "Doa Kanzul Arsy",
+        "ayat": [
+          {
+            "id": 1,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلَملِكِ الْقُدُّوْسِ",
+            "bacaan": "Laa ilaaha illallahu subhaana malikil qudduus",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  mahasuci raja yang mahaqudus."
+          },
+          {
+            "id": 2,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَزِيْزِ الْجَبَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aziizil jabbaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci tuhan yang maha perkasa lagi maha kuasa"
+          },
+          {
+            "id": 3,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الرَّءُوْفِ الرَّحِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanar rauufir rahiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha ssuci tuhan yang maha pengasih lagi maha penyayang"
+          },
+          {
+            "id": 4,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الغَفُوْرِ الرَّحِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghafuurir rahiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang maha pengampun lagi maha penyayang"
+          },
+          {
+            "id": 5,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْكَرِيْمِ الْحَكِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal kariimil hakiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang mahamulia lagi mahabijaksana"
+          },
+          {
+            "id": 6,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْقَوِيِّ اْلوَفِيّ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qawiyyil wafiy",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang maha kuat lagi maha memenuhi"
+          },
+          {
+            "id": 7,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اللَّطِيْفِ الْخَبِيْرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal lathiifil khabiir",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang mahahalus lagi maha mengetahui"
+          },
+          {
+            "id": 8,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الصَّمَدِ الْمَعْبُوْدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanash shamadil ma’buud",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang bergantung kepadanya segala sesuatu lagi yang disembah"
+          },
+          {
+            "id": 9,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْغَفُوْرِ الْوَدُوْدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghafuuril waduud",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang maha pengampun lagi maha pecinta."
+          },
+          {
+            "id": 10,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْوَكِيْلِ الْكَفِيْلِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal wakiilil kafiil",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah,  maha suci Tuhan yang maha penolong lagi maha pelindung"
+          },
+          {
+            "id": 11,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الرَّقِيْبِ الْحَفِيْظِ",
+            "bacaan": "Laa ilaaha illallahu subhaanar raqiibil hafiizh",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mengawasi lagi maha memelihara"
+          },
+          {
+            "id": 12,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الدَّائِمِ الْقَائِمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanad daa-imil qaa-imi",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang kekal lagi mengurus mahluk nya"
+          },
+          {
+            "id": 13,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْمُحْيِ الْمُمِيْتِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal muhyil mumiit",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menghidupkan lagi yang mematikan."
+          },
+          {
+            "id": 14,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَيِّ الْقَيُّوْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal hayyil qayyuum",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang hidup kekal lagi terus menerus mengurus mahluk nya"
+          },
+          {
+            "id": 15,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْخَالِقِ الْبَارِئِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal khaaliqil baari-i",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menciptakan lagi menjadikan"
+          },
+          {
+            "id": 16,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَلِيِّ الْعَظِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aliyyil ‘azhiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha tinggi lagi maha besar"
+          },
+          {
+            "id": 17,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْوَاحِدِ اْلاَحَدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal waahidil ahadi",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang satu lagi esa"
+          },
+          {
+            "id": 18,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْمُئْومِنِ الْمُهَيْمِنِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal mu-minil muhaimini",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memberikan keamanan lagi maha memelihara"
+          },
+          {
+            "id": 19,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَبِيْبِ الشَّهِيْدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal habiibisy syahiid",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mencintai lagi maha memyaksikan"
+          },
+          {
+            "id": 20,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَلِيْمِ الْكَرِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal haliimil kariim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha penyantun lagi maha mulia"
+          },
+          {
+            "id": 21,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْاول القديم",
+            "bacaan": "Laa ilaaha illallahu subhaanal awwalil qadiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang pertama"
+          },
+          {
+            "id": 22,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْاَوَّلِ الْاَخِرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal awwalil aakhir",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang terakhir"
+          },
+          {
+            "id": 23,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الظَّاهِرِ الْبَاطِنِ",
+            "bacaan": "Laa ilaaha illallahu subhaanazh zhaahiril baathini",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang lahir lagi yang batin (nyata lagi tersembunyi)"
+          },
+          {
+            "id": 24,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْكَبِيْرِ الْمُتَعَالِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal kabiiril muta’aal",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha besar lagi maha tinggi"
+          },
+          {
+            "id": 25,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْقَاضَىِّ الْحَاجَاتِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qaadhil haajaat",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memenuhi semua keperluan"
+          },
+          {
+            "id": 26,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ رَبِّ اْلعَرْشِ الْعَظِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaana rabbil ‘arsyil ‘azhiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menguasai arsyi yang besar"
+          },
+          {
+            "id": 27,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الرَّحْمَنِ الرَّحِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanar rahmaanir rahiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha pemurah lagi maha penyayang"
+          },
+          {
+            "id": 28,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ رَبِّي الْاَعْلَى",
+            "bacaan": "Laa ilaaha illallahu subhaana rabbiyal a’laa",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhanku yang maha tinggi"
+          },
+          {
+            "id": 29,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْبُرْهَانِ السُّلْطَانِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal burhaaniis sulthaan",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memiliki bukti lagi kekuasaan"
+          },
+          {
+            "id": 30,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ السَّمِيْعِ الْبَصِيْرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanas samii’il bashiir",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mendengar lagi mahamelihat"
+          },
+          {
+            "id": 31,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْوَاحِدِ الْقَهَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal waahidil qahhaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang satu lai yang maha mengalahkan"
+          },
+          {
+            "id": 32,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَلِيْمِ الْحَكِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aliimil hakiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mahamengetahui lagi maha bijaksana"
+          },
+          {
+            "id": 33,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ السَتَّارِ الْغَفَّارش",
+            "bacaan": "Laa ilaaha illallahu subhaanas sattaaril ghaffaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha menutupi kesalahan lai maha pengampun"
+          },
+          {
+            "id": 34,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الرَّحْمَنِ الدَيَّانِ",
+            "bacaan": "Laa ilaaha illallahu subhaanar rahmaanid dayyaan",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha pemurah lagi maha membalas"
+          },
+          {
+            "id": 35,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْكَبِيْرِ الْاَكْبَرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal kabiiril akbar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha agung lagi maha besar"
+          },
+          {
+            "id": 36,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَلِيْمِ الْعَلَّامِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aliimil ‘allaam",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mengetahui lagi maha memeriksa"
+          },
+          {
+            "id": 37,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الشَّافِى الْكَافِي",
+            "bacaan": "Laa ilaaha illallahu subhaanasy syaafil kaafii",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menyembuhkan lagi maha mencukupi"
+          },
+          {
+            "id": 38,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَظِيْمِ الْبَاقِيّ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘azhiimil baaqii",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha besar lagi kekal"
+          },
+          {
+            "id": 39,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الصَّمَدِ الْاَحَدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanash shamadil ahadi",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang bergantung kepadanya segala sesuatu lagi esa"
+          },
+          {
+            "id": 40,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ رَبِّ الْاَرْضِ وَالسَّمَوَتِ",
+            "bacaan": "Laa ilaaha illallahu subhaana rabbil ardhi was samawaat",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menguasai bumi dn langit"
+          },
+          {
+            "id": 41,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ خَالِقِ الْمَخْلُوْقَاتِ",
+            "bacaan": "Laa ilaaha illallahu subhaana khaaliqil makhluuqaat",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan pencipta semua mahluk"
+          },
+          {
+            "id": 42,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ مَنْ خَلَقَ الَّيْلِ وَالنَّهَارِ",
+            "bacaan": "Laa ilaaha illallahu subhaana man khalaqal laila wan nahaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menciptakan malam dan siang hari"
+          },
+          {
+            "id": 43,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْخَالِقِ الرّاَزِقِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal khaaliqir razzaaq",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menciptakan lagi yang memberi rizki"
+          },
+          {
+            "id": 44,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْفَتَّاحِ الْعَلِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal fattaahil ‘aliim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha memberi keputusan lagi maha mengetahui"
+          },
+          {
+            "id": 45,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَزِيْزِ الْغَنِيِّ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aziizil ghaniyyi",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha perkasa lagi maha kaya"
+          },
+          {
+            "id": 46,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْغَفُوْرِ الشَّكُوْرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghafuurisy syakuur",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha pengampun lagi maha mensyukuri"
+          },
+          {
+            "id": 47,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلعَظِيْمِ اْلعَلِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘azhiimil ‘aliim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha besar lagi maha mengetahui"
+          },
+          {
+            "id": 48,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى الْمُلْكِ وَالْمَلَكُوْتِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil mulki wal malakut",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memiliki kerajaan bumi dan langit"
+          },
+          {
+            "id": 49,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى اْلعِزَّةِ وَاْلعَظَمَةِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil ‘izzati wal ‘azhamah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mempunyai keagungan dan kebesaran"
+          },
+          {
+            "id": 50,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِي الْهَيْبَةِ وَاْلقُدْرَةِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil haibati wal qudrah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mempunyai pengaruh dan kekuasaan"
+          },
+          {
+            "id": 51,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْكِبْرِيَاءِ وَالْجَبَرُوْتِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil kibriyaa-i wal jabaruut",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memiliki kekuasaan dan kebesaran"
+          },
+          {
+            "id": 52,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ السَتَّارِ اْلعَظْيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanas sattaaril ‘azhiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha menutupi kesalahan lai maha besar"
+          },
+          {
+            "id": 53,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَالِمِ الْغَيْبِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aalimil ghaib",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mengetahui hal yang ghaib"
+          },
+          {
+            "id": 54,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَمِيْدِ الْمَجِيْدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal hamiidil majiid",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha terpuji lagi maha mulia"
+          },
+          {
+            "id": 55,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَكِيْمِ اْلقَدِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal hakiimil qadiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha bijaksana lagi maha terdahulu"
+          },
+          {
+            "id": 56,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْقَادِرِ السَتَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qaadiris sattar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kuasa lagi maha menutupi"
+          },
+          {
+            "id": 57,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ السَّمِيْعِ اْلعَلِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanas samii’i aliim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mendengar lagi maha mengetahui"
+          },
+          {
+            "id": 58,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْغَنِيِّ الْعَظِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghaniyyil ‘azhiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kaya lagi maha besar"
+          },
+          {
+            "id": 59,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَلَّامِ السَّلَامِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘allaamis salaam",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mengetahui lai maha sejahtera"
+          },
+          {
+            "id": 60,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْمَلِكِ النَّصِيْرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal malikin nashiir",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menjadi raja lagi maha penolong"
+          },
+          {
+            "id": 61,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْغَنِيِّ الرَّحِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghaniyyir rahmaan",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kaya lagi maha pemurah"
+          },
+          {
+            "id": 62,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْقَرِيْبِ الْحَسَنَاتِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qariibil hasanaat",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang dekat kebaikan kebaikan nya"
+          },
+          {
+            "id": 63,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْوَلِيِّ الْحَسَنَاتِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal waliyyil hasanaat",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menguasai kebaikan kebaikan"
+          },
+          {
+            "id": 64,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الصَّبُوْرِ السَتَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanash shabuuris sattaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha penyabar lagi maha menutupi kesalahan"
+          },
+          {
+            "id": 65,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْخَالِقِ النُّوْرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal khaaliqin nuur",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menciptakan nur"
+          },
+          {
+            "id": 66,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلغَنِيِّ الْمُعْجِزِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghaniyyil mu’jiz",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kaya lagi maha mengalahkan"
+          },
+          {
+            "id": 67,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْفَاضِلِ الشَّكُوْرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal faadhilisy syakuur",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mulia lagi maha mensyukuri"
+          },
+          {
+            "id": 68,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْغَنِيِّ الْقَدِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ghaniyyil qadiim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kaya lagi maha terdahulu"
+          },
+          {
+            "id": 69,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى الْجَلَالِ الْمُبِيْنِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil jalaalil mubin",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mempunyai keagungan lagi maha menerangkan"
+          },
+          {
+            "id": 70,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْخَالِصِ الْمُخْلِصِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal khaalishil mukhlish",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang murni lai memurnikan"
+          },
+          {
+            "id": 71,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الصَّادِقِ اْلوَعْدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanash shaadiqil wa’di",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang benar janji nya"
+          },
+          {
+            "id": 72,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَقِّ الْمُبِيْنِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal haqqil mubiin",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang hak lagi yang menerangkan"
+          },
+          {
+            "id": 73,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى اْلقُوَّةِ الْمَتِيْنِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil quwwatil matiin",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mempunyai kekuatan lagi maha kokoh"
+          },
+          {
+            "id": 74,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلقَوِيِّ الْعَزِيْزِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qawiyyil ‘aziiz",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kuat lagi maha perkasa"
+          },
+          {
+            "id": 75,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَيِّ الَّذِي لَايَمُوْتِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal hayyil ladzii laa yamuut",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang hidup lagi tidak mati"
+          },
+          {
+            "id": 76,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلعَلَّامِ الْغُيُوْبِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘allamil ghuyuub",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha mengetahui semua yang ghaib"
+          },
+          {
+            "id": 77,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ السَتَّارِ اْلعُيُوْبِ",
+            "bacaan": "Laa ilaaha illallahu subhaanas sattaaril ‘uyuub",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha menutupi semua cacat (aib)"
+          },
+          {
+            "id": 78,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى الْغُفْرَانِ الْمُسْتَعَانِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil ghufraanil musta’aan",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mempunyai ampunan lagi dimintai pertolongan"
+          },
+          {
+            "id": 79,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ رَبِّ اْلعَالَمِيْنَ",
+            "bacaan": "Laa ilaaha illallahu subhaana rabbil ‘alamiin",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan semesta alam"
+          },
+          {
+            "id": 80,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الرَّحْمَنِ السَتَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanar rahmaanis sattaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha pemurah lagi maha menutupi"
+          },
+          {
+            "id": 81,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الرَّحِيْمِ الْغَفَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanar rahiimil ghaffaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha penyayang lai maha pengampun"
+          },
+          {
+            "id": 82,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلَعَزِيْزِ الْوَهَّابِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal ‘aziizil wahhab",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha perkasa lagi maha pemberi karunia"
+          },
+          {
+            "id": 83,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْقَادِرِ الْمُقْتَدِرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qaadiril muqtadir",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kuasa lagi memberi kekuasaan"
+          },
+          {
+            "id": 84,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى الْغُفْرَانِ الْحَلِيْمِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil ghufraanil haliim",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memiliki ampunan lagi maha penyantun"
+          },
+          {
+            "id": 85,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْمَلِكِ الْمُلْكِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal malikil mulki",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang memiliki semua kerajaan"
+          },
+          {
+            "id": 86,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْبَارِئِ الْمُصَوِّرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal baari-il musaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang menciptakan lagi memberi bentuk"
+          },
+          {
+            "id": 87,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْعَزِيْزِ الْجَبَّارِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal adzi-i dzil jabbaar",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha perkasa lagi maha kuasa"
+          },
+          {
+            "id": 88,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْجَبًّارِ الْمُتَكَبِّرِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal jabbaaril mutakabbir",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha kuasa lagi maha agung"
+          },
+          {
+            "id": 89,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اللهِ عَمَّا يَصِفُوْنَ",
+            "bacaan": "Laa ilaaha illallahu subhaanallaahi ‘ammaa yashifuun",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci allah dari apa yang digambarkan oleh mereka (orang orang musyrik)"
+          },
+          {
+            "id": 90,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اْلقُدُّوْسِ السُبُّوْحِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal qudduusis subbuuh",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan dalan dzat dan sifat nya"
+          },
+          {
+            "id": 91,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ رَبِّ الْمَلِائِكَةِ وَالرُّوْحِ",
+            "bacaan": "Laa ilaaha illallahu subhaana rabbil malaa-ikati warruuh",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan para malaikat dan ruh"
+          },
+          {
+            "id": 92,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ ذِى الْاَلَاءِ وَالنَّعْمَاءِ",
+            "bacaan": "Laa ilaaha illallahu subhaana dzil aalaa-i wan na’maa",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang mempunyai tanda tanda kebesaran dan nikmat"
+          },
+          {
+            "id": 93,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْمَلِكِ الْمَقْصُوْدِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal malikil maqshuud",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci raja yang menjadi tujuan"
+          },
+          {
+            "id": 94,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ الْحَنَّانِ الْمَنَّانِ",
+            "bacaan": "Laa ilaaha illallahu subhaanal hannaanil mannaan",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, maha suci Tuhan yang maha pengasih lagi maha pemberi anugerah"
+          },
+          {
+            "id": 95,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ سُبْحَانَ اَدَمُ صَفِيُّ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Aadamu shafiyyullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Adam pilihan allah"
+          },
+          {
+            "id": 96,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ نُوْحٌ نَجِيُّ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Nuuhu najiyyullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Nuh orang yang diselamatkan oleh allah"
+          },
+          {
+            "id": 97,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ اِبْرَاهِيْمُ خَلِيْلٌ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Ibraahiimu khalilullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Ibrahim kekasih allah"
+          },
+          {
+            "id": 98,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ اِسْمَاعِيْلُ ذَبِيْحُ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Ismaa’iilu dzabiihullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Ismail yang disembelih allah"
+          },
+          {
+            "id": 99,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ مُوْسَى كَلِيْمُ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Muusaa kaliimullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Musa orang yang diajak berbicara oleh allah"
+          },
+          {
+            "id": 100,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ دَاُوْدُ خَلِيْفَةٌ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Daawuudu khaliifatullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Daud khalifah yang diangkat oleh allah"
+          },
+          {
+            "id": 101,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ عِيْسَى رُوْحٌ اللهِ",
+            "bacaan": "Laa ilaaha illallahu ‘Iisaa ruuhullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, ‘Isa adalah ruh ciptaan allah"
+          },
+          {
+            "id": 102,
+            "ayat": "لاَإِلَـهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلٌ اللهِ",
+            "bacaan": "Laa ilaaha illallahu Muhammadur rasuulullah",
+            "arti": "Tiada Tuhan yang berhak disembah selain allah, Muhammad utusan allah"
+          },
+          {
+            "id": 103,
+            "ayat": "وَارْحَمْنَا بِبَرْكَةِ تَوْرَاةِ مُوْسَى وَاِنْجِيْلِ عِيْسَى وَزَبُوْرِ دَاوُدَ وَفُرْقَانِ مُحَمَّدٍ رَسُوْلِ اللهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِيْنَ",
+            "bacaan": "Warhamnaa bibarakati tauraati muusaa, wa injiili ‘iisaa wazabuuri daawuuda wafurqaani muhammadir rasuulillahi shallallahu ‘alaihi wasallama birahmatika yaa arhamar raahimiin",
+            "arti": "ya allah, rahmatilah kami berkat taurat musa, Injil Isa, Zabur Daud dan Al Qur’an Muhammad Saw utusan allah, "
+          },
+          {
+            "id": 104,
+            "ayat": "وَالْحَمْدُ للهِ رَبِّ الْعَالَمِيْنَ",
+            "bacaan": "Wal hamdu lillahi rabbil ‘aalamiin",
+            "arti": "dengan rahmatmu wahai yang maha penyayang diantara para penyayang Dan segala puji bagi Allah Tuhan semesta alam"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Doa Ukasyah RA",
+        "source": "https://almuttaqintegal.blogspot.com/2014/04/",
+        "ayat": [
+          {
+            "id": 1,
+            "ayat": "اَللَّهُمَّ صَلىِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى الِهِ وَصَحْبِهِ",
+            "bacaan": "Allaahumma sholli ‘alaasayyidinaa muhammadiw wa ‘alaa aalihii washohbihii",
+            "arti": "Ya Allah, tetapkanlah shalawat dan salam atas junjungan kami Nabi Muhammad,Keluarga dan shahabat-shahabat beliau."
+          },
+          {
+            "id": 2,
+            "ayat": "بِسْمِ اللهِ النُّوْرِ نُوْرٌعَلَى نُوْرٍ الْحَمْدُ لِلَّهِ الَّذِىْ خَلَقَ النُّوْرَ وَأَنْزَلَ التَّوْرَاةَ عَلَى جَبَلِ الِطُّوْرِفِى كِتَابٍ مَسْطُوْرٍ",
+            "bacaan": "Bismillaahin nuuri nuurun ‘alaa nuur. Alhamdulillaahil ladzii kholaqon nuuro wa angzalat tauroota ‘alaa jabalith thuuri fii kitaabi masthuur.",
+            "arti": "Dengan Asma' Allah yang menyinari sinar diatas sinar, Segala puji bagi Allah Pencipta nur dan menurunkan kitab Taurat diatas gunung Thurdi dalam kitab yang tertulis"
+          },
+          {
+            "id": 3,
+            "ayat": "اَلْحَمْدُ لِلَّهِ الَّذَيْ بِالْغِنَآءِ مَذْكُوْرٌ وَبِالْعِزَّةِ وَالْجَلاَلِ مَشْهُوْرٌ وَعَلَى السَّرَّآءِ وَلضَّرَّآءِ مَشْكُورٌ وَالْحَمْدُ لِلَّهِ الَّذِيْ خَلَقَ السَّموَاتِ وَاْلاَرْضِ وَجَعَلَ الظُّلُمَاتِ وَالنُّوْرَثُمَّ الَّذِيْنَ كَفَرُوْابِرَبِّهِمْ يَعْدِلُوْنَ",
+            "bacaan": "Alhamdulillaahil ladzii bil ghinaa i madzkuur wabil ‘izzati waljalaali masyhuur. Wa ‘alas sarroo i wadl dlorroo i masykuur walhamdu lillaahilladzii kholaqos samaawaati wal ardlo waja’alazh zhulumaati wannuur tsummalladziina kafaruu birobbihim ya’diluun.",
+            "arti": "Segala Puji bagi Allah Yang Disebut kaya dengan kemulyaan dan keagungan yang dikenal dan atas senang dan susah yang disyukuri dan segala puji bagi Allah yang menciptakan langit dan bumi dan menjadikan gelap dan terang, kemudian orang-orang kafir kepada Tuhannya dan berpaling."
+          },
+          {
+            "id": 4,
+            "ayat": "گهيعۤص حمَ عۤسۤق اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ يَاحَيُّ يَا قَيُّوْمُ اَللهُ الَّطِيْفُ بِعِبَادِهِ يَرْزُقُ مَنْ يَشَآءُ وَهُوَ الْقَوِيُّ الْعَزِيْزُ",
+            "bacaan": "Kaaf. Yaa. Aiin. Shood. Haa. Miim. Aiin. Siin. Qoof. Iyyaaka na’budu wa iyyaaka nasta’iin. Yaa hayyu yaa qoyyuum. Allaahu lathiifum bi’ibaadihii yarzuqu Mayyasyaa u wahuwal qowiyyul ‘aziiz.",
+            "arti": "Kaf Ha Ya 'Ain Shaad, Ha Mim 'Ain Sin Qaf, hanya kepada-Mu lah kami menyembah dan memohon pertolongan, hai Dzat Yang Hidup Tegak Kokoh, Allah Yang sangat belas kasihan kepada hamba-Nya memberi rizki kepada siapa saja yang dia kehendaki, Dia sangat kuat dan mulia"
+          },
+          {
+            "id": 5,
+            "ayat": "يَاكَافِيْ كُلِّ شَىْءٍاِكْفِنِيْ وَاصْرِفْ عَنِّىْ كُلىَّ شَىْءٍ بِيَدِكَ الْخَيْرُ اِ نَّكَ عَلَى كُلِّ شَيْءٍ قَدِيْرٌ .",
+            "bacaan": "Yaa kaafii kulli syaiin ikfinii washrif  ‘annii kulla syaiim biyadikal khoiru innaka ‘alaa syaiing qodiir.",
+            "arti": "Hai Dzat Yang mencukupi segala sesuatu, cukupilah aku dan palingkanlah dariku segala sesuatu dengan kekuasaanMu yang baik, bahwasanya Engkau berkuasa atas segala-galanya."
+          },
+          {
+            "id": 6,
+            "ayat": "اَللَّهُمَّ يَاكَثِيْرَ النَّوَالِ وَيَادَائِمُ الْوَصَالِ وَيَاحَسَنَ الْفِعَالِ وَيَارَازِقَ الْعِبَادِ عَلَى كُلِّ حَالٍ وَيَابَدِيْعًا بِلاَمِثاَلٍ وَيَابَاقٍ بِلاَزَوَالٍ نَجِّنَامِنَ الْكُفْرِوَالضَّلاَلِ بِحَقِّ لاَاِلهَ اِلاَّالله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى لله ُعَلَيْهِ وَسَلَّمَ.",
+            "bacaan": "Allaahumma yaa katsiron nawwaali wayaa daa imul washooli wayaa hasanal fi’aali wayaa rooziqol ‘ibaadi ‘alaa kulli haaliw wayaa badii’am bilaa mitsaaliw wayaa baaqim bilaa zawaalin najjinaa minal kufri wadldlolaali bihaqqi laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, Dzat Yang banyak pemberiannya dan Yang selalu bertemu, Yang bagus perbuatannya, Pemberi rizki hamba-hambaNya pada setiap keadaan, hai Dzat Pencipta pertama kali dengan tidak melalui contoh, hai Dzat yang langgeng, yang tidak akan binasa, selamatkanlah kami dari kufur dan tersesat dengan : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 7,
+            "ayat": "اَللَّهُمَّ اِنَ دَخَلَ الشَّكُّ فِي اِيْمَانِىْ بِكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ.",
+            "bacaan": "Allaahumma ingdakholasy syakku fii iimaanii bika walam a’lam bihii au’alimtu tubtu anhu wa aslamtu waaquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, seandainya kufur/rasa bimbang dan ragu masuk dalam keimananku kepada Engkau sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 8,
+            "ayat": "اَللَّهُمَّ اِنْ دَخَلَ الْكُفْرُفِيْ اِسْلاَمِيْ بِكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ ُتبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma ingdakholal kufru fii islaamii bika walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, seandainya kufur masuk kedalam keislamanku kepada Engkau sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 9,
+            "ayat": "اَللَّهُمَّ اِنْ دَخَلَ الشَّكُّ فِى تَوْحِيْدِىَ اِيَّاكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ الاَّ الله مُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma ingdakholasy syakku fii tauhiidii iyyaaka walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam",
+            "arti": "Ya Allah, seandainya rasa bimbang dan ragu masuk ke dalam ketauhidanku terhadap Engkau, sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 10,
+            "ayat": "اَللَّهُمَّ اِنْ دَخَلَ الْغَيْبُ وَالْكِبْرُ وَالرِّيَاءُ واَلسُّمْعَةُ وَالنُّقْصَانُ فِىْ عَمَلِيْ لَكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allhumma ingdakholal ‘ujbu wal kibru warriyaa u wassum’atu wannuqshoonu fii ‘amalii  laka walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam",
+            "arti": "Ya Allah, seandainya rasa sombong, takabur,riya' dan sum'ah / menonjolkan diri dan kekurangan di dalam amal perbuatanku bagi Engkau masuk ke dalam hatiku sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 11,
+            "ayat": "اَللَّهُمَّ اِنْ جَرَى الْكَذِبُ وَالْغِيْبَةُ وَالْنَّمِيْمَةُ وَالْبُهْتَانُ عَلَى لِسَانَيْ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاقُوْلُ لاَ اِلهَ اِلاَّ اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma ingdakholal kadzibu wal ghiibatu wan namiimatu wal buhtaanu ‘alaa lisaanii walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, seandainya sifat dusta, pengumpat, mengadu domba dan pembohong berjalan pada mulutku sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 12,
+            "ayat": "اللّهَمُ َّاِنْ دَخَلَ الْخَطْرَةُ وَالْوسْوَسَةُفِيْ صَدْرِيْ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma ingdakholal khothrotu wal was wasatu fii shodrii walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, seandainya di dalam hatiku terlintas rasa was-was sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 13,
+            "ayat": "اللَّهُمَّ اِنْ دَخَلَ التَّشْبِيْهُ َوالتَّقْصِيْرُ فِيْ مَعْرِفَتِىْ اِيَّاكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma ingdakholat tasybiihu wattaqshiiru fii ma’riifatii iyyaaka walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.  ",
+            "arti": "Ya Allah, seandainya rasa penyerupaan dan lalai masuk ke dalam ma'rifatku kepada Engkau sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 14,
+            "ayat": "اَللَّهُمَّ اِنْ دَخَلَ النِّفَاقُ فِيْ قَلْبِيْ مِنَ الذُّنُوْبِ الْكَبَآئِرِ وَالصَّغَآئِرِ كُلِّهَا وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma ingdakholan nifaaqu fii qolbii minadz dzunuubil kabaa iri wash shoghoo iri kullihaa walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, seandainya rasa nifak, dosa-dosa besar dan kecil masuk ke dalam hatiku dan aku tidak mengetahui ataupun mengetahui, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 15,
+            "ayat": "اَللَّهُمَّ اِنْ دَخَلَ الرِّيآءُ فِيْ اَعْمَالِىْ وَاَقُوَلِيْ وَلَمْ اَعْلَمْ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma ingdakholar riyaa u fii a’maalii wa aqwaalii walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, seandainya sifat riya' masuk ke dalam amal perbuatanku dan perkataanku sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 16,
+            "ayat": "اَللَّهُمَّ مَا عَمِلْتُ مِنْ سُوْءٍ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma maa ‘amiltu ming suui walam 'alam bihi au’alimtu tubtu anhu wa aslamtu wa aquulu l aa ilaaha illAllaahu muhammadurrosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, kejahatan-kejahatan yang telah aku perbuat sedang aku tidak tahu atau tahu, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 17,
+            "ayat": "اَللَّهُمَّ مَااَرَدْتَ لِيْ مِنْ خَيْرٍ فَلَمْ اَشْكُرْهُ وَلَمْ اَعْلَمُ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma maa arodtalii min khoiring falam asykurhu walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, kebaikan-kebaikan yang Engkau kehendaki bagiku, lalu aku tidak dapat mensyukuri sedang aku tidak tahu atau tahu, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 18,
+            "ayat": "اَللَّهُمَّ مَاقَدَّرْتَ عَلَيَّ مِنْ اَمْرٍفَلَمْ اَرْضَهُ وَلَمْ اَعْلَمُ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma maa qoddarta ‘alayya min amring falam ardlohu walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, hal-hal yang telah Engkau takdirkan kepadaku, lalu aku tidak bergembira atau tidak menerimakannya sedang aku tidak tahu atau tahu, maka bertaubatlah aku dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW. "
+          },
+          {
+            "id": 19,
+            "ayat": "اَللَّهُمَّ مَااَنْعَمْتَ عَلَيَّ مِنْ نِعْمَةٍ فَعَصَيْتُكَ فِيْهِ وَلَمْ ْاَعْلَمُ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma maa an’amta ‘alayya minni’mating fa’ashoituka fiihi walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, kenikmatan-kenikmatan yang telah Engkau berikan kepadaku, lalu aku salah gunakan, durhaka kepadamu sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 20,
+            "ayat": "اَللَّهُمَّ اَوْلَيْتَنِيْ مِنْ نَعْمَآئِكَ فَغَفَلْتُ عَنْ شُكْرِكَ وَلَمْ اَعْلَمُ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma maa aulaitanii min na’maaika faghofaltu ‘ang syukrika walam a’lam bihii au’alimtu tubtu anhu wa aslamtu aaquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, kenikmatan-kenikmatan yang telah Engkau kuasakan kepadaku, lalu aku tidak bersyukur kepada Engkau sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW"
+          },
+          {
+            "id": 21,
+            "ayat": "اَللَّهُمَّ مَآاَوْلَيْتَنِيْ مِنْ الآئكَ فَلَمْ اُءَدِّحَقَّهُ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma maa aulaitanii min aalaaika falam iaddi haqqohu walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, hal-hal yang telah Engkau takdirkan kepadaku, lalu aku tidak bergembira atau tidak menerimakannya sedang aku tidak tahu atau tahu, maka bertaubatlah aku dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 22,
+            "ayat": "اَللَّهْمَّ مَا مَنَنْتَ عَلَيَّ مِنَ الْحُسْنَى فَلَمْ اَحْمَدْكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma maa manangta ‘alayya minal husnaa falam ahmadzka walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, kebaikan-kebaikan yang telah Engkau anugerahkan kepadaku dan aku tidak memujiMu, sedang aku tidak tahu atau tahu, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW"
+          },
+          {
+            "id": 23,
+            "ayat": "اَللَّهْمَّ مَااَحْبَبْتَ لِيْ بِهِ عَلَيَّ مِنَ النَّظَرفِيْكَ فَغَمَضْتُ عَنْهُ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma maa ahbabta lii bihii ‘alayya minan nazhori fiika faghomadltu ‘anhu walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadurrosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, berfikir dalam kekuasaanMu yang Engkau ciptakan terhadapku, lalu aku menutup mata, sedang aku mengetahui atau tidak, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 24,
+            "ayat": "اَللَّهُمَّ مَاصَنَعْتُ فِى عُمْرِىْ بِمَالَمْ تَرْضَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma maa shona’tu fii ‘umrii bimaa lam tardlo walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, perbuatan-perbuatan yang aku lakukan sepanjang umurku, lalu Engkau tidak ridha, sedang aku mengerti atau tidak, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 25,
+            "ayat": "اَللَّهُمَّ مَا قَصَرْتُ مِنْ عَمَلِيْ فِيْ رَجَآئِكَ وَلَم اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma maa qoshortu min ‘amalii fii rojaaika walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa laaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": " Ya Allah, amal perbuatanku yang Engkau perpendek di dalam mengharap-harap rahmatMu, sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : Laa ilaa ha illallah Muhammadur Rasuulullah Shallallahu ‘Alaihi Wassalam."
+          },
+          {
+            "id": 26,
+            "ayat": "اَللَّهُمَّ اِنِ اعْتَمَدْتُ عَلَى اَحَدٍ سِوَاكَ فِى الشَّدَآئِدِ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma ini’tamadtu ‘alaa hading siwaaka fisy syadaaidi walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, jika aku bergantung kepada selain Engkau di dalam menghadapi kepayahan-kepayahan, sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : Laa ilaa ha illallah Muhammadur Rasuulullah Shallallahu ‘Alaihi Wassalam."
+          },
+          {
+            "id": 27,
+            "ayat": "اَللَّهُمَّ اِنِ السْتَعَنْتُ غَيْوَكَ فِى النَّوَآئِبِ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ .",
+            "bacaan": "Allaahumma ini sta’angtu ghoiroka finnawaaibi walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, jika aku memohon pertolongan kepada selain Engkau, dalam kecelakaan dan bahaya, sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 28,
+            "ayat": "اَللَّهُمَّ مَااَصْلَحَ فِيْ شَأْنِيْ بِفَضْلِكَ وَرَأَيْتُهُ مِنْ غَيْرِكَ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma maa ashlaha fiisyanii bifadllika waroaituhu min ghoirika walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, urusan-urusanku yang telah Engkau baguskan dengan anugerah Engkau dan pandanganku salah, sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW"
+          },
+          {
+            "id": 29,
+            "ayat": "اللَّهُمَّ اِنِ زَلَّتْ قَدَمِيْ عَنِ الصِّرَاطِ بِالسُّؤاَلِ مِنْ غَيْرِكَ يُثَبِّتْنِيْ وَلَمْ اَعْلَمْ بِهِ اَوْعَلِمْتُ تُبْتُ عَنْهُ وَاَسْلَمْتُ وَاَقُوْلُ لاَ اِلهَ اِلاَّ الله ُمُحَمَّدٌ رَّسُوْلُ اللهِ صَلَّى الله ُعَلَيهِ وَسَلَّمَ",
+            "bacaan": "Allaahumma ingzallat qodomii ‘anish shiroothi bissuali min ghoirika yutsabbitnii walam a’lam bihii au’alimtu tubtu anhu wa aslamtu wa aquulu laa ilaaha illAllaahu muhammadur rosuululloohi shollAllaahu ‘alaihi wasallam.",
+            "arti": "Ya Allah, jika aku tegelincir menyimpang dari jalan lurus (shirat), karena memohon kepada selain Engkau, sedang aku tidak mengerti atau mengerti, maka aku bertaubat dan berserah diri dengan mengucap : La ila ha illallah Muhammadur Rasulullah SAW."
+          },
+          {
+            "id": 30,
+            "ayat": "اَللَّهُمَّ يَاحَيُّ يَاقَيُّوْمُ يَامَنَّانُ ياَدَيَّانُ يَاسُلْطَانُ يَالآاِلهَ اِلاَّ اَنْتَ سُبْحَانَكَ اِنِّيْ كُنْتُ مِنَ الظَّالِمِيْنَ فَاسْتَجَبْنَالَهُ وَنَجَّيْنهُ مِنَ الْغَمِّ وَكَذَلِكَ نُنْجِى الْمُؤْ مِنِيْنَ وَزَكَرِيَّآ اِذْنَادَى َربَّهُ رَبِّ لاَتَذَرْنِيْ فَرْداً وَاَنْتَ خَيْرُ الْوَارِثِيْنَ",
+            "bacaan": "Allaahumma yaa hayyu yaa qoyyuumu yaa hannaanu yaa mannaanu yaa dayyaanu yaa shulthoonu yaa laa ilaaha illaa angta subhaanaka innii kungtu minazh zhoolimiin. Fastajabnaa lahuu wanaj jainaahu minal ghommi wakadzaalika nungjil muminiin wazakariyya idznaa daarobbahuu robbi laa tadzarnii fardaw wa angta khoirul waaritsiin.",
+            "arti": "Ya Allah, Yang Hidup tegak kokoh, Yang memiliki rahmat dan banyak anugerahNya, banyak memberi dan Pemilik kerajaan, Tidak ada Tuhan yang lain kecuali Engkau, maha suci Engkau, bahwasanya aku menganiaya diri sendiri, (firman Allah) : \"Lalu Kami kabulkan dan Kami selamatkan dia dari kesusahan, demikianlah Kami menyelamatkan orang-orang beriman\" Zakariya ketika menyeru tuhannya, ya Tuhanku: \"Janganlah Engkau tinggalkan aku sendiri, Engkaulah waris yang paling baik.\""
+          },
+          {
+            "id": 31,
+            "ayat": "اَللَّهُمَّ بِحَقِّ لاَاِ ٰلهَ اِلاَّ اللهُ وَبِعِزَّتِهِ",
+            "bacaan": "Allaahumma bihaqqi laa ilaaha illAllaahu wabi’izzatihii",
+            "arti": "Ya Allah, dengan hak La ila ha illallah dan kemuliaannya"
+          },
+          {
+            "id": 32,
+            "ayat": "وَبِحَقِّ الْكُرْسِيِّ وَسَعَتِهِ",
+            "bacaan": "Wabihaqqil kursiyyi wasa’atihii",
+            "arti": "Dan dengan hak kursi dan keluasannya"
+          },
+          {
+            "id": 33,
+            "ayat": "وَبِحَقِّ الْعَرْشِ وَعَظَمَتِهِ",
+            "bacaan": "Wabihaqqil ‘arsyi wa’azhomatihii",
+            "arti": "Dan dengan hak 'Arsy dan keagungannya"
+          },
+          {
+            "id": 34,
+            "ayat": "وَبِحَقِّ الْقَلَمِ وَجَرَيَانِهِ",
+            "bacaan": "Wabihaqqil qolami wajaroyaanihii",
+            "arti": "Dan dengan hak kalam dan berjalannya"
+          },
+          {
+            "id": 35,
+            "ayat": "وَبِحَقِّ اللَّوْحِ وَحَفَظَتِهِ",
+            "bacaan": "Wabihaqqil lauhi wahafazhotihii",
+            "arti": "Dan dengan hak Lauh Mahfudh dan penjaga-penjaganya"
+          },
+          {
+            "id": 36,
+            "ayat": "وَبِحَقِّ الْمِيْزَانِ وَخِفَّتِهِ",
+            "bacaan": "Wabihaqqil miizaani wakhiffatihii",
+            "arti": "Dan dengan hak Timbangan (Mizan) dan dua matanya"
+          },
+          {
+            "id": 37,
+            "ayat": "وَبِحَقِّ الْصِّرَاطِ وَرِقَّتِهِ",
+            "bacaan": "Wabihaqqish shiroothi wariqqotihii",
+            "arti": "Dan dengan hak Shirat dan kelembutannya"
+          },
+          {
+            "id": 38,
+            "ayat": "وَبِحَقِّ جِبْرَآئِيْلَ وَاَمَانَتِهِ",
+            "bacaan": "Wabihaqqi jibrooiila Waamaanatihii",
+            "arti": "Dan dengan hak Jibril dan kejujurannya"
+          },
+          {
+            "id": 39,
+            "ayat": "وَبِحَقِّ مِيْكَآئِيْلَ وَشَفَقَتِهِ",
+            "bacaan": "Wabihaqqi miikaaiila wasyafaqotihii",
+            "arti": "Dan dengan hak Mikail dan belas kasihnya"
+          },
+          {
+            "id": 40,
+            "ayat": "وَبِحَقِّ اِسْرَافِيْلَ وَنَفْخَتِهِ",
+            "bacaan": "Wabihaqqi isroofiila wanafkhotihii",
+            "arti": "Dan dengan hak Israfil dan terompetnya,"
+          },
+          {
+            "id": 41,
+            "ayat": "وَبِحَقِّ عِزْرَائِيْلَ وَقَبْضَتِهِ",
+            "bacaan": "Wabihaqqi izrooiila waqobdhotihii",
+            "arti": "Dan dengan hak Izrail dan terpilihnya"
+          },
+          {
+            "id": 42,
+            "ayat": "وَبِحَقِّ رِضْوَانَ وَجَنَّتِهِ",
+            "bacaan": "Wabihaqqi ridhwaana wajannatihii",
+            "arti": "Dan dengan hak Ridlwan dan surganya"
+          },
+          {
+            "id": 43,
+            "ayat": "وَبِحَقِّ مَالِكِ وَجَهَنَّمِهِ",
+            "bacaan": "Wabihaqqi maalikiw wajahannamihii",
+            "arti": "Dan dengan hak Malik dan nerakanya"
+          },
+          {
+            "id": 44,
+            "ayat": "وَبِحَقِّ اٰدَمَ وَصَفْوَتِهِ",
+            "bacaan": "Wabihaqqi aadama washofwatihii",
+            "arti": "Dan dengan hak Adam dan terpilihnya"
+          },
+          {
+            "id": 45,
+            "ayat": "وَبِحَقِّ شِيْثٍ وَنُبُوَّتِهِ",
+            "bacaan": "Wabihaqqa syiisyiw wanubuwatihii",
+            "arti": "Dan dengan Syits dan kenabiannya"
+          },
+          {
+            "id": 46,
+            "ayat": "وَبِحَقِّ نُوْحٍ وَسَفِيْنَتِهِ",
+            "bacaan": "Wabihaqqi nuuhiw wasifiinatihii",
+            "arti": "Dan dengan Nuh dan perahunya"
+          },
+          {
+            "id": 47,
+            "ayat": "وَبِحَقِّ اِبْرَاهِيْمَ وَخُلَّتِهِ",
+            "bacaan": "Wabihaqqi ibroohiima wakhullatihii",
+            "arti": "Dan dengan hak Ibrahim dan terpilihnya sebagai khalilullah"
+          },
+          {
+            "id": 48,
+            "ayat": "وَبِحَقِّ اِسْحٰقَ وَدِيَانَتِهِ",
+            "bacaan": "Wabihaqqi Ishaaqo wadiyaanatihii",
+            "arti": "Dan dengan hak Ishak dan keagamaannya"
+          },
+          {
+            "id": 49,
+            "ayat": "وَبِحَقِّ اِسْمَاعِيْلَ وَذَبِيْحَتِهِ",
+            "bacaan": "Wabihaqqi Ismaa'iila wadzubiihatihii",
+            "arti": "Dan dengan hak Isma'il dan disembelihnya,"
+          },
+          {
+            "id": 50,
+            "ayat": "وَبِحَقِّ يَعْقُوْبَ وَحَسْرَتِهِ",
+            "bacaan": "Wabihaqqi ya'quuba wahasarotihii",
+            "arti": "Dan dengan hak Ya'kub dan kedukaannya"
+          },
+          {
+            "id": 51,
+            "ayat": "وَبِحَقِّ يُوْسُفَ وَغُرْبَتِهِ",
+            "bacaan": "Wabihaqqi yuusufa waghurbatihii",
+            "arti": "Dan dengan hak Yusuf dan terasingnya"
+          },
+          {
+            "id": 52,
+            "ayat": "وَبِحَقِّ مُوْسىٰ وَاٰيَاتِهِ",
+            "bacaan": "Wabihaqqi muusaa wa aayaatihii",
+            "arti": "Dan dengan hak Musa dan ayat-ayatnya"
+          },
+          {
+            "id": 53,
+            "ayat": "وَبِحَقِّ هَارُوْنَ وَحُرْمَتِهِ",
+            "bacaan": "Wabihaqqi haaruuna wahurmatihii",
+            "arti": "Dan dengan hak Harun dan kehormatannya"
+          },
+          {
+            "id": 54,
+            "ayat": "وَبِحَقِّ هُوْدٍ وَهَيْبَتِهِ",
+            "bacaan": "Wabihaqqi huudiw wahaibatihii",
+            "arti": "Dan dengan hak Hud dan kewibawaannya,"
+          },
+          {
+            "id": 55,
+            "ayat": "وَبِحَقِّ صَالِحٍ وَنَاقَتِهِ",
+            "bacaan": "Wabihaqqi shoolihiw wanaa qotihii",
+            "arti": "Dan dengan hak Shaleh dan untanya"
+          },
+          {
+            "id": 56,
+            "ayat": "وَبِحَقِّ لُوْطٍ وَجِيْرَتِهِ",
+            "bacaan": "Wabihaqqi luuthiw wajiirotih",
+            "arti": "Dan dengan hak Luth dan pemikirannya"
+          },
+          {
+            "id": 57,
+            "ayat": "وَبِحَقِّ يُوْنُسَ وَدَعْوَتِهِ",
+            "bacaan": "Waibhaqqi yuunuusa sada'atihi",
+            "arti": "Dan dengan hak Yunus dan ajakannya"
+          },
+          {
+            "id": 58,
+            "ayat": "وَبِحَقِّ دَانِيَالَ وَكَرَامَتِهِ",
+            "bacaan": "Wabihaqqi daaniyaala wakaroomatihii",
+            "arti": "Dan dengan hak Danial dan kerahmatnya"
+          },
+          {
+            "id": 59,
+            "ayat": "وَبِحَقِّ زَكَرِيَّاوَطَهَارَتِهِ",
+            "bacaan": "Wabihaqqi zakariyya wathohaarotihii",
+            "arti": "Dan dengan hak Zakariya dan kesuciannya"
+          },
+          {
+            "id": 60,
+            "ayat": "وَبِحَقِّ عِيْسىٰ وَرُوْحَانِيَّتِهِ",
+            "bacaan": "Wabihaqqi 'iisaa wa ruu haaniyyatiihii",
+            "arti": "Dan dengan hak Isa dan kejiwaannya"
+          },
+          {
+            "id": 61,
+            "ayat": "وَبِحَقِّ سَيِّدِنَامُحَمَّدٍنِ الْمُصْطَفىٰ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَشَفَاعَتِهِ",
+            "bacaan": "Wabihaqqi sayyidinaa muhammadil musthofaa shollAllaahu ‘alaihi wasallama watsafaa’atihii.",
+            "arti": "Dan dengan hak pemimpin kami Nabi Muhammad Shallallahu ‘Alaihi Wassalam yang terpilih menjadi kekasihNya dan syafa'atnya"
+          },
+          {
+            "id": 62,
+            "ayat": "اَللَّهُمَّ يَاحَيُّ يَاقَيُّوْمُ يَالاَاِ ٰلهَ اِلاَّ اَنْتَ سُبْحَانَكَ اِنِّيْ كُنْتُ مِنَ الظَّالِمِيْنَ فَاسْتَجَبْنَالَه‘وَنَجَّيْنٰهُ مِنَ الْغَمِّ وَكَذٰلِكَ نُنْجِى الْمُؤْمِنِيْنَ َلآاِ ٰلهَ اِلاَّهُوَعَلَيْهِ تَوَكَّلْتُ وَهُوَرَبُّ الْعَرْشِ الْعَظِيْمِ",
+            "bacaan": "Allaahumma yaa hayyu yaa qoyyuumu yaa laa ilaaha illaa angta subhaanaka innii kungtu minazhoolimiin. Fastajabnaa lahuu wanaj jainaahu minal ghommi wakadzaalika nungjil muminiin. Laa ilaaha illaa huwa ‘aalaihi tawakkaltu wahuwa robbul ‘arsyil ‘azhiim.",
+            "arti": "Ya Allah, Yang Hidup, tidak ada Tuhan yang lain kecuali Engkau, Maha Suci Engkau, bahwasanya aku termasuk orang-orang yang menganiaya diri, (Firman Allah); Lalu kami mengabulkannya dan menyelamatkannya dari kesusahan, demikianlah Kami menyelamatkan orang-orang yang beriman. Tidak ada Tuhan yang lain kecuali Allah, kepadaNya aku bertawakkal, Dia pengurus 'Arsy yang Agung."
+          },
+          {
+            "id": 63,
+            "ayat": "حَسْبِيَ اللهُ وَنِعْمَ الْوَكِيْلُ نِعْمَ الْمَوْلىٰ وَنِعْمَ النَّصِيْرُ",
+            "bacaan": "HasbiyAllaahu wani'mal wakiil, Ni'mal maulaa wani'man nashiir",
+            "arti": "Allah-lah yang mencukupi aku, sebaik-baik Pelindung, Pengurus dan Penolong"
+          },
+          {
+            "id": 64,
+            "ayat": "وَلاَحَوْلَ وَلاَقُوَّةَاِلاَّبِاللهِ الْعَلِيِّ الْعَظِيْمِ",
+            "bacaan": "Walaa haulaa walaa quwwata illa billaahil 'aliyyil 'azhiim",
+            "arti": "Tidak ada daya kekuatan kecuali dengan pertolongan Allah Yang Maha Tinggi dan Agung."
+          },
+          {
+            "id": 65,
+            "ayat": "رَبَّنَااٰتِنَافِى الدُّنْيَاحَسَنَةً وَفِى اْلاٰخِرَةِحَسَنَةً وَقِنَاعَذَابَ النَّارِ",
+            "bacaan": "Robbanaa aatinaa fiddun nyaa hasanah, wa fil aakhiroti hasanataw waqinaa 'adzaa bannaar",
+            "arti": "Ya Tuhan kami, berilah kebaikan kepada kami di dunia dan akherat, serta peliharalah kami dari siksa api neraka."
+          },
+          {
+            "id": 66,
+            "ayat": "وَصَلَّى اللهُ عَلىٰ خَيْرِخَلْقِهِ وَنُوْرِعَرْشِهِ سَيِّدِنَا وَنَبِيِّنَا وَشَفِيْعِنَامُحَمَّدٍوَعَلۤىٰ آلِهِ وَاَصْحَابِهِۤ اَجْمَعِيْنَ بِرَحْمَتِكَ يَآاَرْحَمَ الرَّاحِمِيْنَ",
+            "bacaan": "Washollallaahu 'alaa khoiri kholqihii wanuuri 'arsyihii sayyidinaa wanabiyyina wasyafii'inaa muhammadiw wa'alaa aalihii washaabihii ajma'iin, birohmatika yaa arhamarroohimiin",
+            "arti": "Shalawat Allah tetapkanlah kepada sebaik-baik makhlukNya, cahaya 'ArsyNya yaitu junjungan kami , Nabi dan pemberi syafaat bagi kami Muhammad Shallallahu ‘Alaihi Wassalam, keluarga dan para sahabat beliau semua dengan rahmatMu hai Dzat Yang paling belas kasihan."
+          },
+          {
+            "id": 67,
+            "ayat": "اٰمِيْنَ اٰمِيْنَ يَارَبَّ الْعَالَمِيْنَ",
+            "bacaan": "Aamiin ..aamiin..yaa robbal'aalamiin",
+            "arti": "Amin Amin (Semoga Allah mengabulkan permohonan kami ini, hai Dzat yang mengurus alam semesta)."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "source": "https://jateng.tribunnews.com/2020/12/02/doa-anak-untuk-kebaikan-orangtua-lengkap-arab-latin-dan-artinya",
+        "name": "Doa untuk Kebaikan Orang Tua",
+        "ayat": [
+          {
+            "id": 1,
+            "ayat": "اَللّٰهُمَّ اغْفِرْلِىْ ذُنُوْبِىْ وَلِوَالِدَىَّ وَارْحَمْهُمَا كَمَا رَبَّيَانِىْ صَغِيْرًا",
+            "bacaan": "Allaahummaghfirlii dzunuubii waliwaalidayya warhamhumaa kamaa robbayaanii shoghiiro",
+            "arti": "Ya Allah, berikanlah ampunan kepadaku atas dosa-dosaku dan dosa-dosa kedua orang tuaku dan kasihanilah keduanya sebagaimana beliau berdua merawatku ketika aku masih kecil"
+          },
+          {
+            "id": 2,
+            "ayat": "وَلِجَمِيْعِ الْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِيْنَ وَالْمُؤْمِنَاتِ، اَلْاَحْيَآءِ مِنْهُمْ وَاْلاَمْوَاتِ، وَتَابِعْ بَيْنَنَا وَبَيْنَهُمْ بِالْخَيْرَاتِ، رَبِّ اغْفِرْ وَارْحَمْ وَاَنْتَ خَيْرُالرَّاحِمِيْنَ، وَلاَحَوْلَ وَلاَقُوَّةَ اِلاَّبِاللهِ الْعَلِيِّ الْعَظِيْمِ",
+            "bacaan": "waliljamii'il muslimiina walmuslimaati walmu'miniina wal mu'minaati Al ahyaa'i minhum wal amwaati, wataabi' bainanaa wa bainahum bil khoiraatiو robbighfir warham wa annta khoirur roohimiin, walaa haula walaa quwwata illaa billaahil'aliyyil adhiimi",
+            "arti": "begitu juga kepada seluruh kaum muslimin dan muslimat semua orang yang beriman, laki-laki maupun perempuan yang masih hidup maupun yang sudah meninggal dunia dan ikutkanlah diantara kami dan mereka dengan kebaikan. Ya Allah, berilah ampun dan belas kasihanilah karena Engkaulah Tuhan yang lebih berbelas kasih dan tiada daya dan upaya kecuali dengan pertolongan Mu"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Doa Nurun Nubuwwah",
+        "source": "https://wisatanabawi.com/doa-nurbuat/",
+        "ayat": [
+          {
+            "id": 1,
+            "ayat": "اَللّٰهُمَّ ذِى السُّلْطَانِ الْعَظِيْمِ ، وَذِى الْمَنِّ الْقَدِيْمِ ، وَذِي الْوَجْهِ الْكَرِيْمِ وَوَلِيِّ الْكَلِمَاتِ التَّآمَّاتِ ، وَالدَّعَوَاتِ الْمُسْتَجَابَةِ ، عَاقِلِ الْحَسَنِ وَالْحُسَيْنِ مِنْ اَنْفُسِ الْحَقِّ ، عَيْنِ الْقُدْرَةِ والنَّاظِرِيْنَ ، وَعَيْنِ الْاِنْسِ وَالْجِنِّ",
+            "bacaan": "Allaahumma dzissulthanil’adziim. Wa dzilmannil qadiim. Wa dzilwajhil kariimi wa waliyyil kalimaatittaammaati wadda’awaatil mustajaabati‘aaqilil hasani wal husaini min anfusil haqqi‘ainil qudrati wannaaziriina wa‘ainil insi wal jinni",
+            "arti": "Wahai Tuhanku, pemilik kekuasaan yang agung, yang memiliki anugerah yang terdahulu, memiliki wajah yang mulia, menguasai kalimat-kalimat yang sempurna, dan doa-doa yang mustajab, penanggung Hasan dan Husain dari jiwa-jiwa yang haq, dari pandangan mata manusia dan jin."
+          },
+          {
+            "id": 2,
+            "ayat": "وَاِنْ يَّكَادُ الَّذِيْنَ كَفَرُوْا لَيُزْ لِقُوْنَكَ بِاَبْصَارِهِمْ لَمَّا سَمِعُوا الذِّكْرَ وَيَقُوْلُوْنَ اِنَّهُ لَمَجْنُوْنَ",
+            "bacaan": "Wa in yakaadulladziina kafaruu layuzliqunaka bi absaarihim lammaa sami’udzdzikra wa yaquuluuna innahuu lamajnun",
+            "arti": "Dan sesungguhnya orang-orang kafir benar-benar akan menggelincirkan kamu (Muhammad) dengan pandangan mereka,ketika mendengar Al Quran (dibaca) lalu mereka berkata: “Sesungguhnya (Muhammad) itu benar-benar orang gila."
+          },
+          {
+            "id": 2,
+            "ayat": "وَمَا هُوَ اِلاَّ ذِكْرٌ لِلْعَالَمِيْنَ ، وَمُسْتَجَابُ لُقْمَانَ الْحَكِيْمِ ، وَوَرِثَ سُلَيْمَانُ دَوُدَ عَلَيْهِمَا السَّلَامُ الْوَدُوْدُ ذُو الْعَرْشِ الْمَجِيْدِ ، طَوِّلْ عُمْرِيْ ، وَصَحِّحْ اَجْسَادِيْ ، وَاقْضِ حَاجَتِيْ ، وَاَكْثِرْاَمْوَالِيْ وَاَوْلَادِيْ ، وَحَبِّبْ لِلنَّاسِ اَجْمَعِيْنَ",
+            "bacaan": "Wa maa huwa illaa dzikrullil‘aalamiin. Wa mustajaabu luqmaanal hakiimi wa waratsa sulaimaan daawuuda‘alaihimassalaamul waduudu dzul’arsyil majiid. Thawwil‘umrii wa shahhih ajsaadii waqdi haajatii waktsir amwaalii wa au laadii wa habbib linnaasi ajma’iin",
+            "arti": "Dan Al Quran itu tidak lain hanyalah peringatan bagi semua umat. Dan mengijabahi Lukmanul Hakim dan Sulaiman yang telah mewarisi Daud "
+          },
+          {
+            "id": 2,
+            "ayat": "وَتَبَاعَدِ الْعَدَاوَةَ كُلَّهَا مِنْ بَنِيْ آدَمَ عَلَيْهِ السَّلَامُ ، مَنْ كَانَ حَيًّا وَّيَحِقَّ الْقَوْلُ عَلَي الْكَافِرِيْنَ ، وَقُلْ جَآءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ ، اِنَّ الْبَاطِلَ كَانَ زَهُوْقًا",
+            "bacaan": "Wa tabaa’adil‘adaawata kullahaa min bani aadama‘alaihissalaamu man kaana hayyan wa yahiqqoal qaulu‘alal kaafiriin. Wa qul jaa al haqqu wa zahaqal baathilu innal baathila kaana zahuuqan",
+            "arti": "Allah adalah dzat yang maha pengasih lagi memilik singgasana yang mulia, panjangkanlah umurku, sehatkanlah jasadku, kabulkanlah hajatku, perbanyaklah harta bendaku dan anakku, cintakan semua orang, jauhkanlah permusuhan anak cucu Adam a.s. dari orang-orang kafir. Dan katakanlah : “Yang haq telah datang dan yang batil telah musnah. Sesungguhnya yang batil itu pasti musnah."
+          },
+          {
+            "id": 2,
+            "ayat": "وَنُنَزِّلُ مِنَ الْقُرْاٰنِ مَاهُوَ شِفَآءٌ وَرَحْمَةٌ لِلْمُؤْمِنِيْنَ ، وَلَايَزِيْدُ الظَّالِمِيْنَ اِلَّا خَسَارًا ، سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُوْنَ ، وَسَلَامٌ عَلَي الْمُرْسَلِيْنَ ، وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ",
+            "bacaan": "Wanunazzilu minal qur’aani maa huwa syifaa un wa rohmatun lilmu’miniin. Wa laa yaziiduzzaalimiina illaa khasaaraa. Subhaana rabbika rabbil‘azzati‘ammaa yashifuun. Wa salaamun‘alalmursaliina wal hamdulillaahirabbil‘aalamiin",
+            "arti": "Dan kami turunkan Al Quran suatu yang menjadi penawar dan rahmat bagi orang-orang beriman, dan Al Quran tidak akan menambah kepada orang-orang yang berbuat aniaya melainkan hanya kerugian. Maha suci Allah, Tuhan yang Maha Mulia dari segala sifat yang diberikan orang-orang kafir. Dan semoga keselamatan tetap bagi para rasul. Dan segala puji bagi Allah Tuhan Semesta Alam"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Doa Istigosah",
+        "source": "",
+        "ayat": [
+          {
+            "id": 1,
+            "ayat": "أسْتَغْفِرُ اللهَ الْعَظِيْمَ",
+            "bacaan": "ASTAGHFIRULLAHAL ‘ADHIIM(I) (3X)",
+            "arti": "Saya mohon ampun kepada Allah Yang Maha Agung"
+          },
+          {
+            "id": 2,
+            "ayat": "لَاحَوْلَ وَلَا قُوَّةَ إلَّا بِا للهِ الْعَلِيِّ الْعَظِيْمِ",
+            "bacaan": "LAA HAULA WA LAA QUWWATA ILLAA BILLAHIL ‘ALIYYIL ADHIIM(I) (3X)",
+            "arti": "Tiada daya untuk menjauhi maksiat kecuali dengan pemeliharaan Allah dan tiada kekuatan untuk melakukan ketaatan kecuali dengan pertolongan Allah            "
+          },
+          {
+            "id": 3,
+            "ayat": "أللَّهُمَّ صَلِّي عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ",
+            "bacaan": "ALLAHUMMA SHALLII ‘ALAA SAYYIDINAA MUHAMMADIN WA ‘ALAA AALI SAYYIDINAA MUHAMMADIN (3X)",
+            "arti": "Ya Allah. Limpahkanlah rahmat dan kemuliaan kepada junjungan kami Nabi Muhammad berserta keluarganya"
+          },
+          {
+            "id": 4,
+            "ayat": "يَا اَللهُ يَا قَدِيْمُ",
+            "bacaan": "YAA ALLAHU YAA QADIIM(U) (33X)",
+            "arti": "Wahai Allah, wahai Dzat yang ada tanpa permulaan"
+          },
+          {
+            "id": 5,
+            "ayat": "يَا سَمِيْعُ يَا بَصِيْرُ",
+            "bacaan": "YAA SAMII’U YAA BASHIIR(U) (33X)",
+            "arti": "Wahai Allah, wahai Dzat Yang Maha Mendengar dan Maha Melihat"
+          },
+          {
+            "id": 6,
+            "ayat": "يَا مُبْدِئُ يَا خَالِقُ",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 7,
+            "ayat": "يَا حَافِظُ يَا نَصِيْرُ يَا وَكِيْلُ ياَ اللهُ",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 8,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          },
+          {
+            "id": 0,
+            "ayat": "",
+            "bacaan": "",
+            "arti": ""
+          }
+        ]
       }
     ]
   }

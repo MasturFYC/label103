@@ -1336,7 +1336,7 @@
       {
         "id": 7,
         "name": "Zikir Perlindungan",
-        "source": "https://medan.tribunnews.com/2021/02/17/bacaan-surat-al-buruj-lengkap-keutamannya-arab-latin-dan-terjemahannya?page=3",
+        "source": "",
         "ayat": [
           {
             "id": 1,
@@ -1344,7 +1344,7 @@
           },
           {
             "id": 2,
-            "ayat": "لاَ إِلَهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ لاَ إِلَهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ قُوْلاًوَّفِعْلًا",
+            "ayat": "لاَ إِلَهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ لاَ إِلَهَ إِلاَّ اللهُ مُحَمَّدٌ رَسُوْلُ اللهِ قُوْلاًوَّفِعْلًا"
           },
           {
             "id": 2,
@@ -1369,8 +1369,179 @@
           {
             "id": 7,
             "ayat": "هَلْ اَتٰىكَ حَدِيْثُ الْجُنُوْدِۙ"
+          },
+          {
+            "id": 8,
+            "ayat": "فِرْعَوْنَ وَثَمُوْدَ"
+          },
+          {
+            "id": 9,
+            "ayat": "بَلِ الَّذِيْنَ كَفَرُوْافِيْ تَكْذِ يْبٍ وَّاللّٰهُ مِنْ وَّرَآيِهِمْ مُّحِيْطٌ"
+          },
+          {
+            "id": 10,
+            "ayat": "بَلْ هُوَ قُرْ اٰنٌ مَجِيْدٌ"
+          },
+          {
+            "id": 11,
+            "ayat": "فِيْ لَوْحٍ مَحْفُوْظٍ"
+          },
+          {
+            "id": 12,
+            "ayat": "صُمٌّ بُكْمٌ عَمْيٌ فَهُمْ لاَيَعْقِلُوْنَ"
+          },
+          {
+            "id": 13,
+            "ayat": "صُمٌّ ۢ بُكْمٌ عَمْيٌ فَهُمْ لاَيَعْقِلُوْنَ"
+          },
+          {
+            "id": 14,
+            "ayat": "صُمٌّ ۢ بَكْمٌ عُمْيٌ فَهُمْ لاَيَتَكَلَّمُوْنَ"
+          },
+          {
+            "id": 15,
+            "ayat": "صُمٌّ ۢ بَكْمٌ عُمْيٌ فَهُمْ لاَيُبْصِرُوْنَ"
+          },
+          {
+            "id": 16,
+            "ayat": "صَلَّى اللّٰهُ عَلٰى خَيْرِخلقهٖ مُحَمَّدٍ وَّعَلٰٓى اٰلِهٖ وَاَصْحٰبِهٖٓ اَخْمَعِيْنَ بِرَحْمَتِكَ يَآاَرْحَمَ الرّٰحِمِيْنَ"
           }
         ]
+      },
+      {
+        "id": 8,
+        "name": "Doa Kemudahan",
+        "source": "",
+        "ayat": "رَبَّنَا اَتِنَامِنْ لَّدُنْكَ رَحْمَةً وَّهَـيِّءْلَنَا مِنْ اَمْرِ نَارَشَدً"
+      },
+      {
+        "id": 9,
+        "name": "Doa ٍSelamat",
+        "source": "",
+        "ayat": "رَبَّنَا اَتِنَافِى الدُّنْيَاحَسَنَةًوَّفِىنَاالْاٰخِرَةِ حَسَنَةً وَّقِنَا عَذَابَ النَّارِ"
+      },
+      {
+        "id": 10,
+        "name": "Doa Tolak Bala",
+        "source": "https://iqra.id/doa-tolak-bala-lengkap-beserta-latin-dan-artinya-221846/",
+        "ayat": "اَللَّهُمَّ ادْفَعْ عَنَّا الْغَلاَءَ وَالْبَلاَءَ وَالْوَباَءَ وَالْفَحْشَاءَ وَالْمُنْكَرَ وَالسُّيُوْفَ الْمُخْتَلِفَةَ وَالشَّدَائِدَ وَالْمِحَنَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ مِنْ بَلَدِنَا هَذَا خَاصَّةً وَمِنْ بُلْدَانِ اْلمُسْلِمِيْنَ عَامَّةً إِنَّكَ عَلَى كُلِّ شَيْئٍ قَدِيْرٌ",
+        "bacaan": "Allahummadfa’ ‘annal ghalaa’a wal balaa’a wabaa’a wal fahsyaa’a wal munkara was suyuufal mukhtalifata wasy syadaa’ida wal mihana maadhahara minhaa wa maabaathana min balaadinaa haadhaaa khaassatan wa min buldaanil muslimiina aammatan. Innaka ‘alaa kulli syai’in qadiir",
+        "arti": "Ya Allah Tuhan kami. Hindarkanlah kami dari malapetaka, bala dan bencana, kekejian dan kemunkaran, sengketa yang beraneka, kekejaman dan peperangan, yang tampak dan tersembunyi dalam negara kami khususnya, dan dalam negara kaum muslimin umumnya. Sesungguhnya Engkau Ya Allah Maha Berkuasa atas segala sesuatu"
+      },
+      {
+        "id": 11,
+        "name": "Doa Pikir Terang",
+        "source": "https://www.doaharianislami.com/2018/04/doa-agar-pikiran-terang-lengkap-beserta.html",
+        "ayat": "اَللّٰهُمَّ اجْعَلْ لِيْ نُوْرًافِيْ قَلْبِيْ وَنُوْرًافِيْ قَبْرِيْ وَنُوْرًافِيْ سَمْعِيْ وَنُوْرًافِيْ بَصَرِيْ وَنُوْرًافِيْ شَعْرِيْ وَنُوْرًافِيْ بَشَرِيْ وَنُوْرًافِيْ لَحْمِيْ وَنُوْرًافِيْ دَمِيْ وَنُوْرًافِيْ عِظَامِيْ. وَنُوْرًامِنْ بَيْنِ يَدَيَّ وَنُوْرًامِنْ خَلْفِيْ وَنُوْرًاعَنْ يَمِيْنِيْ وَنُوْرًاعَنْ شِمَالِيْ وَنُوْرًامِنْ فَوْقِيْ وَنُوْرًامِنْ تَحْتِيْ. اَللّٰهُمَّ زِدْنِيْ نُوْرًاوَاَعْطِنِيْ نُوْرًاوَاجْعَلْ لِيْ نُوْرًاوَاجْعَلْنِيْ نُوْرًا",
+        "bacaan": "Allaahummaj'al lii nuuran fii qalbii, wa nuuran fii qabrii, wa nuuran fii sam'ii wa nuuran fii basharii wa nuuran fii sya'rii wa nuuran fii basyarii wa nuuran fii lahmii wa nuuran fii damii wa nuuran fii 'idhaamii. Wa nuuran mim baini yadayya wa nuuram min khalfii wa nuuran 'an yamiinii wa nuuran 'an syimaalii wa nuuran min fauqii wa nuuram min tahtii. Allahumma zidnii nuuraw wa a'thinii nuuraw waj'al lii nuuraw waj'alnii nuuraan",
+        "arti": "Ya Allah jadikanlah cahaya dalam hatiku, cahaya dalam kuburku, cahaya dalam pendengaranku, cahaya dalam penglihatanku, cahaya dalam rambutku, cahaya dalam kulitku, cahaya dalam dagingku, cahaya dalam darahku dan cahaya dalam tulang-tulangku. Dan cahaya di hadapanku, cahaya di belakangku, cahaya di sebelah kananku, cahaya di sebelah kiriku, cahaya di atasku dan cahaya di bawahku. Ya Allah tambahkanlah cahaya kepadaku, berikanlah cahaya kepadaku dan jadikanlah cahaya bagiku dan jadikanlah diriku cahaya"
+      },
+      {
+        "id": 12,
+        "name": "Doa Mencari Rezeki",
+        "source": "https://www.ayotasik.com/read/2020/12/22/7644/rezeki-seret-ini-amalan-doa-keluar-rumah-rasulullah-saw",
+        "ayat": "اَللَّهُمَّ رَضِّنِيْ بِقَضَائِكَ، وَبَارِكْ لِيْ فِيْمَا قُدِّرَ لِيْ حَتَّى لَا أُحِبَّ تَعْجِيْلَ مَا أَخَّرْتَ وَلَا تَأْخِيْرَ مَا عَجَّلْتَ",
+        "bacaan": "Allâhumma radhdhinî bi qadhâ’ika, wa bârik lî fîmâ quddira lî hattâ lâ uhibba ta‘jîla mâ akhkharta, wa lâ ta’khîra mâ ‘ajjalta",
+        "arti": "Dengan nama Allah yang menguasai diri, harta, dan agamaku. Tuhanku, kondisikan batinku agar rela menerima ketentuan-Mu. Berkatilah aku pada semua yang ditakdirkan untukku sehingga aku enggan menyegerakan apa yang Kautunda dan enggan menunda apa yang Kausegerakan"
+      },
+      {
+        "id": 13,
+        "name": "Doa Memohon Pengampunan Dosa",
+        "source": "https://www.gaosudin.com/2017/06/doa-tawaf-putaran-1-sampai-7.html",
+        "ayat": "اَللَّهُمَّ اِنَّ لَكَ عَلَيَّ حُقُوْقًا كَثِيْرَةً فِيْمَا بَيْنِيْ وَبَيْنَكَ وَحُقُوْقًا كَثِيْرَةً فِيْمَابَيْنِيْ وَبَيْنَ خَلْقِكَ.اَللَّهُمَّ مَاكَانَ لَكَ مِنْهَا فَاغْفِرْهُ لِيْ وَمَاكَانَ لِـخَلْقِكَ فَتَحَمَّلْهُ عَنِّي وَاَغْنِنِيْ بِـحَلاَلِكَ عَنْ حَرَامِكَ وَبـِطَاعَتِكَ عَنْ مَعْصِيَتِكَ وَبِفَضْلِكَ عَمَّنْ سِـوَاكَ يَا وَاسِعَ الْمـَغْفِرَةِ",
+        "bacaan": "Allhamumma inna laka alayya huquuqon katsirotan fiima bainii wabainaka wahuquuqon katsirotan fiima bainii wabaina kholqika. Allaahumma maa kaana laka minhaa fagfirhuu lii wa maa kaana likholqika fatahammalhu annii waagninii bihalaalika an haroomika wabito'oatika an ma'siyatika wabifadlika amman siwaaka yaa waasi'al magfiroh",
+        "arti": "Ya Allah, sesungguhnya Engkau mempunya hak yang banyak sekali atas diriku dalam hubungan antara aku dengan Mu. Dan Engkau juga mempunya hak yang banyak sekali dalam hubungan antara aku dengan makhlukMu. Ya Allah, apa yang menjadi hakMu atas diriku, maka ampunilah aku. Dan apa saja yang menjadi hak makhlukMu atas diriku, maka tanggungkanlah dariku. Cukupkanlah diriku dengan rizkiMu yang halal, terhindar dari yang haram. Dan dengan ta'at kepadaMu, terhindar dari kemaksiatan. Dan dengan anugerahMu terhindar daripada mengharap dari selain daripadaMu, wahai Tuhan Yang Maha Luas pengampunan-Nya"
+      },
+      {
+        "id": 14,
+        "name": "Doa Memohon Kesempurnaan Hidup",
+        "source": "",
+        "ayats": [
+          {
+            "id": 1,
+            "ayat": "اَللّٰهُمَّ اِنِّيْۤ اَسْاَ لُكَ اِيْمَانًا كَامِلًا وَ يَقِينًا صَادِقًا وَّ رِزْقًا وَّاسِعًا وَّ قَلْبًا خَاشِعًا وَ لِسَانًا ذَاكِرًا وَّ حَلَاً طَيِّبًا وَّ تَوْبَةً نَّصُوْحًا وَّ تَوبَةً قَبْلَ اْلمَوْتِ وَ رَاحًةً عِندَ اْلمَوْتِ وَ مَغفِرَةً وَّرَحْمَةً ۢ بَعْدَاْلمَوْتِ وَالْعَفْوَ عِنْدَ الْحِسَابِ وَاْلفَوْ ذَباِالْجَنَّةِ وَالنَّجَاةَ مِنَ النَّارِ بِرَحْمَتِكَ يَا عَذِيْذُ يَاغَفَّارُ",
+            "bacaan": "Allaahumma innii as aluka iimaannan kaamilan wayaqiinan shaadiqan warizqan waasi ‘an waqalban khaasyi ‘an walisaanan dzaakiran wahalaalan thayyiban wataubatan nashuuhan wataubatan qablal mauti waraahatan ‘indal mauti wamaghfiratan warahmatan ba’dal mauti wal ‘afwa ‘indal hisaabi wal fauza biljannati wannajaata minannaari birahmaatika yaa ‘aziizu yaa ghaffaaru",
+            "arti": "Ya Allah, sungguh aku memohon kepada-Mu keimanan yang sempurna, keyakinan yang benar, rizqi yang luas, hati yang tunduk patuh, lisan yang selalu berdzikir menyebut nama-Mu, rizqi yang halal lagi baik, taubat yang tulus, taubat sebelum mati, kemudahan saat menghadapi ajal, ampunan dan rahmat sesudah mati, ampunan ketika dihisab, kemenangan meraih surga, dan keselamatan dari nereka. Dengan rahmat-Mu, wahai Yang Mahaperkasa lagi Maha Pengampun"
+          },
+          {
+            "id": 2,
+            "ayat": "رَبِّ زِدنِي عِلمًا وَ أَلحِقنِي بِالصَّالِحِينَ",
+            "bacaan": "Rabbizidnii ‘ilman walhiqnii bashshaalihiin",
+            "arti": "Wahai Tuhanku, tambahkanlah ilmu kepadaku, dan gabungkanlah aku ke dalam golongan orang-orang yang shalih"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Doa Husnul Kotimah",
+        "source": "",
+        "ayat": "اَللّٰهُمَّ اِنِّيْۤ اَسْاَ لُكَ اِيْمَانًا كَامِلًا وَ يَقِينًا صَادِقًا وَّ رِزْقًا حَتَّىۤ اَعْلَمَ اَنَّهُ لاَ يُصِيْبُنِيْۤ اِلاَّ مَاكَتَبْتَ لِيْ وَعِلْمًانَّا فْعًاوَّ قَّلْبًا خَاشِعًاوَّ لِسَانًاذَاكِرًا وَّرِزْقًا وَّاسِعًاوَحَلَلاً طَيِّبًا وَّعَمَلاً صَا لِحًامَقْبُوْلاً وَّتِجَارَةً لَّنْ تَبُوْرَ. اَللَّهُمَّ اشْرَحْ صُدُوْرَنَا وَاسْتُرْعُيُوْ بَنَاوَاغْفِرْ ذُنُوْ بَنَا وَاَمِنْ خَوْ فَنَاوَاخْتِمْ بِالصَّلِحَتِ اَعْمَا لَنَا",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 16,
+        "name": "Doa Memohon Kemuliaan Derajat",
+        "source": "",
+        "ayat": "اَللَّهُمَّ اِنِّيْۤ اَسْاَلُكَ اَنْ تَرْ فَعَ ذِكْرِيْ وَتَضَعَ وِزْرِيْ وَتُصْلِحَ اَمْرِيْ وَتُطَهِّرُ قَلْبِيْ وَتُنَوِّ رَلِيْ فِيْ قَبْرِيْ وَتَغْفِرَ لِيْ ذِنْبَيْ وَاَسْاَلُكَ الدَّ رَجَتِ اْلعُلَى مِنَ اْلَجنَّةِ",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 17,
+        "name": "Doa Memohon Kemudahan Urusan",
+        "source": "",
+        "ayat": "اللّهُمّ إِنّكَ تَعْلَمُ سِرِّيْ وَعَلَانِيَتِيْ فَاقْبَلْ مَعْذِرَتِيْ وَتَعْلَمُ حَاجَتِيْ فَأَعْطِنِيْ سُؤَلِيْ وَتَعْلَمُ مَا فِيْ نَفْسِيْ فَاغْفِرْلِيْ ذَنْبِيْ. اللَّهُمَّ إِنِّي أَسْأَلُكَ إِيْمَانًادَاۤئِمًا يُبَاشِرُ قَلْبِيْ وَيَقِيْنًا صَادِقًا حَتَّىۤ أَعْلَمُ أَنَّهُ لَا يُصِيْبُنِيْ إِلَّا مَا كَتَبْتَ لِي وَأَرْضِنِيْ بِمَا قَسَمْتَهُ لِي يَااَرَحْـمَ الرَّحِمِيْنَ. اَنْتَ وَلِيِّيْ فِي الدُّنْيَاوَاْلاَخدَةِ تَوَفَّنِي مُسْلِمًا وَأَلْحِقْنِي بِالصَّالِحِينَ",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "source": "",
+        "ayat": "",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "source": "",
+        "ayat": "",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "source": "",
+        "ayat": "",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "source": "",
+        "ayat": "",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "source": "",
+        "ayat": "",
+        "bacaan": "",
+        "arti": ""
+      },
+      {
+        "id": 12,
+        "name": "",
+        "source": "",
+        "ayat": "",
+        "bacaan": "",
+        "arti": ""
       }
     ]
   }

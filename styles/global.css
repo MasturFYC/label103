@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "LPMQ";
-  src: url("/fonts/LPMQ.woff2");
+  font-family: "lpmq";
+  src: url("/fonts/lpmq.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -10,7 +10,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: times, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 12pt;
@@ -43,19 +43,19 @@ img {
 }
 
 .ayat {
-  font-family: 'LPMQ';
+  font-family: 'lpmq';
   font-weight: 400;
   font-size: 20pt;
 }
 
 .bacaan {
   color: #008000;
-  text-align: center;
+  text-align: right;
 }
 
 .arti {
-  color: #777;
-  text-align: center;
+  color: #555;
+  text-align: left;
   margin-top: 16px;
 }
 
@@ -80,6 +80,15 @@ h2 {
   text-align: left;
   vertical-align: top;
   margin-top: 6px;
+  color: #777;
+}
+
+
+h3 {
+  text-align: left;
+  vertical-align: top;
+  margin-top: 6px;
+  color: #555;
 }
 
 .desc {

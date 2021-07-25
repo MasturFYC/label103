@@ -10,7 +10,7 @@ import DoaTahlil from '../json-data/doa-tahlil.json'
 export default async function tahlilHandler(req: NextApiRequest, res: NextApiResponse) {
 
     const data = {
-        bismillah: AlFatihah.ayat.filter(o => o.id === 1)[0],
+        bismillah: AlFatihah.ayats.filter(o => o.id === 1)[0],
         alIkhlas: AlIkhlas,
         alFalaq: AlFalaq,
         anNas: AnNas,

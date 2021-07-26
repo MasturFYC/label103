@@ -1,5 +1,5 @@
 import db, { sql } from '../../../config';
-import {iPeople} from '../../../components/interfaces'
+import {iPeople} from '../../../constants/interfaces'
 
 const apiPeople = {
   getPeoples: async (id: number): Promise<any | null> => {

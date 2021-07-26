@@ -1,0 +1,47 @@
+{
+  "id": 9,
+  "subTitle": "Doa Menuju Masjid",
+  "sources": "https://yufidia.com/5788-doa-pergi-ke-masjid-seri-pertama.html",
+  "ayats": [
+    {
+      "id": 1,
+      "ayat": "اللَّهُمَّ اجْعَلْ فِيْ قَلْبِيْ نُوْرًا",
+      "bacaan": "Allaahummaj-’al fii qolbii nuuron",
+      "arti": "Ya Allah, berikanlah cahaya di dalam hatiku"
+    },
+    {
+      "id": 2,
+      "ayat": "وَفِيْ بَصَرِيْ نُوْرًا وَفِيْ سَمْعِيْ نُوْرًا",
+      "bacaan": "Wa fii bashorii nuuron wa fii sam’ii nuuron",
+      "arti": "Dan di pandanganku dan di pendengaranku"
+    },
+    {
+      "id": 3,
+      "ayat": "وَعَنْ يَمِيْنِيْ نُوْرًا وَعَنْ يَسَارِيْ نُوْرًا",
+      "bacaan": "Wa ‘an yamiinii nuuron wa ‘an yasaarii nuuron",
+      "arti": "Dan dari arah kananku dan dari arah kiriku"
+    },
+    {
+      "id": 4,
+      "ayat": "وَفَوْقِيْ نُوْرًا وَتَحْتِيْ نُوْرًا",
+      "bacaan": "Wa fauqii nuuron wa tahtii nuuron",
+      "arti": "Dan dari atasku dan dari bawahku"
+    },
+    {
+      "id": 5,
+      "ayat": "وَأَمَامِيْ نُوْرًا وَخَلْفِيْ نُوْرًا",
+      "bacaan": "Wa amaamii nuuron wa kholfii nuuron",
+      "arti": "Dan depanku dan belakangku"
+    },
+    {
+      "id": 6,
+      "ayat": "وَاجْعَلْ لِيْ نُوْرًا",
+      "bacaan": "Waj-’al lii nuuron",
+      "arti": "Dan berikanlah cahaya untukku"
+    }
+  ],
+  "references": {
+    "id": 0,
+    "surat": "HR. Bukhari"
+  }
+}

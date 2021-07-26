@@ -2,7 +2,7 @@ import React, { useState, MouseEvent, useReducer } from 'react'
 //import { useRouter } from 'next/router'
 //import useSWR from 'swr'
 import Image from "next/image";
-import { iPeople } from './interfaces'
+import { iPeople } from '../constants/interfaces'
 import styles from './people.module.css'
 
 /*

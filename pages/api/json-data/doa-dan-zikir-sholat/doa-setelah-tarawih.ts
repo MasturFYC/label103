@@ -1,4 +1,4 @@
-import { iAyat } from "../ayat-interface";
+import { iAyat } from "../../../../constants/ayat-interface";
 
 export function doaSetelahSholatTarawih(): iAyat[] {
   const _doa = doa();

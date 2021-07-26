@@ -1,5 +1,5 @@
 import db, { sql } from '../../../config';
-import {iGroup} from '../../../components/interfaces'
+import {iGroup} from '../../../constants/interfaces'
 
 const apiGroup = {
   getGroup: async (id: number) => {

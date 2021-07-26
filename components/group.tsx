@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {iGroup} from './interfaces'
+import {iGroup} from '../constants/interfaces'
 
 export type TGroupParam = {
   group: iGroup,

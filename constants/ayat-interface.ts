@@ -19,6 +19,10 @@ export interface iContents {
   phar?: string | string[];
   ayats?: iAyat[];
   sources?: string;
+  references?: {
+    id: number,
+    surat: string
+  }
 }
 export interface iDoa {
   id: number;

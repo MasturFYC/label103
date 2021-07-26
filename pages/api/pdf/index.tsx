@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import PDFDocument from 'pdfkit';
-import { iPeople } from '../../../components/interfaces'
+import { iPeople } from '../../../constants/interfaces'
 
 const mmToPt = (mm: number): number => {
   return mm * 2.83465;

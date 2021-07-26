@@ -1,0 +1,17 @@
+{
+  "id": 14,
+  "subTitle": "Doa Bercermin",
+  "sources": "https://news.detik.com/berita/d-5618308/doa-bercermin-arab-latin-dan-artinya-sesuai-sunnah-rasulullah",
+  "ayats": [
+    {
+      "id": 1,
+      "ayat": "اَللّٰهُمَّ كَمَا حَسَّـنْتَ خَلْقِـيْ فَحَسِّـنْ خُلُقِـيْ",
+      "bacaan": "Allohumma kamaa hassanta kholqii fahassin khuluqii",
+      "arti": "Ya Allah sebagaimana Engkau telah ciptakan aku dengan baik, maka perbaikilah akhlakku",
+      "reference": {
+        "id":0,
+        "surat":"HR. Ahmad"
+      }
+    }
+  ]
+}

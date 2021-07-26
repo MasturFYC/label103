@@ -1,4 +1,4 @@
-import { iDoa, iContents, iAyat } from "../ayat-interface";
+import { iDoa, iContents, iAyat } from "../../../../constants/ayat-interface";
 
 export default function doaSetelahTahajud (): iAyat[] {
   return [

@@ -3,7 +3,7 @@ import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import labelStyles from '../../styles/label.module.css'
 import { useState } from 'react'
-import {iGroup, iPeople} from '../../components/interfaces'
+import {iGroup, iPeople} from '../../constants/interfaces'
 
 interface iPageSize {
   width: number,

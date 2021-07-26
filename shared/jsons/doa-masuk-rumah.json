@@ -1,0 +1,23 @@
+{
+  "id": 7,
+  "subTitle": "Doa Masuk Rumah",
+  "sources": "https://saintif.com/doa-masuk-rumah/",
+  "ayats": [
+    {
+      "id": 1,
+      "ayat": "اَلسَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِاللهِ الصَّالِحِيْنَ",
+      "bacaan": "Assalaamu ‘alainaa wa ‘alaa ‘ibaadillaahish shoolihiin",
+      "arti": "Semoga keselamatan atas kita, hamba-hamba Allah yang shalih"
+    },
+    {
+      "id": 2,
+      "ayat": "اللَّهُمَّ إِنِّى أَسْأَلُكَ خَيْرَ الْمَوْلِجِ وَخَيْرَ الْمَخْرَجِ باسْمِ اللَّهِ وَلجْنا، وباسْمِ اللَّهِ خَرَجْنا، وَعَلى اللَّهِ رَبِّنا تَوَكَّلْنا",
+      "bacaan": "Allâhumma innî as’aluka khairal mauliji wa khairal makhraji bismillâhi walajnâ wa bismillâhi kharajnâ wa ‘ala-Llâhi rabbinâ tawakkalnâ",
+      "arti": "Duhai Allah, aku memohon sebaik-baik tempat masuk dan sebaik-baik tempat keluar. Atas nama-Mu kami masuk dan atas nama-Mu kami keluar. Dan kepada Allah Tuhan kamilah kami bertawakal"
+    }
+  ],
+  "references": {
+    "id": 0,
+    "surat": "Muhyiddin Abi Zakariya Yahya ibn Syaraf an-Nawawi"
+  }
+}

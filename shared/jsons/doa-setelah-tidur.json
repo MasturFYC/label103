@@ -1,0 +1,35 @@
+{
+  "id": 4,
+  "subTitle": "Doa Bangun Tidur",
+  "sources": "https://beritadiy.pikiran-rakyat.com/citizen/pr-701736572/doa-ketika-terbangun-tengah-malam-lengkap-bahasa-arab-latin-dan-artinya-dalam-bahasa-indonesia",
+  "ayats": [
+    {
+      "id": 1,
+      "ayat": "اَلْحَمْدُ لِلَّهِ الَّذِيْ أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُوْرِ",
+      "bacaan": "Alhamdullillahilladzi ahyaanaa ba'da maa amaatanaa wa ilaihin nusyuur",
+      "arti": "Segala puji bagi Allah, yang telah membangunkan kami setelah menidurkan kami, dan kepada-Nya lah kami dibangkitkan"
+    },
+    {
+      "id": 2,
+      "ayat": "لاَ إِلَـهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيْكَ لَكَ",
+      "bacaan": "Laa ilaha illa anta wahdaka laa syariika lak",
+      "arti": "Tak ada ilah yang berhak untuk disembah selain Engkau semata, tak ada sekutu untuk-Mu"
+    },
+    {
+      "id": 3,
+      "ayat": "سُبْحَانَكَ أَسْتَغْفِرُكَ لِذَنْبِي وَأَسْأَلُكَ رَحْمَتَكَ",
+      "bacaan": "Subhânaka, astaghfiruka li dzanbî, wa as’aluka rahmataka",
+      "arti": "Mahasuci Engkau. Aku memohon ampun-Mu atas dosaku, Aku mengharapkan rahmat-Mu"
+    },
+    {
+      "id":4,
+      "ayat":"اللَّهُمَّ زِدْنِي عِلْماً وَلا تُزِغْ قَلْبِي بَعْدَ إِذْ هَدَيْتَنِي وَهَبْ لِي مِنْ لَدُنْكَ رَحْمَةً إِنَّكَ أَنْتَ الْوَهَّابُ",
+      "bacaan":"Allâhumma zidnî ‘ilmâ, wa lâ tuzigh qalbî ba‘da idz hadaitani, wa hab lî min ladunka rahmatan innaka antal wahhâb",      
+      "arti":"Tuhanku, tambahkan ilmuku. Jangan Kausesatkan batinku setelah Kauberikan petunjuk padaku. Berikan aku rahmat dari sisi-Mu. Sungguh, Engkau maha pemberi"
+    }
+  ],
+  "references": {
+    "id": 0,
+    "surat": "HR. Al-Bukhari dan Muslim)"
+  }
+}

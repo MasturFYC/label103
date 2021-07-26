@@ -1,0 +1,59 @@
+{
+  "id": 3,
+  "subTitle": "Doa Sebelum Tidur",
+  "sources": "https://yufidia.com/5058-doa-dan-dzikir-sebelum-tidur-doa-berserah-diri.html",
+  "ayats": [
+    {
+      "id": 1,
+      "ayat": "اَللَّهُمَّ أَسْلَمْتُ نَفْسِيْ إِلَيْكَ",
+      "bacaan": "Allaahumma aslamtu nafsii ilaika",
+      "arti": "Ya Allah, aku menyerahkan diri-ku kepada-Mu"
+    },
+    {
+      "id": 2,
+      "ayat":"وَفَوَّضْتُ أَمْرِيْ إِلَيْكَ",
+      "bacaan":"Wa fawwadhtu amrii ilaika",
+      "arti":"Dan aku menyerahkan urusanku kepada-Mu"
+    },
+    {
+      "id":3,
+      "ayat":"وَوَجَّهْتُ وَجْهِيَ إِلَيْكَ",
+      "arti":"Dan aku menghadapkan wajahku kepada-Mu",
+      "bacaan":"Wa wajjahtu wajhiya ilaika"
+    },
+    {
+      "id":4,
+      "ayat":"وَأَلْجَأْتُ ظَهْرِيْ إِلَيْكَ",
+      "bacaan":"Wa alja’tu zhohrii ilaika",
+      "arti":"Dan Aku menyandarkan punggungku kepada-Mu"
+    },
+    {
+      "id":5,
+      "ayat":"رَغْبَةً وَرَهْبَةً إِلَيْكَ",
+      "bacaan":"Roghbatan wa rohbatan ilaika",
+      "arti":"Karena senang (mendapatkan rahmat-Mu) dan takut pada (siksaan-Mu)"
+    },
+    {
+      "id":6,
+      "ayat":"لَا مَلْجَأَ وَلَا مَنْجَا مِنْكَ إِلَّا إِلَيْكَ",
+      "bacaan":"Laa malja-a wa laa manjaa minka illaa ilaika",
+      "arti":"Tidak ada tempat perlindungan dan penyelamatan dari (ancaman)-Mu, kecuali kepada-Mu"
+    },
+    {
+      "id":7,
+      "ayat":"آمَنْتُ بِكِتَابِكَ الَّذِيْ أَنْزَلْتَ وَبِنَبِيِّكَ الَّذِيْ أَرْسَلْتَ",
+      "bacaan":"Aamantu bi kitaabikal ladzii anzalta wa bi nabiyyikal ladzii arsalta",
+      "arti":"Aku beriman pada kitab yang telah Engkau turunkan dan (kebenaran) Nabi-Mu yang telah Engkau utus"
+    },
+    {
+      "id":8,
+      "ayat":"بِسْمِكَ اللّهُمَّ اَحْيَا وَ بِسْمِكَ اَمُوْتُ",
+      "bacaan":"Bismikå Allåhummå ahyåa wå bismikå åmuut",
+      "arti":"Dengan nama-Mu ya Allah aku hidup, dan dengan nama-Mu aku mati"
+    }
+  ],
+  "references": {
+    "id": 0,
+    "surat": "HR. Al-Bukhari dan Muslim)"
+  }
+}

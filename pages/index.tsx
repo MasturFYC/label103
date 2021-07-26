@@ -3,14 +3,14 @@ import Link from 'next/link'
 import React, { MouseEvent, useState } from 'react'
 import Image from "next/image";
 //import doaDanZikir from './api/json-data/bagian-2/doa-dan-zikir';
-import doaDanZikirSholat from './api/json-data/doa-dan-zikir-sholat';
+import doa from './api/doa-sehari-hari';
 
 // import { useRouter } from 'next/router'
 import useSWR, { mutate } from 'swr'
 import Layout, { siteTitle } from '../components/layout'
 //import Group from '../components/group'
 import utilStyles from '../styles/utils.module.css'
-import { iGroup } from 'components/interfaces'
+import { iGroup } from 'constants/interfaces'
 import { fontSize } from 'pdfkit';
 
 const fetcher = async (url: string) => {
@@ -449,7 +449,7 @@ function Home() {
 //              {/* <div className='arti'>{item.id}) {item.arti}</div> */}
 //              {/* <hr /> */}
 const ShowDoaDanZikir = () => {
-  const doaDanZikir = doaDanZikirSholat();
+  const doaDanZikir = doa();
   return (
     <React.Fragment>
       <Layout home>
@@ -469,9 +469,9 @@ const ShowDoaDanZikir = () => {
             {doa.ayats && doa.ayats.map(ayat => (
               <React.Fragment key={`key-${doa.id}-${ayat.id}`}>
                 <p className={'ayat'} dir='rtl'><span>{ayat.ayat}.</span></p>
-                {ayat.bacaan && <p className='bacaan'><i>{ayat.bacaan}</i>.</p>}
+                {/*ayat.bacaan && <p className='bacaan'><i>{ayat.bacaan}</i>.</p>}
                 {ayat.arti && <p className='arti'>"{ayat.arti}."{' '}
-                  {ayat.reference && <span>{' ('}{ayat.reference.surat}{ayat.reference.id > 0 && <span>: {ayat.reference.id}</span>}{')'}</span>}</p>}
+            {ayat.reference && <span>{' ('}{ayat.reference.surat}{ayat.reference.id > 0 && <span>: {ayat.reference.id}</span>}{')'}</span>}</p>*/}
               </React.Fragment>
             ))}
           </React.Fragment>

@@ -1,5 +1,5 @@
 
-export function doaSetelahShalatIstikarah(): import("../ayat-interface").iAyat[] | undefined {
+export function doaSetelahShalatIstikarah(): import("../../../../constants/ayat-interface").iAyat[] | undefined {
   const _doa = doa();
   return [
     {
@@ -15,7 +15,7 @@ export function doaSetelahShalatIstikarah(): import("../ayat-interface").iAyat[]
   ]
 }
 
-export default function doa(): import("../ayat-interface").iAyat[] {
+export default function doa(): import("../../../../constants/ayat-interface").iAyat[] {
   return [
     {
       id: 1,

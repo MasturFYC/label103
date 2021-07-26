@@ -1,0 +1,17 @@
+{
+  "id": 16,
+  "subTitle": "Doa Membuka Pakaian",
+  "sources": "https://www.ayocirebon.com/read/2021/05/20/11141/doa-memakai-dan-melepas-pakaian-berikut-etikanya-menurut-islam",
+  "ayats": [
+    {
+      "id": 1,
+      "ayat": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
+      "bacaan": "Bismillaahilladzii laa ilaaha illaa huwa",
+      "arti": "Dengan nama Allah yang tiada Tuhan selain-Nya",
+      "reference": {
+        "id":0,
+        "surat":"HR. Ahmad, Abu Dawud, Tirmidzi, dan Hakim"
+      }
+    }
+  ]
+}

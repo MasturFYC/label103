@@ -1,4 +1,4 @@
-import { iDoa } from "../ayat-interface";
+import { iDoa } from "../../../../constants/ayat-interface";
 import doaSetelahTahajud from './doa-setelah-tahajud'
 import { zikirSetelahSholatWitir } from './zikir-setelah-witir'
 import { doaSetelahSholatTarawih } from './doa-setelah-tarawih'

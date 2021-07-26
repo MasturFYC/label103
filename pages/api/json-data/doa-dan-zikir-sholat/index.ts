@@ -1,9 +1,10 @@
 import { iDoa } from "../ayat-interface";
 import doaSetelahTahajud from './doa-setelah-tahajud'
-import {zikirSetelahSholatWitir} from './zikir-setelah-witir'
-import {doaSetelahSholatTarawih} from './doa-setelah-tarawih'
+import { zikirSetelahSholatWitir } from './zikir-setelah-witir'
+import { doaSetelahSholatTarawih } from './doa-setelah-tarawih'
 import doaSetelahShalatDuha from "./do-setelah-shalat-duha";
 import doaSetelahShalatIstikarah from "./do-setelah-shalat-istikarah";
+import { doaSetelahSholatHajat } from './do-setelah-shalat-hajat'
 
 export default function doaDanZikir(): iDoa {
 
@@ -13,12 +14,12 @@ export default function doaDanZikir(): iDoa {
     phar: [""],
     contents: [
       {
-        id:1,
+        id: 1,
         subTitle: "Doa setelah Shalat Tahajjud",
         ayats: doaSetelahTahajud()
       },
       {
-        id:2,
+        id: 2,
         subTitle: "Zikir Setelah Sholat Witir",
         ayats: zikirSetelahSholatWitir()
       },
@@ -39,6 +40,12 @@ export default function doaDanZikir(): iDoa {
         subTitle: "Doa Setelah Sholat Istikarah",
         sources: "https://www.doaharianislami.com/2017/07/doa-setelah-sholat-istikharah-lengkap.html",
         ayats: doaSetelahShalatIstikarah()
+      },
+      {
+        id: 6,
+        subTitle: "Doa Setelah Sholat Hajat",
+        sources: "",
+        ayats: doaSetelahSholatHajat()
       }
     ]
   }

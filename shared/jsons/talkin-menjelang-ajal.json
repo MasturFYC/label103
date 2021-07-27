@@ -1,0 +1,38 @@
+{
+  "id": 39,
+  "title": "Talkin Menjelang Ajal",
+  "pharagraph": [
+    {
+      "id": 1,
+      "text": "Tidak ada seorangpun yang mengetahui ...",
+      "ayat": {
+        "id":0,
+        "ayat": "اَللَّهُمَّ أعِنِّيْ عَلَى فَمَرَاتِ اَلْمَوْتَ وَسَكَرَاتِ الْمَوْتِ",
+        "bacaan": "Allahumma a'innii ala gamaratil mauti wa sakaratil mauti",
+        "arti": "Ya Allah Tuhanku, mudahkanlah sakaratul maut (hilangkanlah rasa sakit saat ajal)"
+      }
+    },
+    {
+      "id": 2,
+      "text": "Apabila orang yang sakit ...",
+      "list": [
+        {
+          "id": 1,
+          "text": [
+            "Talkin, yaitu menuntun orang yang sakit untuk mengucapkan kalimat Tauhid, Rasulullah SAW bersabda, \"Tuntunlah orang yang akan meninggal dunia di antara kalian\" dengan membaca لاَاِلٰهَ اِلاَّ اللّٰهُ.",
+            "Pada riwayat yang lain, Rasulullah SAW bersabda \"Siapa saja yang ucapan terakhirnya (sebelum meninggal) adalah kalimat لاَاِلٰهَ اِلاَّ اللّٰهُ ia masuk surga\".",
+            "Jika orang yang sakit sulit untuk mengikuti dan mengucapkan kalimat tersebut, maka cukup baginya mengucapkan kata اللّٰهُ ..."
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Menghadapkan orang yang sakit ke arah kiblat ..."
+        },
+        {
+          "id": 3,
+          "text": "Membacakan Surah Yasin. Rasulullah SAW bersabda \"Bacakanlah surat Yasin kepada orang yang meninggal di antara kalian\"..."
+        }
+      ]
+    }
+  ]
+}

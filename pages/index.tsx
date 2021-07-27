@@ -4,14 +4,13 @@ import React, { MouseEvent, useState } from 'react'
 import Image from "next/image";
 //import doaDanZikir from './api/json-data/bagian-2/doa-dan-zikir';
 import doa from './api/doa-sehari-hari';
-
+import YasinPage from './yasin';
 // import { useRouter } from 'next/router'
 import useSWR, { mutate } from 'swr'
 import Layout, { siteTitle } from '../components/layout'
 //import Group from '../components/group'
 import utilStyles from '../styles/utils.module.css'
 import { iGroup } from 'constants/interfaces'
-import { fontSize } from 'pdfkit';
 
 const fetcher = async (url: string) => {
   const res = await fetch(url)
@@ -449,7 +448,7 @@ function Home() {
 //              {/* <div className='arti'>{item.id}) {item.arti}</div> */}
 //              {/* <hr /> */}
 const ShowDoaDanZikir = () => {
-  const doaDanZikir = doa();
+  //const doaDanZikir = doa();
   return (
     <React.Fragment>
       <Layout home>
@@ -462,24 +461,152 @@ const ShowDoaDanZikir = () => {
             crossOrigin=""
           />
         </Head>
-        <h2>{doaDanZikir.title}</h2>
-        {doaDanZikir.contents.map(doa => (
+        {/* <h2>{doaDanZikir.title}</h2> */}
+        {/* {doaDanZikir.contents.map(doa => (
           <React.Fragment key={`key-${doa.id}`}>
-            <h3>{doa.id}. {doa.subTitle}</h3>            
+            <h3>{doa.id}. {doa.subTitle}</h3>
             {doa.ayats && doa.ayats.map(ayat => (
               <React.Fragment key={`key-${doa.id}-${ayat.id}`}>
-                <p className={'ayat'} dir='rtl'><span>{ayat.ayat}.</span></p>
-                {/*ayat.bacaan && <p className='bacaan'><i>{ayat.bacaan}</i>.</p>}
+                <p className={'ayat'} dir='rtl'><span>{ayat.ayat}.</span></p> */}
+        {/*ayat.bacaan && <p className='bacaan'><i>{ayat.bacaan}</i>.</p>}
                 {ayat.arti && <p className='arti'>"{ayat.arti}."{' '}
             {ayat.reference && <span>{' ('}{ayat.reference.surat}{ayat.reference.id > 0 && <span>: {ayat.reference.id}</span>}{')'}</span>}</p>*/}
-              </React.Fragment>
+        {/* </React.Fragment>
             ))}
           </React.Fragment>
         )
         )}
+         */}
+        <YasinPage />
       </Layout>
     </React.Fragment>
   )
 }
 
 export default ShowDoaDanZikir;
+
+async function test2(callback: Function) {
+  const doa = (await import('shared/jsons/talkin-menjelang-ajal.json')).default;
+  callback(doa);
+}
+
+interface iList {
+  id: number;
+  text: string | string[];
+  ayat?: import('constants/ayat-interface').iAyat | import('constants/ayat-interface').iAyat[]
+}
+
+
+interface iPharagraph {
+  id: number;
+  text: string;
+  ayat?: import('constants/ayat-interface').iAyat,
+  list?: iList[]
+}
+
+interface iKidr {
+  id: number;
+  title: string;
+  pharagraph?: iPharagraph[]
+}
+
+function DoaNabiKidr() {
+  const [data, setData] = React.useState<iKidr>({} as iKidr);
+  React.useEffect(() => {
+    let isLoaded = false;
+
+    const LoadData = () => {
+      test2((doa: iKidr) => {
+        setData(doa)
+      })
+    }
+
+    if (!isLoaded) {
+      LoadData();
+    }
+
+    return () => { isLoaded = true }
+  })
+
+  return (
+    <React.Fragment>
+      {data &&
+        <>
+          <h1>{data.id}. {data.title}</h1>
+          {data.pharagraph
+            && data.pharagraph.map((pharagraph: iPharagraph) => (
+              <React.Fragment key={`key-${pharagraph.id}`}>
+                <p>{pharagraph.text}</p>
+                {pharagraph.ayat &&
+                  <ShowAyat ayat={pharagraph.ayat} />
+                }
+                {pharagraph.list
+                  && pharagraph.list.map((list: iList) =>
+                    <React.Fragment key={`key-${list.id}`}>
+                      <p className='just'>{list.id}. <ArrayOrText text={list.text} /></p>
+                      {list.ayat
+                        && (Array.isArray(list.ayat)
+                          ? list.ayat.map((ayat) => <ShowAyat ayat={ayat} />)
+                          : <ShowAyat ayat={list.ayat} />)
+                      }
+                    </React.Fragment>)}
+              </React.Fragment>
+            ))
+          }
+        </>}
+      <style jsx>{`
+        .just {
+          text-align: justify
+        }
+        `}</style>
+    </React.Fragment>
+  )
+}
+
+
+const ShowAyat: React.FC<{ ayat: import('constants/ayat-interface').iAyat }> =
+  ({ ayat }) => {
+    return <React.Fragment>
+      <p className={'ayat'} dir='rtl'>{ayat.ayat}</p>
+      <p className={'bacaan'}>{ayat.bacaan}.</p>
+      <p className={'arti'}>{ayat.arti}.</p>
+      <style jsx>{`
+        .ayat {
+          font-family: 'lpmq';
+          font-weight: 400;
+          font-size: 20pt;
+        }
+
+        .bacaan {
+          color: #007000;
+          text-align: right;
+        }
+
+        .arti {
+          color: #555;
+          text-align: left;
+          margin-top: 16px;
+        }      
+        `}</style>
+    </React.Fragment>;
+  }
+
+const ArrayOrText: React.FC<{ text: string | string[] }> = ({ text }) => {
+  return (
+    <React.Fragment>
+      {(Array.isArray(text))
+        ? text.map((item: string, i: number) => <span key={`key-${i}`} className={i === 0 ? 'list-first' : 'list-next'}>{item}<br /></span>)
+        : <span>{text}</span>
+      }
+      <style jsx>{`
+        .list-first {
+          display: inline;
+        }
+        .list-next {
+          display: block;
+          margin-top: 10px;
+        }
+        `}</style>
+    </React.Fragment>
+  )
+}

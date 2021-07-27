@@ -4,7 +4,7 @@
   "pharagraph": [
     {
       "id": 1,
-      "text": ""
+      "text": "Welcome"
     },
     {
       "id": 2,
@@ -82,11 +82,20 @@
           "id": 9,
           "text": "Membaca istighfar berikut sebanyak tujuh kali",
           "ayat": {
-            "arab": "اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ...",
-            "bacaan": "Allahummaghfirlanaa wa li waalidiina wa li aulaadinaa wa li masyaayikhinaa wa li ikhwaaniaa fiddiini wa li ashhaabinaa wa ahbaabinaa wa liman ahabbanaa fiika wa liman ahsana ilainaa wa lil mukminiina wal mukminaati wal musliminiina wal muslimaati...",
-            "arti": "Ya Allah ampunilah kami, kedua orang tua kami, anak-anak kami, guru-guru kami, saudara-saudara kami seagama, sahabat-sahabat kami, kekasih-kekasih kami, orang yang mengasihi kami karena Engkau, dan kepada siapa saja yang berbuat baik kepada kami, orang-orang yang beriman laki-laki dan perempuan dan orang-orang yang beragama Islam laki-laki dan perempuan..."
+            "arab": "اَللّٰهُمَّ اغْفِرْلَنَا وَلِوَالِدِيْنَا وَلِاَوْلَادِنَا وَمَشَايِخِنَا وَلِاِخْوَانِنَا فِى الدِّينِ وَلِاَصْحَابِنَا وَاَحْبَابِنَا وَلِمَنْ اَحَبَّنَا فِيكَ وَلِمَنْ اَحْسَنَ اِلَيْنَا وَ لِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْمُسْلِمِينَ وَالْمُسْلِمَاتِ أَلْاَحْيَاءِ مِنْهُمْ وَالاَمْوَاتِ بِرَحْمَتِكَ يَااَرْحَمَ الرَّاحِمِينَ",
+            "bacaan": "Allahummaghfirlanaa wa li waalidiina wa li aulaadinaa wa li masyaayikhinaa wa li ikhwaaniaa fiddiini wa li ashhaabinaa wa ahbaabinaa wa liman ahabbanaa fiika wa liman ahsana ilainaa wa lil mukminiina wal mukminaati wal musliminiina wal muslimaati al-Ahyaa 'i minhum wal amwaat, birohmatika ya arhamar rohimina",
+            "arti": "Ya Allah ampunilah kami, kedua orang tua kami, anak-anak kami, guru-guru kami, saudara-saudara kami seagama, sahabat-sahabat kami, kekasih-kekasih kami, orang yang mengasihi kami karena Engkau, dan kepada siapa saja yang berbuat baik kepada kami, orang-orang yang beriman laki-laki dan perempuan dan orang-orang yang beragama Islam laki-laki dan perempuan islam, baik mereka yang hidup maupun yang mati, Sesungguhnya Engkau Maha Berkuasa atas segala sesuatu."
           }
-        }
+        },
+        {
+          "id":10,
+          "text":"Membaca doa berikut sebanyak tujuh kali",
+          "ayat": {
+            "arab":"اَللّٰهُمَّ يَارَبِّ افْعَلْ بِيْ وَبِهِمْ عَاجِلًا وَّاٰجِلًا فِى الدِّيْنِ وَالْدُّنْيَا وَاْﻷٰ خِرَةِ مَآ اَنْتَ لَهٗۤ اَهْلٌ وَّﻻَ تَفْعَلْ بِنَا يَامُوْلٰيَ مَا نَحْنُ لَهٗۤ اَهْلٌ اِنَّكَ غَفُوْرٌحَلِيْمٌ جَوَّادٌ كَرِيْمٌ رَّءُوْفٌ",
+            "bacaan":"",
+            "arti":""
+          }
+        }        
       ]
     }
   ]

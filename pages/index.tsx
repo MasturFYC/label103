@@ -4,7 +4,7 @@ import React, { MouseEvent, useState } from 'react'
 import Image from "next/image";
 //import doaDanZikir from './api/json-data/bagian-2/doa-dan-zikir';
 import doa from './api/doa-sehari-hari';
-import YasinPage from './yasin';
+import YasinPage from './sesaat-setelah-meninggal-dunia';
 // import { useRouter } from 'next/router'
 import useSWR, { mutate } from 'swr'
 import Layout, { siteTitle } from '../components/layout'

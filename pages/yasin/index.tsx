@@ -1,95 +1,43 @@
 import React from "react";
-import { iDoa, iAyat } from 'constants/ayat-interface'
+import { iSurat } from 'constants/ayat-interface'
+import { angka, Bismillah, PageTitle } from '../../components/books'
 
-interface iPenutup {
-  title: string;
-  ayats: iAyat[]
-}
-
-const angka = (n: number) => {
-  if (n === 0) return " ";
-  const arr = [
-    '٠',
-    '١',
-    '٢',
-    '٣',
-    '٤',
-    '٥',
-    '٦',
-    '٧',
-    '٨',
-    '٩'];
-  const sn = '' + n;
-  let s = '';
-  for (let c = 0; c < sn.length; c++) {
-    const i = parseInt(sn[c]);
-    s = s + arr[i];
-  }
-
-  return `${s}`;
-  //return `﴿${s}﴾`;
-}
-
-const jsonData: iDoa = {
-  id: 40,
-  title: "Surat Ya'Sin",
-  phar: [
-    "Surah ke-36",
-    "Terdiri atas 83 ayat",
-    "Termasuk Surat Makkiyyah"
-  ],
-  contents: []
-}
 
 const YasinPage = () => {
-  const [data, setData] = React.useState<iAyat[]>([]);
-  const [doa, setDoa] = React.useState<iPenutup>({} as iPenutup);
+  const [surat, setSurat] = React.useState<iSurat>({} as iSurat);
 
   React.useEffect(() => {
     let isLoaded = false;
-    
+
     const loadData = async () => {
       const yasin = (await import('shared/jsons/yasin.json')).default;
       //console.log(yasin.ayats)
-      setData(yasin.ayats)
-      setDoa(yasin.penutup);
+      setSurat(yasin)
     }
 
-    if(!isLoaded) {
+    if (!isLoaded) {
       loadData();
     }
 
-    return () => {isLoaded = false}
-  },[])
+    return () => { isLoaded = false }
+  }, [])
 
   return (
     <React.Fragment>
-      <div className='page-title'>{jsonData.id}<br />{jsonData.title}</div>
-      <div className='page-desc'>
-        {
-          jsonData.phar
-          && Array.isArray(jsonData.phar)
-          && jsonData.phar.map((p,i) =>
-            <span key={`key-${i}`}>{p}<br /></span>)
-        }
-      </div>
-      <div className='bismillah'>بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ</div>
+      {surat.intro && <PageTitle intro={surat.intro} />}
+      <Bismillah />
       <div className='ayat'>
-      {data && data.map(ayat => <span key={`ayat-${ayat.id}`}>{ayat.ayat}<span className='q-num'>{angka(ayat.id)}</span></span>)}
+        {surat
+          && surat.ayats
+          && surat.ayats.map(ayat => <span key={`ayat-${ayat.id}`}>{ayat.ayat}<span className='q-num'>{angka(ayat.id)}</span></span>)}
       </div>
-      <div className='page-title'>{doa.title}</div>
-      <div className='bismillah'>بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ</div>
+      <div className='page-title'>{surat.penutup?.title}</div>
+      <Bismillah />
       <div className='ayat'>
-        {doa && doa.ayats && doa.ayats.map(ayat => <span key={`ayat-${ayat.id}`}>{ayat.ayat}.</span>)}
+        {surat.penutup?.ayats && surat.penutup?.ayats.map(ayat => <span key={`ayat-${ayat.id}`}>{ayat.ayat}.</span>)}
       </div>
-      <style jsx>{`
-      .bismillah {
-        font-family: 'lpmq';
-        font-size: 1.75em;
-        text-align: center;
-        margin-bottom: 24px;
-      }
 
+      <style jsx>{`
       .q-num {
         font-size: 0.8em;
       }

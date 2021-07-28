@@ -1,51 +1,47 @@
 {
-  "id": 40,
-  "title": "Sesaat Setelah Meninggal",
+  "intro": {
+    "id": 41,
+    "title": "Sesaat Setelah Meninggal"
+  },
   "pharagraph": [
     {
       "id": 1,
-      "text": "Bila orang yang menghadapi sakrataul maut kemudian meninggal, maka anggota keluarga yang ditinggalkan diperintahkan:",
-      "list": [
+      "text": "Bila orang yang menghadapi sakaratul maut kemudian meninggal, maka anggota keluarga yang ditinggalkan diperintahkan:",
+      "ol": [
         {
           "id": 1,
-          "text": [
+          "text": "Mengucapkan kalimat istirja",
+          "phar": [
             {
               "id": 1,
-              "text": "Mengucapkan kalimat istirja"
-            },
-            {
-              "id": 2,
               "text": "إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
               "bacaan": "Innalillahi wa inna ilaihi raji'un",
               "arti": "Sesungguhnya kami adalah milik Allah, dan sungguh hanya kepada-Nya kami akan kembali",
               "isAyat": true
             },
             {
-              "id": 3,
+              "id": 2,
               "text": "Rasulullah SAW bersabda \"Siapa saja yang ketika ditimpa musibah mengucapkan:"
             },
             {
-              "id": 4,
+              "id": 3,
               "text": "اَللّٰهُمَّ اغْفِرْلِيْ وَلَهُ /هَا وَاَعْقِبْنِيْ مِنْهُأ /هَا عُقْبٰى حَسَنَهً",
               "bacaan": "Innalillahi wa inna ilaihi raji'un. Allahumma ajirni fi mushibati wa akhlif li khairan minha",
               "arti": "Sesungguhnya kami adalah milik Allah, dan sungguh hanya kepada-Nya kami akan kembali. Ya Allah, karuniakanlah padaku pahala dalam musibah yang menimpaku dan berilah aku ganti yang lebih baik daripadanya.",
               "isAyat": true
             },
             {
-              "id": 5,
+              "id": 4,
               "text": "Maka Allah SWT, memberi pahala dalam musibahnya dan mengganti musibah dengan yang lebih baik.\""
             }
           ]
         },
         {
           "id": 2,
-          "text": [
+          "text": "Mengucapkan Doa",
+          "phar": [
             {
               "id": 1,
-              "text": "Mengucapkan Doa"
-            },
-            {
-              "id": 2,
               "text": "اَللّٰهُمَّ اغْفِرْلِيْ وَلَهُ /هَا وَاَعْقِبْنِيْ مِنْهُأ /هَا عُقْبٰى حَسَنَهً",
               "isAyat": true
             }
@@ -53,14 +49,11 @@
         },
         {
           "id": 3,
-          "text": [
+          "text": "Menutupkan kedua mata jenazah...",
+          "phar": [
             {
               "id": 1,
-              "text": "Menutupkan kedua mata jenazah"
-            },
-            {
-              "id": 2,
-              "text": "",
+              "text": "...",
               "isAyat": true
             }
           ]
@@ -71,7 +64,7 @@
         },
         {
           "id": 5,
-          "text": "Diperbolehkan mencium jenazah"
+          "text": "Diperbolehkan mencium jenazah..."
         },
         {
           "id": 6,
@@ -80,6 +73,29 @@
         {
           "id": 7,
           "text": "Mengucapkan kata-kata yang baik."
+        },
+        {
+          "id": 8,
+          "text": "Menyegerakan pemakaman jenazah. Rasulullah SAW bersabda:",
+          "isUl": true,
+          "phar": [
+            {
+              "id": 1,
+              "text": "\"Segeralah mengurus jenazah karena tidak layak jenazah muslim ditahan di tengah keluarganya.\""
+            },
+            {
+              "id": 2,
+              "text": "\"Hendklah kalian segera mengurus jenazah. Jika dia orang yang saleh, berarti kalian cepat memperemukannya dengan hasil kebaikannya. Sebaliknya jika dia orang jahat, berarti kelian telah melepaskan keburukan dari pundak kalian.\""
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Membayarkan utang..."
+        },
+        {
+          "id": 10,
+          "text": "Mengabarkan kabar duka kepada keluarganya, kerabat, dan orang-orang yang saleh agar mereka turut mendapatkan pahala dalam mengurusi jenazah..."
         }
       ]
     }

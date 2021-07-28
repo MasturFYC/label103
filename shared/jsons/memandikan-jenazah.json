@@ -1,0 +1,30 @@
+{
+  "intro": {
+    "id": 42,
+    "title": "Memandikan Jenazah"
+  },
+  "pharagraph": [
+    {
+      "id": 1,
+      "text": "Hukum memandikan jenazah adalah fardhu kifayah, yaitu bila sebagian kaum Muslim telah memandikannya, gugurlah kewajiban muslim yang lain..."
+    },
+    {
+      "id": 2,
+      "text": "Orang yang memandikan jenazah adalah orang yang jujur, dapat dipercaya, dan saleh..."
+    },
+    {
+      "id": 3,
+      "text": "Adapun tata cara memandikan jenazah, yaitu:",
+      "ol": [
+        {
+          "id": 1,
+          "text": "Jenazah diletakkan di tempat yang tinggi.."
+        },
+        {
+          "id": 2,
+          "text": "Berniat dahulu sebelum memandikan jenazah..."
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,22 @@
 {
-    "surat": "Ya'Sin",    
+    "intro": {
+        "id": 40,
+        "title": "Ya'Sin",
+        "descriptions": [
+            {
+                "id": 1,
+                "text": "Surah ke-36"
+            },
+            {
+                "id": 2,
+                "text": "Terdiri atas 83 ayat"
+            },
+            {
+                "id": 3,
+                "text": "Termasuk Surat Makkiyyah"
+            }
+        ]
+    },
     "ayats": [
         {
             "id": 1,

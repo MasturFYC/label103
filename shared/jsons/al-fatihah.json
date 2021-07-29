@@ -4,7 +4,7 @@
         {
             "id": 1,
             "ayat": "اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ لَهُمُ الْفَاتِحَةُ",
-            "bacaan":"-",
+            "bacaan": "-",
             "arti": "Dengan nama Allah yang maha pengasih lagi maha penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah…"
         },
         {
@@ -17,9 +17,9 @@
     "ayats": [
         {
             "id": 1,
-            "ayat": "بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ",
+            "ayat": "بِـــسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
             "bacaan": "Bismillaahir Rahmaanir Rahiim",
-            "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang"
+            "arti": "Dengan nama Allah Yang Maha Pengasih, lagi Maha Penyayang"
         },
         {
             "id": 2,
@@ -61,12 +61,12 @@
     "penutup": {
         "title": "Akhiri bacaan dengan mengucapkan kata aaamiiin.",
         "ayats": [
-        {
-            "id": 1,
-            "ayat": "اَمِينْ",
-            "bacaan": "Aaamiiin",
-            "arti": "Semoga Kaukabulkan permohonan kami"
-        }
-    ]
-}
+            {
+                "id": 1,
+                "ayat": "اَمِينْ",
+                "bacaan": "Aaamiiin",
+                "arti": "Semoga Kaukabulkan permohonan kami"
+            }
+        ]
+    }
 }

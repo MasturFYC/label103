@@ -1,16 +1,16 @@
 import React from "react";
-import { iIntro, iText } from 'constants/interfaces'
+import { iTitle, iText } from 'constants/interfaces'
 import { PageDesc } from "./page-desc";
 
 export type pageTitleType = {
-  intro: iIntro;
+  title: iTitle;
   showDescription?: boolean;
 }
-export const PageTitle: React.FC<pageTitleType> = ({ intro, showDescription }: pageTitleType) => {
+export const PageTitle: React.FC<pageTitleType> = ({ title, showDescription }: pageTitleType) => {
   return (
     <React.Fragment>
-      <div className='page-title'>{intro.id}<br />{intro.title}</div>
-      {showDescription && intro.descriptions && <PageDesc desc={intro.descriptions} />}
+      <div className='page-title'>{title.id}<br />{title.text}</div>
+      {showDescription && title.descriptions && <PageDesc desc={title.descriptions} />}
       <style jsx>{`
       .page-title {
         font-weight: bold;

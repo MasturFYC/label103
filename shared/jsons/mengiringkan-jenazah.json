@@ -1,0 +1,70 @@
+{
+  "intro": {
+    "id": 45,
+    "title": "Mengiringkan Jenazah"
+  },
+  "pharagraph": [
+    {
+      "id": 1,
+      "text": "Ada beberapa hal yang disunahkan sehubungan dengan mengiringkan jenazah, yaitu:",
+      "ol": {
+        "isOl": true,
+        "type": "1",
+        "start": 1,
+        "list": [
+          {
+            "id": 1,
+            "text": "Ketika membawa jenazah menuju ke pemakaman, disunnahkan keranda diusung pada semua sisi. Berdasarkan riwayat Ibnu Mas'ud R.A. ..."
+          },
+          {
+            "id": 2,
+            "text": "Mempercepat membawa jenazah ke pemakaman..."
+          },
+          {
+            "id": 3,
+            "text": "Posisi pengiring jenazah.."
+          },
+          {
+            "id": 4,
+            "text": "Ketika memasuki pemakaman, mengucapkan salam",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "السَّلَامُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَيَرْحَمُ اللهُ الْمُسْتَقْدِمِينَ مِنَّا وَالْمُسْتَأْخِرِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لَلَاحِقُونَ أَسْأَلُ اللهَ لَنَا وَلَكُمُ الْعَافِيَةَ",
+                "bacaan": "Assalamu'alaikum ahlad-diyaar minal mu'miniina wal muslimiin. Yarhamulloohul mustaqdimiina minnaa wal musta'khiriin. Wa inna insyaa alloohu bikum la-laahiquun. Wa as alullooha lanaa walakumul 'aafiyah.",
+                "arti": "Semoga keselamatan tercurah kepada kalian, wahai penghuni kubur, dari (golongan) orang-orang beriman dan orang-orang Islam, semoga Allah merahmati orang-orang yang mendahului kami dan orang-orang yang datang belakangan. Kami insya Allah akan menyusul kalian, saya meminta keselamatan untuk kami dan kalian."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "text": "Ada juga hal-hal yang dilarang ketika mengiringkan jenazah, yaitu:",
+      "ol": {
+        "isOl": true,
+        "type": "1",
+        "start": 1,
+        "list": [
+          {
+            "id": 1,
+            "text": "Berzikir dengan suara keras..."
+          },
+          {
+            "id": 2,
+            "text": "Mengiringkan jenazah dengan ratapan..."
+          },
+          {
+            "id": 3,
+            "text": "Mengiringkan jenazah dengan perapian..."
+          },
+          {
+            "id": 4,
+            "text": "Pengiring duduk sebelum jenazah diturunkan dari bahu pengusung keranda dan diletakkan di tanah..."
+          }
+        ]
+      }
+    }
+  ]
+}

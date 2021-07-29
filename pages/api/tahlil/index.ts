@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 //import { readFileSync } from 'fs';
 //import path from 'path';
-import AlFatihah from '../json-data/al-fatihah.json'
+import AlFatihah from 'shared/jsons/al-fatihah.json'
 import AlIkhlas from '../json-data/al-ikhlas.json'
 import AlFalaq from '../json-data/al-falaq.json'
 import AnNas from '../json-data/an-nas.json'

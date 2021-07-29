@@ -1,0 +1,30 @@
+{
+  "title": {
+    "id": 48,
+    "text": "Takziah"
+  },
+  "pharagraph": [
+    {
+      "id": 1,
+      "text": "Bertakziah dalam kehidupan sehari-hari...",
+      "class": "normal"
+    },
+    {
+      "id": 2,
+      "text": "‫إِنَّ لِلَّهِ مَا أَخَذَ وَلَهُ مَا أَعْطَى وَكُلُّ شَيْءٍ عِنْدَهُ بِأَجَلٍ مُسَمًّى فَلْتَصْبِرْ وَلْتَحْتَسِبْ‬",
+      "bacaan": "Inna lillahi maa akhodza walahu maa a’tho, wa kullu syay-in ‘indahu bi ajalin musamman, faltashbir wal-tahtasib",
+      "arti": "Sesungguhnya milik Allah untuk mengambilnya dan milikNya untuk diberikan, dan segala sesuatu disisiNya dengan ketentuan yang sudah ditetapkan waktunya. Maka, hendaknya engkau sabar dan ihtisab.",
+      "class": "ayat"
+    },
+    {
+      "id": 3,
+      "text": "Takziah bertujuan menghibur dan meringankan duka serta penderitaan orang-orang yang ditimpa musibah.",
+      "class": "normal"
+    },
+    {
+      "id": 4,
+      "text": "Hukum bertakziah adalah sunah, Rasulullah SAW bersabda \"Jika seorang mukmin...",
+      "class": "normal"
+    }
+  ]
+}

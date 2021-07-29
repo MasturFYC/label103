@@ -1,47 +1,50 @@
 import React from "react";
 //import { iSurat, iText } from 'constants/ayat-interface'
-import { Bismillah, isString, PageTitle, Surat } from 'components/books'
+import { PageTitle } from 'components/books'
+import { iTitle } from "constants/interfaces";
 
-interface iIntro {
+
+interface iAyat {
   id: number;
-  title: string;
+  text?: string;
+  arab?: string | undefined;
+  bacaan?: string | undefined;
+  arti?: string | undefined;
 }
 
-interface iPhar {
+interface iList {
   id: number;
   text: string;
-  bacaan?: string;
-  arti?: string;
-  isAyat?: boolean;
+  phar?: iAyat[];
+  ul?: {
+    type: string;
+    start: number;
+    isOl: boolean;
+    class: string;
+    list: ({
+      id: number;
+      text: string;
+    })[]
+  }
 }
 
 interface iOl {
   isOl?: boolean;
   type: string;
   start: number;
-  list: iList[]
-}
-
-interface iAyat {
-  text: string;
-  arab: string;
-  bacaan: string;
-  arti: string;
-}
-
-interface iList {
-  id: number;
-  text: iAyat | string;
+  class: string;
+  list: iList[];
 }
 
 interface iPharagraph {
   id: number;
   text: string;
-  ol?: iOl;
+  class?: string;
+  ol?: iOl | undefined;
 }
 
 interface iPage {
-  intro: iIntro;
+  title: iTitle;
   pharagraph: iPharagraph[];
 }
 
@@ -50,7 +53,7 @@ interface iPage {
  * @returns type guard
  */
 function isAyat(data: string | iAyat): data is iAyat {
-  return (data as iAyat).text !== undefined;
+  return (data as iAyat).arab !== undefined;
 }
 
 const SheetPage = () => {
@@ -60,7 +63,7 @@ const SheetPage = () => {
     let isLoaded = false;
 
     const loadData = async () => {
-      const data = (await import('shared/jsons/menyolatkan-jenazah.json')).default;
+      const data = (await import('shared/jsons/tahlilan.json')).default;
       //console.log(yasin.ayats)
       setPage(data)
     }
@@ -74,25 +77,26 @@ const SheetPage = () => {
 
   return (
     <React.Fragment>
-      {page.intro && <PageTitle intro={page.intro} />}
-      <Bismillah />
+      {page.title && <PageTitle title={page.title} />}
       {page.pharagraph && page.pharagraph.map(phar =>
         <React.Fragment key={`phar-${phar.id}`}>
-          <div className='phar'>{phar.text}</div>
+          <div className={phar.class}>{phar.text}</div>
           {phar.ol &&
             <React.Fragment>
               {phar.ol.isOl
                 ?
-                <ol className='ol-inside' start={phar.ol.start} type={phar.ol.type === "a" ? "a" : "1"}>
+                <ol className={phar.ol.class} start={phar.ol.start} type={phar.ol.type === "a" ? "a" : "1"}>
                   {phar.ol.list.map(o =>
                     <li key={`ol-${o.id}`}>
-                      {isAyat(o.text) ?
-                        <div>
-                          <div>{o.text.text}</div>
-                          <div className='ayat'>{o.text.arab}</div>
-                        </div>
-                        : <div>{o.text}</div>
-                      }
+                      <div>{o.text}</div>
+                      {o.phar && o.phar.map(p => <div>
+                        {p.arab ?
+                          <div key={`o-${o.id}`} className='ayat phar'>{p.arab}</div> :
+                          <div className='phar'>{p.text}</div>}
+                      </div>)}
+                      {o.ul && <ol className={o.ul.class} start={o.ul.start} type={o.ul.type === "1" ? '1' : 'a'}>
+                        {o.ul.list.map((u) => <li key={`u-${u.id}`}>{u.text}</li>)}
+                      </ol>}
                     </li>
                   )}
                 </ol>
@@ -106,6 +110,10 @@ const SheetPage = () => {
         </React.Fragment>
       )}
       <style jsx>{`
+      .normal {
+        text-align: justify;
+        margin-top: 10px;
+      }
       .phar {
         text-align: justify;
         margin-top: 10px;
@@ -141,6 +149,7 @@ const SheetPage = () => {
         font-family: 'lpmq';
         font-weight: 400;
         font-size: 1.6em;
+        margin-top: 10px;
         direction: rtl;
         text-align: justify;
         text-align-last: center;

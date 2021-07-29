@@ -5,7 +5,7 @@ import { angka } from "./end-of-ayah";
 export const Bismillah: React.FC = () => {
   return (
     <React.Fragment>
-      <div className='bismillah'>بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِــيْــمِ</div>
+      <div className='bismillah'>بِـــسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِــيْــمِ</div>
       <style jsx>{`
       .bismillah {
         font-family: 'lpmq';
@@ -18,7 +18,7 @@ export const Bismillah: React.FC = () => {
   )
 }
 
-export const Surat: React.FC<{ fileName: string }> = ({ fileName}) => {
+export const Surat: React.FC<{ fileName: string }> = ({ fileName }) => {
   const [ayats, setAyats] = React.useState<iAyat[]>([]);
 
   React.useEffect(() => {
@@ -40,10 +40,10 @@ export const Surat: React.FC<{ fileName: string }> = ({ fileName}) => {
   return (
     <React.Fragment>
       {(fileName !== 'al-fatihah') &&
-      <div className='bismillah'>بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِــيْــمِ</div>
+        <div className='bismillah'>بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِــيْــمِ</div>
       }
       <div className='ayat'>
-      {ayats && ayats.map(ayat => <span>{ayat.arti}{ '. '}</span>)}
+        {ayats && ayats.map(ayat => <span>{ayat.arti}{'. '}</span>)}
       </div>
       <style jsx>{`
       .ayat {

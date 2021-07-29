@@ -107,47 +107,85 @@
           },
           {
             "id": 3,
-            "text": {
-              "text": "Berniat.",
-              "arab": "اصلي عل هذ االميت [هذه الميتهل] اربع تكبير مستقبل القبلة فرض اكفا يه اداء الله تعلى",
-              "bacaan": "",
-              "arti": ""
-            }
+            "text": "Berniat.",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "اُصَلِّيْ عَلٰ هٰذَّ االْمَيَّتِ (هٰذِهِ الْمَيِتَهِ) اَرْبَعَ  تَكْبِيْرَانٍ مَسْتَقْبِلَ الْقِبْلَةِ فَرْضَ الْكِفَا يَهِ (اِمَامَا) مَأْمُوْمًا الِلّٰهِ تَعٰلٰى. اَللّٰهُ أَكْبَرُ",
+                "bacaan": "Usholli ‘ala hadzal mayyiti (hadzil hil mayyitati) arba arrotakbiirotin mustakbilal kiblati fardhol kifayati imaman / makmuman lillahi ta'ala.. Allahu Akbar",
+                "arti": "Saya niat sholat atas mayit (laki-laki/perempuan) ini empat takbir fardhu kifayah menjadi imam / makmum karena Allah Ta’ala Allahu Akbar"
+              }
+            ]
           },
           {
             "id": 4,
-            "text": {
-              "text":"Takbir pertama membaca surat al-Fatihah.",
-              "arab":"بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ١ اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ٢ اَلرَّحْمَنِ الرَّحِيْمِ٣ مَالِكِ يَوْمِ الدِّيْنِ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ٥ اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ٦ صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ٧",
-              "bacaan":"Bismillaahir Rahmaanir Rahiim. Alhamdu lillaahi Rabbil 'aalamiin. Ar-Rahmaanir-Rahiim. Maaliki Yawmid-Diin. Iyyaaka na'budu wa lyyaaka nasta'iin. Ihdinas-Siraatal-Mustaqiim. Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin.",
-              "arti":"Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam,. Yang Maha Pengasih, Maha Penyayang,. Pemilik hari pembalasan.. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.. Tunjukilah kami jalan yang lurus. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.."
-            }
+            "text": "Takbir pertama, membaca surat al-Fatihah.",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ١ اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ٢ اَلرَّحْمَنِ الرَّحِيْمِ٣ مَالِكِ يَوْمِ الدِّيْنِ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ٥ اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ٦ صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ٧",
+                "bacaan": "Bismillaahir Rahmaanir Rahiim. Alhamdu lillaahi Rabbil 'aalamiin. Ar-Rahmaanir-Rahiim. Maaliki Yawmid-Diin. Iyyaaka na'budu wa lyyaaka nasta'iin. Ihdinas-Siraatal-Mustaqiim. Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin.",
+                "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam,. Yang Maha Pengasih, Maha Penyayang,. Pemilik hari pembalasan.. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.. Tunjukilah kami jalan yang lurus. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.."
+              }
+            ]
           },
           {
-            "id":5,
-            "text": {
-              "text":"Takbir kedua, membaca sholawat.",
-              "arab":"اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
-              "bacaan":"Allâhumma shalli ‘alâ sayyidinâ Muhammad wa ‘alâ âli sayyidinâ Muhammad, kamâ shallaita ‘alâ sayyidinâ Ibrâhîm wa ‘alâ âli sayyidinâ Ibrâhim, wa bârik ‘alâ sayyidinâ Muhammad, wa ‘alâ âli sayyidinâ Muhammad, kamâ bârakta ‘alâ sayyidina Ibrâhîm wa ‘alâ âli sayyidinâ Ibrâhîm fil ‘âlamîna innaka hamîdun majîd.",
-              "art":"Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan kepada keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarga Nabi Ibrahim. Limpahkan pula keberkahan bagi Nabi Muhammad dan bagi keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan keberkahan bagi Nabi Ibrahim dan bagi keluarga Nabi Ibrahim. Sesungguhnya di alam semesta Engkau Maha Terpuji dan Maha Agung."
-            }
+            "id": 5,
+            "text": "Takbir kedua, membaca sholawat.",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+                "bacaan": "Allâhumma shalli ‘alâ sayyidinâ Muhammad wa ‘alâ âli sayyidinâ Muhammad, kamâ shallaita ‘alâ sayyidinâ Ibrâhîm wa ‘alâ âli sayyidinâ Ibrâhim, wa bârik ‘alâ sayyidinâ Muhammad, wa ‘alâ âli sayyidinâ Muhammad, kamâ bârakta ‘alâ sayyidina Ibrâhîm wa ‘alâ âli sayyidinâ Ibrâhîm fil ‘âlamîna innaka hamîdun majîd.",
+                "art": "Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan kepada keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarga Nabi Ibrahim. Limpahkan pula keberkahan bagi Nabi Muhammad dan bagi keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan keberkahan bagi Nabi Ibrahim dan bagi keluarga Nabi Ibrahim. Sesungguhnya di alam semesta Engkau Maha Terpuji dan Maha Agung."
+              }
+            ]
           },
           {
             "id": 6,
-            "text": {
-              "text":"Takbir ketiga, membaca doa.",
-              "arab":"اَللّٰهُمَّ اغْفِرْ لَهُ (هَل) وَارْحَمْهُ (هَل) وَعَافِهِ (هَل) وَاعْفُ عَنْهُ،(هَل) وَأَكْرِمْ نُزُلَهُ،(هَل) وَوَسِّعْ مَدْخَلَهُ،(هَل) وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ (هَل) مِنَ الْخَطَايَا كَمَا نَقَيْتَ الثَّوْبَ الْأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ (هَل) دَارًا خَيْرًا مِنْ دَارِهِ (هَل) وَاَهْلًا خَيْرًا مِنْ اَهْلِهِ (هَل) وَزَوْجًا خَيْرًا مِنْ زَوْجِهِ (هَل) وأَدْخِلْهُ (هَل) الْجَنَّةَ وَأَعِذْهُ (هَل) مِنْ عَذَابِ الْقَبْرِ وَ مِنْ عَذَابِ النَّارِ",
-              "bacaan":"Allâhummaghfir lahu warhamhu wa ‘âfihi wa‘fu anhu wa akrim nuzulahu wa wassi’ madkhalahu waghsilhu bilmâ’i wats tsalji wal baradi, wa naqqihi minal khathâyâ kamâ naqaita ats-tsauba al-abyadh minad danasi, wa abdilhu dâran khairan min dârihi wa ahlan khairan min ahlihi wa zaujan khairan min zaujihi wa adkhilhu al-jannata wa a’idzhu min ‘adzâbil qabri wa min adzâbinnâr.",
-              "art":"Ya Allah, ampunilah dia, rahmatilah dia, bebaskanlah dan maafkanlah dia. Muliakanlah tempatnya, luaskanlah kuburnya, dan mandikanlah ia dengan air, salju, dan es. Bersihkan dia dari segala kesalahan, sebagaimana Engkau membersihkan baju yang putih dari kotoran. Berikan ia rumah yang lebih baik dari rumahnya (di dunia), keluarga yang lebih baik dari keluarganya, pasangan yang lebih baik dari pasangannya. Kemudian masukkanlah ia ke dalam surga dan lindungilah ia dari siksa kubur dan siksa neraka"
-            }
+            "text": "Takbir ketiga, membaca doa.",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "اَللّٰهُمَّ اغْفِرْ لَهُ (هَل) وَارْحَمْهُ (هَل) وَعَافِهِ (هَل) وَاعْفُ عَنْهُ،(هَل) وَأَكْرِمْ نُزُلَهُ،(هَل) وَوَسِّعْ مَدْخَلَهُ،(هَل) وَاغْسِلْهُ (هَل) بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ (هَل) مِنَ الْخَطَايَا كَمَا نَقَيْتَ الثَّوْبَ الْأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ (هَل) دَارًا خَيْرًا مِنْ دَارِهِ (هَل) وَاَهْلًا خَيْرًا مِنْ اَهْلِهِ (هَل) وَزَوْجًا خَيْرًا مِنْ زَوْجِهِ (هَل) وأَدْخِلْهُ (هَل) الْجَنَّةَ وَأَعِذْهُ (هَل) مِنْ عَذَابِ الْقَبْرِ وَ مِنْ عَذَابِ النَّارِ",
+                "bacaan": "Allâhummaghfir lahu warhamhu wa ‘âfihi wa‘fu anhu wa akrim nuzulahu wa wassi’ madkhalahu waghsilhu bilmâ’i wats tsalji wal baradi, wa naqqihi minal khathâyâ kamâ naqaita ats-tsauba al-abyadh minad danasi, wa abdilhu dâran khairan min dârihi wa ahlan khairan min ahlihi wa zaujan khairan min zaujihi wa adkhilhu al-jannata wa a’idzhu min ‘adzâbil qabri wa min adzâbinnâr.",
+                "art": "Ya Allah, ampunilah dia, rahmatilah dia, bebaskanlah dan maafkanlah dia. Muliakanlah tempatnya, luaskanlah kuburnya, dan mandikanlah ia dengan air, salju, dan es. Bersihkan dia dari segala kesalahan, sebagaimana Engkau membersihkan baju yang putih dari kotoran. Berikan ia rumah yang lebih baik dari rumahnya (di dunia), keluarga yang lebih baik dari keluarganya, pasangan yang lebih baik dari pasangannya. Kemudian masukkanlah ia ke dalam surga dan lindungilah ia dari siksa kubur dan siksa neraka"
+              }
+            ]
           },
           {
             "id": 7,
-            "text": "Takbir keempat, membaca doa."
+            "text": "Takbir keempat, membaca doa.",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "اَللّٰهُمَّ لَا تَحْرِمْنَا اَجْرَهُ (هَا) وَلَا تَفْتِنَّا بَعْدَهُ (هَا) وَاغْفِرْ لَنَا وَلَهُ (هَا) وَلَاِ خْوَا نِنَا الَّذِيْنَ سَبَقُوْنَا بِالْاِيْمَانِ وَلَاتَجْعَلْ فِيْ قُلُوْبِنَا غِلًّا لِّلَّذِيْنَ اٰمَنُوْا رَبَّنَااِنَّكَ رَؤُفٌ رَّحِيْمٌ.",
+                "bacaan": "Allaahumma laa tahrimnaa ajrahu walaa taftinnaa ba'da - hu waghfir lanaa walahu wali ikhwaaninal ladziina saba- quuna bil iimaani walaa taj'al fii quluubinaa ghillan lil- ladziina aamanuu rabbanaa innaka ra'uu fur rahiimun.",
+                "arti": "Ya Allah, janganlah kiranya pahalanya tidak sampai kepada kami, dan janganlah - Engkau memberi kami fitnah sepeninggalnya, dan ampunilah kami dan dia, dan bagi - saudar –saudara kita yang mendahului kita dengan iman, dan janganlah Engkau men - jadikan unek – unek/gelisah dalam hati kami dan bagi orang–orang yang beriman. Wahai Tuhan kami, sesungguhnya Engkaulah Maha Pengampun lagi Maha Penyayang."
+              },
+              {
+                "id": 2,
+                "text": "Bila jenazah anak-anak, laki-laki, atau perempuan, disunahkan membaca doa:"
+              },
+              {
+                "id": 3,
+                "arab": "اللّـٰهُمَّ اجْعَلْهُ (هَا) فَرَطاً ِلأَبَوْيهِ (هَا) وَسَلَفاً وَذُخْراً، وَعِظَةً وَاعْتِبَاراً وَشَفِيْعاً، وَثَقِّلْ بِهِ مَوَازِيْنَهُمَا وَأَفْرِغِ الصَّبْرَ عَلٰى قُلُوْبِهِمَا وَلاَ تَفْتِنَّهُمَا بَعْدَهُ (هَا) وَلاَ تَحْرِمْهُمَا أَجْرَهُ (هَا).",
+                "bacaan": "Allahummaj’alhu farthon li abawaihi wasalafan wadzukhro wa’idzotan wa’tibaron wasyafi’an watsaqil bihi mawazinahuma wa afrighish shobro ‘ala qolbihima wala taftinhuma ba’dahu wala tahrimhuma ajrohu.",
+                "arti": "Ya Allah Jadikanlah kematian anak ini sebagai pahala bagi kedua orang tuanya, sebagai pendahulu, simpanan, Pelajaran, Contoh dan Penolong. Dan dengan kematian anak ini beratkanlah timbangan kebaikan kedua orang tuanya, anugrahkanlah kesabaran pada hati kedua orang tuanya, dan jangan Engkau beri fitnah kedua orang tuanya sesudah meninggalnya anak ini dan jangan pula Engkau kosongkan kedua orang tuanya pahala anaknya."
+              }
+            ]
           },
           {
-            "id": 6,
-            "text": "Salam."
+            "id": 8,
+            "text": "Salam.",
+            "phar": [
+              {
+                "id": 1,
+                "arab": "السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ",
+                "bacaan": "Assalamualaikum Warahmatullahi Wabarakatuh.",
+                "arti": "Semoga kedamaian bersamamu serta pengampunan dan berkah dari Allah SWT."
+              }
+            ]
           }
         ]
       }

@@ -37,3 +37,10 @@ export interface iIntro {
   title: string;
   descriptions?: iText[];
 }
+
+
+export interface iTitle {
+  id: number;
+  text: string;
+  descriptions?: iText[];
+}

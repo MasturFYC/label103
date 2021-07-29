@@ -1,6 +1,6 @@
 import React from "react";
-import { iSurat } from 'constants/ayat-interface'
-import { angka, Bismillah, PageTitle } from '../../components/books'
+import { iSurat } from 'constants/interfaces'
+import { angka, Bismillah, PageDesc, PageTitle } from 'components/books'
 
 
 const YasinPage = () => {
@@ -25,6 +25,7 @@ const YasinPage = () => {
   return (
     <React.Fragment>
       {surat.intro && <PageTitle intro={surat.intro} />}
+      {surat.intro && surat.intro.descriptions && <PageDesc desc={surat.intro.descriptions} />}
       <Bismillah />
       <div className='ayat'>
         {surat
@@ -60,16 +61,6 @@ const YasinPage = () => {
         text-align-last: center;
       }
 
-      .page-desc {
-        margin: 25px 0;
-        text-align: right;
-      }
-
-      .page-title {
-        font-weight: bold;
-        font-size: 16pt;
-        text-align: right;
-        margin-top: 16px;
       }`}</style>
     </React.Fragment>
   )

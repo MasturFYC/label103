@@ -1,0 +1,30 @@
+{
+  "intro": {
+    "id": 43,
+    "title": "Mengafani Jenazah"
+  },
+  "pharagraph": [
+    {
+      "id": 1,
+      "text": "Hukum mengafani jenazah adalah fardhu kifayah. Beberapa sunah berkenaan dengan mengafani jenazah:",
+      "ol": [
+        {
+          "id":1,
+          "text": "Menggunakan kain kafan yang baik, suci, dan menutupi seluruh tubuh, ..."
+        }, {
+          "id":2,
+          "text": "Kain kafan berwarna putih..."
+        }, {
+          "id":3,
+          "text":"Tidak berlebihan dalam memilih kain kafan..."
+        }, {
+          "id":4,
+          "text":"Boleh mengafani jenazah laki-laki dengan sehelai kain, ..."
+        }, {
+          "id": 5,
+          "text":"Jenazah perempuan dikafani dengan lima lapis, yaitu kain, jubah perempuan (yang dibalutkan), kerudung, selimut, dan sehelai kain lagi..."
+        }
+      ]
+    }
+  ]
+}

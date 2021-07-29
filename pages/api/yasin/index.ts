@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { readFileSync } from 'fs';
 import path from 'path';
-import data from '../json-data/yasin.json'
+import data from 'shared/jsons/yasin.json'
 
 export default async function yasiinHandler(req: NextApiRequest, res: NextApiResponse) {
     // const file = path.join(path.join(__dirname, '../public/json-data', 'yasin.json'));

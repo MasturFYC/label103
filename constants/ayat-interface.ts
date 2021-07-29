@@ -13,6 +13,7 @@ export interface iAyat {
     surat: string;
   };
 }
+
 export interface iContents {
   id: number;
   subTitle: string;

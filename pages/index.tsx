@@ -11,6 +11,7 @@ import Layout, { siteTitle } from '../components/layout'
 //import Group from '../components/group'
 import utilStyles from '../styles/utils.module.css'
 import { iGroup } from 'constants/interfaces'
+import { angka } from 'components/books';
 
 const fetcher = async (url: string) => {
   const res = await fetch(url)
@@ -214,29 +215,6 @@ interface iTahlil {
   doaTahlil: iSurat;
 }
 
-
-const angka = (n: number) => {
-  if (n === 0) return " ";
-  const arr = [
-    '٠',
-    '١',
-    '٢',
-    '٣',
-    '٤',
-    '٥',
-    '٦',
-    '٧',
-    '٨',
-    '٩'];
-  const sn = '' + n;
-  let s = '';
-  for (let c = 0; c < sn.length; c++) {
-    const i = parseInt(sn[c]);
-    s = s + arr[i];
-  }
-
-  return `﴿${s}﴾`;
-}
 
 function NewHome() {
 

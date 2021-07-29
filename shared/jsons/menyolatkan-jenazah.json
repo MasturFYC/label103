@@ -1,0 +1,156 @@
+{
+  "intro": {
+    "id": 43,
+    "title": "Menyolatkan Jenazah"
+  },
+  "pharagraph": [
+    {
+      "id": 1,
+      "text": "Hukum menyolatkan jenazah adalah fardhu kifayah, Rasulullah SAW menjelaskan keutamaan sholat jenazah, \"Barang siapa keluar bersama jenazah dari rumahnya, menyolatkannya, lalu mengiringkannya sampai memakamkannya, maka ia memperoleh pahala sebesar 2 qirot, yang masing-masing seberat Gunung Uhud. Barang siapa hanya menyolatkannya, maka ia mendapat pahala seberat gunung Uhud."
+    },
+    {
+      "id": 2,
+      "text": "Ketika sholat jenazah, makmum sekurang-kurangnya terdiri atas tiga shaf yang berbaris lurus dan disunahkan memperbanyak jumlah makmum. Rasulullah SAW bersabda:",
+      "ol": {
+        "isOl": true,
+        "type": "a",
+        "start": 1,
+        "list": [
+          {
+            "id": 1,
+            "text": "\"Seorang mukmin yang meninggal, kemudian disholatkan oleh umat Islam yang jumlahnya mencapai tiga shaf, maka diampuni dosanya.\""
+          },
+          {
+            "id": 2,
+            "text": "\"Jenazah yang dishalatkan dan didoakan dengan ikhlas oleh umat Islam yang banyaknya mencapai seratus orang, maka doa mereka dikabulkan.\""
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "text": "Syarat-syarat sholat jenazah yaitu:",
+      "ol": {
+        "isOl": true,
+        "type": "1",
+        "start": 1,
+        "list": [
+          {
+            "id": 1,
+            "text": "Suci dari najis dan hadis."
+          },
+          {
+            "id": 2,
+            "text": "Menutup Aurat."
+          },
+          {
+            "id": 3,
+            "text": "Menghadap Kiblat."
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "text": "Sholat jenazah harus memenuhi beberapa rukun. Bila salah satu rukun tersebut tidak dipenuhi, maka sholatnya tidak sah. Rukun-rukun sholat jenazah yaitu:",
+      "ol": {
+        "isOl": true,
+        "type": "1",
+        "start": 1,
+        "list": [
+          {
+            "id": 1,
+            "text": "Berniat."
+          },
+          {
+            "id": 2,
+            "text": "Berdiri tanpa rukuk dan sujud."
+          },
+          {
+            "id": 3,
+            "text": "Bertakbir empat kali. Berdasarkan hadist yang diriwayatkan Jabir R.A. \"Rasulullah SAW menyolati Raja Najasi dengan empat kali takbir.\""
+          },
+          {
+            "id": 4,
+            "text": "Membaca al-Fatihah, Tolha Bin Abdillah R.A. berkata \"Aku sholat jenazah bersaba Ibnnu Abbas dan ia membaca al-Fatihah.\" Lalu Ibnu Abbas berkata \"Membaca al-Fatihah adalah sunah.\""
+          },
+          {
+            "id": 5,
+            "text": "Bersholawat atas Nabi SAW"
+          },
+          {
+            "id": 6,
+            "text": "Berdoa. Rasulullah SAW bersabda \"Jika kalian mensholatkan jenazah, maka doalah untuknya dengan ikhlas.\""
+          },
+          {
+            "id": 7,
+            "text": "Salam, dimulai dengan menghadapkan wajah ke sebelah kanan, lalu ke kiri."
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "text": "Adapun tata cara sholat jenazah adalah sebagai berikut:",
+      "ol": {
+        "type": "1",
+        "start": 1,
+        "isOl": true,
+        "list": [
+          {
+            "id": 1,
+            "text": "Imam berdiri ke arah kepala jenazah laki-laki, atau ke arah perut jenazah perempuan."
+          },
+          {
+            "id": 2,
+            "text": "Makmum berdiri di belakang imam dengan sekurang-kurangnya tiga shaf yang berbaris lurus. Masing-masing shaf paling sedikit terdiri atas dua orang."
+          },
+          {
+            "id": 3,
+            "text": {
+              "text": "Berniat.",
+              "arab": "اصلي عل هذ االميت [هذه الميتهل] اربع تكبير مستقبل القبلة فرض اكفا يه اداء الله تعلى",
+              "bacaan": "",
+              "arti": ""
+            }
+          },
+          {
+            "id": 4,
+            "text": {
+              "text":"Takbir pertama membaca surat al-Fatihah.",
+              "arab":"بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ١ اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ٢ اَلرَّحْمَنِ الرَّحِيْمِ٣ مَالِكِ يَوْمِ الدِّيْنِ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ٥ اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ٦ صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ٧",
+              "bacaan":"Bismillaahir Rahmaanir Rahiim. Alhamdu lillaahi Rabbil 'aalamiin. Ar-Rahmaanir-Rahiim. Maaliki Yawmid-Diin. Iyyaaka na'budu wa lyyaaka nasta'iin. Ihdinas-Siraatal-Mustaqiim. Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin.",
+              "arti":"Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam,. Yang Maha Pengasih, Maha Penyayang,. Pemilik hari pembalasan.. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.. Tunjukilah kami jalan yang lurus. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.."
+            }
+          },
+          {
+            "id":5,
+            "text": {
+              "text":"Takbir kedua, membaca sholawat.",
+              "arab":"اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ، وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَعَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، فِي الْعَالَمِينَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+              "bacaan":"Allâhumma shalli ‘alâ sayyidinâ Muhammad wa ‘alâ âli sayyidinâ Muhammad, kamâ shallaita ‘alâ sayyidinâ Ibrâhîm wa ‘alâ âli sayyidinâ Ibrâhim, wa bârik ‘alâ sayyidinâ Muhammad, wa ‘alâ âli sayyidinâ Muhammad, kamâ bârakta ‘alâ sayyidina Ibrâhîm wa ‘alâ âli sayyidinâ Ibrâhîm fil ‘âlamîna innaka hamîdun majîd.",
+              "art":"Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan kepada keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan rahmat kepada Nabi Ibrahim dan keluarga Nabi Ibrahim. Limpahkan pula keberkahan bagi Nabi Muhammad dan bagi keluarga Nabi Muhammad, sebagaimana telah Engkau limpahkan keberkahan bagi Nabi Ibrahim dan bagi keluarga Nabi Ibrahim. Sesungguhnya di alam semesta Engkau Maha Terpuji dan Maha Agung."
+            }
+          },
+          {
+            "id": 6,
+            "text": {
+              "text":"Takbir ketiga, membaca doa.",
+              "arab":"اَللّٰهُمَّ اغْفِرْ لَهُ (هَل) وَارْحَمْهُ (هَل) وَعَافِهِ (هَل) وَاعْفُ عَنْهُ،(هَل) وَأَكْرِمْ نُزُلَهُ،(هَل) وَوَسِّعْ مَدْخَلَهُ،(هَل) وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ، وَنَقِّهِ (هَل) مِنَ الْخَطَايَا كَمَا نَقَيْتَ الثَّوْبَ الْأَبْيَضَ مِنَ الدَّنَسِ، وَأَبْدِلْهُ (هَل) دَارًا خَيْرًا مِنْ دَارِهِ (هَل) وَاَهْلًا خَيْرًا مِنْ اَهْلِهِ (هَل) وَزَوْجًا خَيْرًا مِنْ زَوْجِهِ (هَل) وأَدْخِلْهُ (هَل) الْجَنَّةَ وَأَعِذْهُ (هَل) مِنْ عَذَابِ الْقَبْرِ وَ مِنْ عَذَابِ النَّارِ",
+              "bacaan":"Allâhummaghfir lahu warhamhu wa ‘âfihi wa‘fu anhu wa akrim nuzulahu wa wassi’ madkhalahu waghsilhu bilmâ’i wats tsalji wal baradi, wa naqqihi minal khathâyâ kamâ naqaita ats-tsauba al-abyadh minad danasi, wa abdilhu dâran khairan min dârihi wa ahlan khairan min ahlihi wa zaujan khairan min zaujihi wa adkhilhu al-jannata wa a’idzhu min ‘adzâbil qabri wa min adzâbinnâr.",
+              "art":"Ya Allah, ampunilah dia, rahmatilah dia, bebaskanlah dan maafkanlah dia. Muliakanlah tempatnya, luaskanlah kuburnya, dan mandikanlah ia dengan air, salju, dan es. Bersihkan dia dari segala kesalahan, sebagaimana Engkau membersihkan baju yang putih dari kotoran. Berikan ia rumah yang lebih baik dari rumahnya (di dunia), keluarga yang lebih baik dari keluarganya, pasangan yang lebih baik dari pasangannya. Kemudian masukkanlah ia ke dalam surga dan lindungilah ia dari siksa kubur dan siksa neraka"
+            }
+          },
+          {
+            "id": 7,
+            "text": "Takbir keempat, membaca doa."
+          },
+          {
+            "id": 6,
+            "text": "Salam."
+          }
+        ]
+      }
+    }
+  ]
+}

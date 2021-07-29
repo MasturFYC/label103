@@ -1,6 +1,6 @@
 import React from "react";
 //import { iSurat, iText } from 'constants/ayat-interface'
-import { angka, Bismillah, PageTitle } from '../../components/books'
+import { Bismillah, isString, PageTitle, Surat } from 'components/books'
 
 interface iIntro {
   id: number;
@@ -16,16 +16,28 @@ interface iPhar {
 }
 
 interface iOl {
-  id: number;
+  isOl?: boolean;
+  type: string;
+  start: number;
+  list: iList[]
+}
+
+interface iAyat {
   text: string;
-  phar?: iPhar[];
-  isUl?: boolean;
+  arab: string;
+  bacaan: string;
+  arti: string;
+}
+
+interface iList {
+  id: number;
+  text: iAyat | string;
 }
 
 interface iPharagraph {
   id: number;
   text: string;
-  ol?: iOl[];
+  ol?: iOl;
 }
 
 interface iPage {
@@ -33,6 +45,13 @@ interface iPage {
   pharagraph: iPharagraph[];
 }
 
+/**
+ * 
+ * @returns type guard
+ */
+function isAyat(data: string | iAyat): data is iAyat {
+  return (data as iAyat).text !== undefined;
+}
 
 const SheetPage = () => {
   const [page, setPage] = React.useState<iPage>({} as iPage);
@@ -41,7 +60,7 @@ const SheetPage = () => {
     let isLoaded = false;
 
     const loadData = async () => {
-      const data = (await import('shared/jsons/memandikan-jenazah.json')).default;
+      const data = (await import('shared/jsons/menyolatkan-jenazah.json')).default;
       //console.log(yasin.ayats)
       setPage(data)
     }
@@ -56,38 +75,35 @@ const SheetPage = () => {
   return (
     <React.Fragment>
       {page.intro && <PageTitle intro={page.intro} />}
-      {page.pharagraph && page.pharagraph.map(phar => {
-        return (
-          <React.Fragment key={`phar-${phar.id}`}>
-            <div className='phar'>{phar.text}</div>
-            {phar.ol &&
-              <React.Fragment>
-                <ol className='ol-inside'>
-                  {phar.ol.map(o =>
-                    <React.Fragment key={`ol-${o.id}`}>
-                      {o.text && <li>{o.text}
-                        {o.isUl
-                          ? <ol type={'a'} className='ol-inside'>{
-                            o.phar && o.phar.map(p =>
-                              <li key={`li-${p.id}`}>{p.text}</li>
-                            )
-                          }</ol>
-                          : o.phar && o.phar.map(u =>
-                            <React.Fragment key={`u-${u.id}`}>
-                              <div className='div-li'>{u.text}</div>
-                            </React.Fragment>
-                          )}
-                      </li>}
-                    </React.Fragment>
-                  )
-                  }
+      <Bismillah/>
+      {page.pharagraph && page.pharagraph.map(phar =>
+        <React.Fragment key={`phar-${phar.id}`}>
+          <div className='phar'>{phar.text}</div>
+          {phar.ol &&
+            <React.Fragment>
+              {phar.ol.isOl
+                ?
+                <ol className='ol-inside' start={phar.ol.start} type={phar.ol.type === "a" ? "a" : "1"}>
+                  {phar.ol.list.map(o =>
+                    <li key={`ol-${o.id}`}>
+                      {isAyat(o.text) ?
+                        <div>
+                          <div>{o.text.text}</div>
+                          <div className='ayat'>{o.text.arab}</div>
+                        </div>
+                        : <div>{o.text}</div>}
+                    </li>
+                  )}
                 </ol>
-              </React.Fragment>
-            }
-          </React.Fragment>
-        )
-      })}
-
+                :
+                phar.ol.list.map(o =>
+                  <div key={`phar-${o.id}`} className='div-li'>{o.text}</div>
+                )
+              }
+            </React.Fragment>
+          }
+        </React.Fragment>
+      )}
       <style jsx>{`
       .phar {
         text-align: justify;
@@ -96,8 +112,8 @@ const SheetPage = () => {
       .ol-inside {
         margin-top: 0;
         list-style-position: outside;
-        margin-left:0px;
-        padding-left:15px;
+        margin-left:1.1em;
+        padding-left:0;
         text-align: justify;
       }
       .div-li {
@@ -105,7 +121,7 @@ const SheetPage = () => {
       }
       li {
         margin-top: 3px;
-        padding-left: 10px;
+        padding-left: 0.55em;
       }
       .q-num {
         font-size: 0.8em;
@@ -128,18 +144,7 @@ const SheetPage = () => {
         text-align: justify;
         text-align-last: center;
       }
-
-      .page-desc {
-        margin: 25px 0;
-        text-align: right;
-      }
-
-      .page-title {
-        font-weight: bold;
-        font-size: 16pt;
-        text-align: right;
-        margin-top: 16px;
-      }`}</style>
+      `}</style>
     </React.Fragment>
   )
 }

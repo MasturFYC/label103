@@ -75,7 +75,7 @@ const SheetPage = () => {
   return (
     <React.Fragment>
       {page.intro && <PageTitle intro={page.intro} />}
-      <Bismillah/>
+      <Bismillah />
       {page.pharagraph && page.pharagraph.map(phar =>
         <React.Fragment key={`phar-${phar.id}`}>
           <div className='phar'>{phar.text}</div>
@@ -91,7 +91,9 @@ const SheetPage = () => {
                           <div>{o.text.text}</div>
                           <div className='ayat'>{o.text.arab}</div>
                         </div>
-                        : <div>{o.text}</div>}
+
+                        : <div>{o.text}</div>
+                      }
                     </li>
                   )}
                 </ol>

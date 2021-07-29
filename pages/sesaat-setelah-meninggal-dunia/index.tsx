@@ -91,7 +91,6 @@ const SheetPage = () => {
                           <div>{o.text.text}</div>
                           <div className='ayat'>{o.text.arab}</div>
                         </div>
-
                         : <div>{o.text}</div>
                       }
                     </li>

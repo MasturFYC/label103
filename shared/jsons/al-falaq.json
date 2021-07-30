@@ -1,6 +1,6 @@
 {
-    "surat": "Al-Falaq",
-    "desc": "Dibaca 1x",
+    "id": 2,
+    "title": "Al-Falaq",
     "pengantar": [
         {
             "ayat": "بِسْــــمِ اﷲِالرَّحْمَنِ اارَّحِيم",
@@ -37,11 +37,19 @@
         {
             "id": 5,
             "ayat": "وَمِنۡ شَرِّ حَاسِدٍ اِذَا حَسَدَ",
+            "bacaan": "Wa min shar ri haasidin iza hasad",
             "arti": "Dan dari kejahatan orang-orang yang dengki apabila ia mendengki.’"
         }
     ],
     "penutup": {
-        "name": "Tahlil dan Takbir",
-        "bacaan": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ وَلِلَّهِ الْحَمْد"
+        "title": "Tahlil dan Takbir",
+        "ayats": [
+            {
+                "id": 1,
+                "ayat": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ وَلِلَّهِ الْحَمْد",
+                "bacaan": "la ilaha illallah wallahu akbar alllahu akbar walillahil hamd",
+                "arti": "Tiada Tuhan melainkan Allah dan Allah Maha Besar, Allah Maha Besar dan bagi Allah-lah segala puji."
+            }
+        ]
     }
 }

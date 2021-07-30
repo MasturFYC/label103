@@ -92,59 +92,6 @@
           }
         ]
       }
-    },
-    {
-      "id": 2,
-      "text": "Jamaah mengawali...",
-      "class": "normal"
-    },
-    {
-      "id": 3,
-      "text": "بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ",
-      "class": "ayat"
-    },
-    {
-      "id": 4,
-      "text": "   اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ . لَهُمُ الْفَاتِحَةُ :",
-      "bacaan": "",
-      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. Untuk yang terhormat Nabi Muhammad SAW, segenap keluarga, dan para sahabatnya. Bacaan Al-Fatihah ini kami tujukan kepada Allah dan pahalanya untuk mereka semua. Al-Fatihah.",
-      "class": "ayat"
-    },
-    {
-      "id": 5,
-      "sources": "https://www.popbela.com/career/inspiration/romi-subhan/bacaan-doa-tahlil-dan-artinya/5",
-      "text": "بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ١ اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ٢ اَلرَّحْمَنِ الرَّحِيْمِ٣ مَالِكِ يَوْمِ الدِّيْنِ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ٥ اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ٦ صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ٧ . اَمِينْ",
-      "bacaan": "Bismillaahir Rahmaanir Rahiim. Alhamdu lillaahi Rabbil 'aalamiin. Ar-Rahmaanir-Rahiim. Maaliki Yawmid-Diin. Iyyaaka na'budu wa lyyaaka nasta'iin. Ihdinas-Siraatal-Mustaqiim. Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin.",
-      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam,. Yang Maha Pengasih, Maha Penyayang,. Pemilik hari pembalasan.. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.. Tunjukilah kami jalan yang lurus. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat..",
-      "class": "ayat"
-    },
-    {
-      "id": 6,
-      "text": "",
-      "class": "ayat"
-    },
-    {
-      "id": 7,
-      "sources": "https://www.popbela.com/career/inspiration/romi-subhan/bacaan-doa-tahlil-dan-artinya/5",
-      "text": "بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ١ اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ٢ اَلرَّحْمَنِ الرَّحِيْمِ٣ مَالِكِ يَوْمِ الدِّيْنِ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ٥ اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ٦ صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ٧ . اَمِينْ",
-      "bacaan": "Bismillaahir Rahmaanir Rahiim. Alhamdu lillaahi Rabbil 'aalamiin. Ar-Rahmaanir-Rahiim. Maaliki Yawmid-Diin. Iyyaaka na'budu wa lyyaaka nasta'iin. Ihdinas-Siraatal-Mustaqiim. Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin.",
-      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam,. Yang Maha Pengasih, Maha Penyayang,. Pemilik hari pembalasan.. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.. Tunjukilah kami jalan yang lurus. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat..",
-      "class": "ayat"
-    },
-    {
-      "id": 8,
-      "class": "ayat",
-      "text": "ثُمَّ اِلى جَمِيْعِ اَهْلِ الْقُبُوْرِ مِنَ الْمُسْلِمِيْنَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِيْنَ وَالْمُؤْمِنَاتِ مِنْ مَشَارِقِ اْلاَرْضِ اِلَى مَغَارِبِهَا بَرِّهَا وَبَحْرِهَا خُصُوْصًا اِلَى آبَآءِنَا وَاُمَّهَاتِنَا وَاَجْدَادِنَا وَجَدَّاتِنَا وَنَخُصُّ خُصُوْصًا مَنِ اجْتَمَعْنَاههُنَا بِسَبَبِه وَلِاَجْلِه الْفَاتِحَةُ :",
-      "bacaan": "Tshumma ilaa jamii'i ahlil qubuuri minal muslimiina walmuslimaati walmu'miniina walmu'minaati mim masyaariqil ardhi ilaa maghooribihaa barrihaa wabahrihaa khushushon ilaa aabaainaa wa-ummahaatinaa wa-ajdaadinaa wajaddaatinaa wanakhush-shu khushuuson manijtama'naa haahunaa bisababihii wali-ajlihii.",
-      "arti": "Kemudian kepada seluruh penghuni kubur dalam kalangan orang Islam lelaki dan perempuan, orang Mukmin lelaki dan perempuan, dari belahan bumi Timur dan Barat, di laut dan di darat, terutama kepada (Fulan bin Fulan), dan ibu bapak kami, datuk dan nenek kami, lebih utamakan lagi kepada orang yang menyebabkan kami berkumpul di sini."
-    },
-    {
-      "id": 9,
-      "sources": "https://www.popbela.com/career/inspiration/romi-subhan/bacaan-doa-tahlil-dan-artinya/5",
-      "text": "بِـــسْمِ اﷲِالرَّحْمٰنِ الرَّحِيْمِ١ اَلْحَمْدُ لِلهِ رَبِّ الْعَالَمِيْنَ٢ اَلرَّحْمَنِ الرَّحِيْمِ٣ مَالِكِ يَوْمِ الدِّيْنِ٤ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ٥ اِهْدِنَا الصِّرَاطَ الَّمُسْتَقِيْمَ٦ صِرَاطَ الَّذِ يْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّالِّيْنَ٧ . اَمِينْ",
-      "bacaan": "Bismillaahir Rahmaanir Rahiim. Alhamdu lillaahi Rabbil 'aalamiin. Ar-Rahmaanir-Rahiim. Maaliki Yawmid-Diin. Iyyaaka na'budu wa lyyaaka nasta'iin. Ihdinas-Siraatal-Mustaqiim. Siraatal-laziina an'amta 'alaihim ghayril-maghduubi 'alaihim wa lad-daaalliin.",
-      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam,. Yang Maha Pengasih, Maha Penyayang,. Pemilik hari pembalasan.. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.. Tunjukilah kami jalan yang lurus. (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat..",
-      "class": "ayat"
     }
   ]
 }

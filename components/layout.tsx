@@ -4,10 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = `BACA'AN YASIN`;
-
 export const siteTitle = 'Pixel Web App'
-export default function Layout({ children, home }: any) {
+export default function Layout({ children, home, title }: any) {
   return (
     <div className={styles.container}>
       <Head>
@@ -33,7 +31,7 @@ export default function Layout({ children, home }: any) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             /> */}
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{title}</h1>
           </>
         ) : (
           <>

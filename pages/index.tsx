@@ -461,7 +461,30 @@ const ShowDoaDanZikir = () => {
   )
 }
 
-export default ShowDoaDanZikir;
+
+export default Menu; //ShowDoaDanZikir;
+
+
+function Menu() {
+  return (
+    <React.Fragment>
+      <Layout home>
+        <Head>
+          <title>{siteTitle}</title>
+          <link
+            rel="preload"
+            href="/fonts/lpmq.ttf"
+            as="font"
+            crossOrigin=""
+          />
+        </Head>
+        <ol>
+          <li><Link href="/tahlilan"><a>Tahlilan</a></Link></li>
+        </ol>
+        </Layout>
+    </React.Fragment>
+  )
+}
 
 async function test2(callback: Function) {
   const doa = (await import('shared/jsons/talkin-menjelang-ajal.json')).default;

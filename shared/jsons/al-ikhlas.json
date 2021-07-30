@@ -1,6 +1,6 @@
 {
-    "surat": "Al-Ikhlas",
-    "desc": "Dibaca 3x",
+    "id": 1,
+    "title": "Al-Ikhlas",
     "pengantar": [
         {
             "ayat": "بِسْـمِ اﷲِالرَّحْمَنِ اارَّحِيم",
@@ -36,7 +36,14 @@
         }
     ],
     "penutup": {
-        "name": "Tahlil dan Takbir",
-        "ayat": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ وَلِلَّهِ الْحَمْد"
+        "title": "Tahlil dan Takbir",
+        "ayats": [
+            {
+                "id": 1,
+                "ayat": "لاَ اِلَهَ اِلاَّ اللهُ وَاللهُ اَكْبَرُ وَلِلَّهِ الْحَمْد",
+                "bacaan": "la ilaha illallah wallahu akbar alllahu akbar walillahil hamd",
+                "arti": "Tiada Tuhan melainkan Allah dan Allah Maha Besar, Allah Maha Besar dan bagi Allah-lah segala puji."
+            }
+        ]
     }
 }

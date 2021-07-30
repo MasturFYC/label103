@@ -63,9 +63,9 @@ const SheetPage = () => {
     let isLoaded = false;
 
     const loadData = async () => {
-      const data = (await import('shared/jsons/tahlilan.json')).default;
-      //console.log(yasin.ayats)
-      setPage(data)
+        const data = (await import('shared/jsons/tahlilan.json')).default;
+        //console.log(yasin.ayats)
+        setPage(data)
     }
 
     if (!isLoaded) {

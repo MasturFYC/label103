@@ -5,7 +5,7 @@ import { iPeople } from '../../../constants/interfaces'
 const mmToPt = (mm: number): number => {
   return mm * 2.83465;
 }
-
+ 
 
 export default async function categoryHandler(req: NextApiRequest, res: NextApiResponse) {
   const body = JSON.parse(req.body);

@@ -18,7 +18,7 @@ export default function PageTahlil() {
       LoadData();
     }
     return () => { isLoaded = true }
-  },[])
+  }, [])
 
   const [alIkhlas, setAlIkhlas] = React.useState<iSurat>({} as iSurat);
 
@@ -34,7 +34,7 @@ export default function PageTahlil() {
       LoadData();
     }
     return () => { isLoaded = true }
-  },[])
+  }, [])
 
 
   const [alFalaq, setAlFalaq] = React.useState<iSurat>({} as iSurat);
@@ -86,6 +86,30 @@ export default function PageTahlil() {
     return () => { isLoaded = true }
   }, [])
 
+  const downloadData = async () => {
+    const res = await fetch('/api/tahlil', {
+      method: 'POST'
+    })
+
+    const data = await res.blob();
+
+    if (res.status !== 200) {
+      return [];
+      //throw new Error(data.message)
+    }
+    //console.log(data.type)
+    var fileURL = URL.createObjectURL(data);
+    const file = "buku-yasin.pdf"
+    var a = document.createElement('a');
+    document.body.appendChild(a);
+    a.style.display = 'none';
+    a.href = fileURL;
+    a.download = file;
+    a.click();
+    window.URL.revokeObjectURL(fileURL);
+    // window.open(fileURL);
+    //return data;
+  }
 
   return (
     <Layout home title={"TAHLILAN"}>
@@ -94,6 +118,7 @@ export default function PageTahlil() {
       </Head>
       <section>
         <Bismillah />
+        <button onClick={() => downloadData()}>Donwload</button>
         <div className="bacaan">Bismillaahir Rahmaanir Rahiim</div>
         <div className="arti">Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang</div>
         <div className="ayat">اِلَى حَضْرَةِ النَّبِيِّ صَلَّى اللهُ عَلَيهِ وَسَلَّمَ وَاَلِهِ وصَحْبِهِ شَيْءٌ لِلهِ . لَهُمُ الْفَاتِحَةُ :</div>
@@ -118,19 +143,27 @@ export default function PageTahlil() {
         <Bismillah />
         {alifLamMin && alifLamMin.ayats &&
           <React.Fragment>
-          <div className="ayat">{alifLamMin.ayats.filter(item => item.id <= 5).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
-          <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 163).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
-          <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 255).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
-          <div className="ayat">{alifLamMin.ayats.filter(item => item.id >= 284 && item.id <= 286).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
-          <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 500).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
-          <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 501).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
+            <div className="ayat">{alifLamMin.ayats.filter(item => item.id <= 5).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
+            <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 163).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
+            <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 255).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
+            <div className="ayat">{alifLamMin.ayats.filter(item => item.id >= 284 && item.id <= 286).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
+            <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 500).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
+            <div className="ayat">{alifLamMin.ayats.filter(item => item.id === 501).map(x => <span key={`ayat-${x.id}`}>{x.ayat}{'. '}</span>)}</div>
 
-          <div className="bacaan">{alifLamMin.ayats.filter(item => item.id <= 5).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
-          <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 163).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
-          <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 255).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
-          <div className="bacaan">{alifLamMin.ayats.filter(item => item.id >= 284 && item.id <= 286).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
-          <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 500).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
-          <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 501).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="bacaan">{alifLamMin.ayats.filter(item => item.id <= 5).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 163).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 255).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="bacaan">{alifLamMin.ayats.filter(item => item.id >= 284 && item.id <= 286).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 500).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="bacaan">{alifLamMin.ayats.filter(item => item.id === 501).map(x => <span key={`ayat-${x.id}`}>{x.bacaan}{'. '}</span>)}</div>
+            <div className="ayat">وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ عَلَيْكُمْ أَهْلَ الْبَيْتِ إِنَّهُ حَمِيْدٌ مَجِيْدٌ.</div>
+            <div className="ayat">إِنَّمَايُرِيْدُاللهُ لِيُذْهِبَ عَنْكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيْرًا</div>
+            <div className="ayat">إِنَّ اللهَ وَمَلاَئِكَتَهُ يُصَلُّوْنَ عَلَى النَّبِي يَا أَيُّهَا الَّذِيْنَ أمَنُوْا صَلُّوْا عَلَيْهِ وَسَلِّمُوْا تَسْلِيْمَا.</div>
+            <div className="ayat">أَللّهُمَّ صَلِّ أَفْضَلَ الصَّلاَةِ عَلَى أَسْعَدِ مَخْلُوْقَاتِكَ بَدْرِ الدُّجَى سَيِّدِنَا وَمَوْلاَناَ مُحَمَّدٍ وَعَلَى أَلِ سَيِّدِنَا مُحَمَّدْ. عَدَدَ مَعْلُوْمَاتِكَ وَمِدَادَ كَلِمَاتِكَ كُلَّمَا ذَكَرَكَ الذَّاكِرُوْنَ. وَغَفَلَ عَنْ ذِكْرِكَ الْغَافِلُوْنَ. <span>(3x)</span></div>
+            <div className="ayat">وَسَلِّمْ وَرَضِيَ اللهُ تَعَالَى عَنْ سَادَتِنَا أَصْحَابِ رَسُوْلِ اللهِ أَجْمَعِيْنَ. وَحَسْبُنَا الله وَنِعْمَ الْوَكِيْلُ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرُ. وَلاَحَوْلَ وَلاَقُوَّةَ إِلاَّ بِاللهِ الْعَلِيِّ الْعَظِيْمِ .</div>
+            <div className="ayat">أَسْتَغْفِرُ اللهَ الْعَظِيْم (3x)</div>
+            <div className="ayat">الَّذِيْ لَا اِلَهَ اِلَّا هُوَ الحَيُّ القَيُّوْمُ وَأَتُوْبُ إِلَيْهِ</div>
+            <div className="ayat">اَفْضَلُ الذِّكْرِ فَاعْلَمْ اَنَّهُ لَااِلَهَ اِلَّا اللهُ، حَيٌّ مَوْجُوْدٌ</div>
           </React.Fragment>
         }
 
@@ -160,6 +193,6 @@ export default function PageTahlil() {
           margin-top: 16px;
         }      
         `}</style>
-    </Layout>
+    </Layout >
   )
 }
